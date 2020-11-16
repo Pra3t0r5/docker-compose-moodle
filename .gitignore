@@ -1,5 +1,5 @@
-/html/
-/moodledata/*
+#/html/
+#/moodledata/*
 !/moodledata/README.md
 /db_dumps/*
 !/db_dumps/README.md
