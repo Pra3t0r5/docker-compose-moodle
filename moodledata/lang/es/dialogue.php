@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'dialogue', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'dialogue', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   dialogue
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -72,16 +72,17 @@ $string['dialogue:addinstance'] = 'Añadir un Diálogo';
 $string['dialogue:bulkopenrulecreate'] = 'Crear reglas de apertura masivas';
 $string['dialogue:close'] = 'Cerrar una conversación';
 $string['dialogue:closeany'] = 'Cerrar cualquiera';
-$string['dialoguecron'] = 'cron del \'Dialogue\'';
 $string['dialogue:delete'] = 'Eliminar la propia';
 $string['dialogue:deleteany'] = 'Eliminar cualquiera';
-$string['dialogueintro'] = 'Introducción al diálogo';
-$string['dialoguename'] = 'Nombre del diálogo';
 $string['dialogue:open'] = 'Abrir una conversación';
 $string['dialogue:reply'] = 'Responder';
 $string['dialogue:replyany'] = 'Responder cualquiera';
 $string['dialogue:viewany'] = 'Ver cualquiera';
 $string['dialogue:viewbyrole'] = 'Ver conversaciones listadas por rol, experimental';
+$string['dialoguecron'] = 'cron del \'Dialogue\'';
+$string['dialogueintro'] = 'Introducción al diálogo';
+$string['dialoguename'] = 'Nombre del diálogo';
+$string['dialogueupgradehelper'] = 'Asistente de actualización de diálogos';
 $string['displaybystudent'] = 'Mostrar por estudiante';
 $string['displayconversationsheading'] = 'Mostrando conversaciones {$a}';
 $string['displaying'] = 'Mostrando';
@@ -158,6 +159,7 @@ $string['repliedbyfullyear'] = '{$a->fullname} <small>respondió el</small> {$a-
 $string['repliedbyshortyear'] = '{$a->fullname} <small>respondió el</small> {$a->datefull} <small>({$a->time})</small>';
 $string['repliedbytoday'] = '{$a->fullname} <small>respondió a las</small> {$a->time} <small>(hace {$a->timepast})</small>';
 $string['reply'] = 'Respuesta';
+$string['replydeleteconfirm'] = 'Está seguro de eliminar la respuesta?';
 $string['replydeleted'] = 'El borrador de la respuesta ha sido eliminado';
 $string['replysent'] = 'Su respuesta ha sido enviada';
 $string['runsuntil'] = 'Funcionando hasta';
@@ -176,6 +178,19 @@ $string['unread'] = 'Sin leer';
 $string['unreadmessages'] = 'Mensajes sin leer';
 $string['unreadmessagesnumber'] = '{$a} mensajes no leídos';
 $string['unreadmessagesone'] = '1 mensaje sin leer';
+$string['upgrade'] = 'Actualizar';
+$string['upgradecheck'] = 'Actualizar diálogo {$a}?';
+$string['upgradedcount'] = 'Cantidad de diálogos actualizados';
+$string['upgradeiscompleted'] = 'La actualización se ha completado';
+$string['upgradenodialoguesselected'] = 'No se han seleccionado diálogos';
+$string['upgradenoneedupgrade'] = '{$a} diálogos necesitan ser actualizados';
+$string['upgradereport'] = 'Listar diálogos por actualizar';
+$string['upgradereportdescription'] = 'Esto mostrará un reporte con los diálogos en el sistema que requieren ser actualizados al nuevo esquema';
+$string['upgradeselected'] = 'Actualizar diálogos seleccionados';
+$string['upgradeselectedcount'] = 'Actualizar {$a} diálogos seleccionados?';
+$string['upgradingresultfailed'] = 'Resultado: La actualización ha fallado';
+$string['upgradingresultsuccess'] = 'Resultado: Actualización exitosa';
+$string['upgradingsummary'] = 'Actualizando diálogo: {$a}';
 $string['usecoursegroups'] = 'Usar grupos del curso';
 $string['usecoursegroups_help'] = 'Si el curso se ha definido grupos una restricción adicional se añadirá a un diálogo que puede
 abrir con. Diálogos sólo pueden abrirse entre los miembros del grupo a no ser que la persona que abre el diálogo tiene el "Acceso a todos los grupos"

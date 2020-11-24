@@ -173,7 +173,7 @@ $string['detailedstats'] = 'Estadísticas detalladas';
 $string['didnotanswerquestion'] = 'No ha contestado a esta pregunta.';
 $string['didnotreceivecredit'] = 'No ha recibido crédito';
 $string['disabled'] = 'Desactivado';
-$string['displaydefaultfeedback'] = 'Mostrar retroalimentación por defecto';
+$string['displaydefaultfeedback'] = 'Usar retroalimentación por defecto';
 $string['displaydefaultfeedback_help'] = '<p align="center"><strong>Mostrar retroalimentación por defecto</strong></p>
 
 <p>Si se ajusta esta opción a <strong>Sí</strong>, cuando no se encuentre una respuesta a una pregunta en particular, se usará por defecto el comentario "Esa es la respuesta correcta" y "Esa es la respuesta incorrecta".</p>
@@ -250,7 +250,7 @@ $string['false'] = 'Falso';
 $string['fileformat'] = 'Formato de archivo';
 $string['finish'] = 'Terminado';
 $string['firstanswershould'] = 'de elementos';
-$string['firstwrong'] = 'Lo sentimos, usted no puede obtener este punto porque su respuesta no es correcta. ¿Desea seguir intentándolo? (únicamente para aprender, no para ganar el punto).';
+$string['firstwrong'] = 'Respuesta incorrecta. ¿Desea intentarlo de nuevo? (Si responde correctamente ahora,  no contará en su nota final)';
 $string['flowcontrol'] = 'Control de Flujo';
 $string['fractionsaddwrong'] = 'Las calificaciones positivas otorgadas no suman 100% sino {$a}%<br />¿Desea regresar y corregir esta pregunta?';
 $string['fractionsnomax'] = 'Una de las preguntas debe ser 100% para que sea<br />posible alcanzar la calificación máxima<br />¿Desea regresar y corregir esta pregunta?';
@@ -295,15 +295,17 @@ $string['leftduringtimed'] = 'Se ha interrumpido una lección con tiempo fijo.<b
 $string['leftduringtimednoretake'] = 'Se ha interrumpido una lección con tiempo fijo y<br>no se permite volver a empezar o continuar la lección.';
 $string['leftduringtimedsession'] = 'Ha salido de una lección con tiempo programado';
 $string['lesson:addinstance'] = 'Añadir una nueva lección';
-$string['lessonclosed'] = 'Esta lección se cerró el {$a}.';
-$string['lessoncloses'] = 'La lección se cierra';
-$string['lessoncloseson'] = 'La lección se cierra el {$a}';
 $string['lesson:edit'] = 'Editar una actividad de lección';
-$string['lessoneventopens'] = '{$a} abre';
-$string['lessonformating'] = 'Formateado de la Lección';
 $string['lesson:grade'] = 'Calificar preguntas de tipo ensayo de la lección';
 $string['lesson:manage'] = 'Gestionar una actividad de lección';
 $string['lesson:manageoverrides'] = 'Administrar invalidaciones de lecciones';
+$string['lesson:view'] = 'Ver actividad en la lección';
+$string['lesson:viewreports'] = 'Ver informes de lecciones';
+$string['lessonclosed'] = 'Esta lección se cerró el {$a}.';
+$string['lessoncloses'] = 'La lección se cierra';
+$string['lessoncloseson'] = 'La lección se cierra el {$a}';
+$string['lessoneventopens'] = '{$a} abre';
+$string['lessonformating'] = 'Formateado de la Lección';
 $string['lessonmenu'] = 'Menú Lección';
 $string['lessonname'] = 'Lección: {$a}';
 $string['lessonnotready'] = 'Esta lección no está lista para practicar. Por favor, contacte con su {$a}.';
@@ -312,8 +314,6 @@ $string['lessonopen'] = 'Esta lección se abrirá el {$a}.';
 $string['lessonopens'] = 'La lección se abre';
 $string['lessonpagelinkingbroken'] = 'No se encuentra la primera página. El enlace a la página de la lección debe estar roto. Por favor, contacte con el administrador.';
 $string['lessonstats'] = 'Estadísticas de la lección';
-$string['lesson:view'] = 'Ver actividad de la lección';
-$string['lesson:viewreports'] = 'Ver informes de lecciones';
 $string['linkedmedia'] = 'Medios enlazados';
 $string['loginfail'] = 'Acceso fallido, por favor pruebe de nuevo...';
 $string['lowscore'] = 'Puntuación baja';
@@ -336,8 +336,8 @@ $string['mediafile_help'] = '<p>Esta opción crea una ventana emergente al comie
 
 <p>Opcionalmente aparecerá un botón de "Cerrar ventana" al final de la ventana emergente; pueden ajustarse asimismo la altura y anchura de la ventana.</p>';
 $string['mediafilepopup'] = 'Haga clic aquí para ver';
-$string['mediaheight'] = 'Altura de la ventana emergente:';
-$string['mediawidth'] = 'Anchura de la ventana emergente:';
+$string['mediaheight'] = 'Altura de la ventana emergente.';
+$string['mediawidth'] = 'Anchura de la ventana emergente.';
 $string['messageprovider:graded_essay'] = 'Notificación de ensayo calificado';
 $string['minimumnumberofquestions'] = 'Número mínimo de preguntas';
 $string['minimumnumberofquestions_help'] = 'Este ajuste determina el número mínimo de preguntas vistas para que se calcule una calificación para la actividad. si la lección cuenta con una o más páginas de contenido, el número mínimo de preguntas debería fijarse en cero.
@@ -380,7 +380,7 @@ $string['nameapproved'] = 'Nombre aprobado';
 $string['namereject'] = 'Lo sentimos, su nombre ha sido rechazado por el filtro.<br>Por favor, pruebe con otro nombre.';
 $string['new'] = 'nueva';
 $string['nextpage'] = 'Página siguiente';
-$string['noanswer'] = 'No se ha dado respuesta';
+$string['noanswer'] = 'Hay preguntas sin respuesta. Por favor, vuelva atrás y entregue una respuesta.';
 $string['noattemptrecordsfound'] = 'No se encontraron registros de intentos. Sin calificación';
 $string['nobranchtablefound'] = 'No se ha encontrado página de contenido';
 $string['noclose'] = 'Sin fecha de cierre';
@@ -420,8 +420,8 @@ $string['numberofpagesviewedheader'] = 'Número de preguntas respondidas';
 $string['numberofpagesviewednotice'] = 'Número de preguntas contestadas: {$a->nquestions}; (Debería contestar al menos: {$a->minquestions})';
 $string['numerical'] = 'Numérica';
 $string['ongoing'] = 'Mostrar puntuación acumulada';
-$string['ongoingcustom'] = 'Ha obtenido {$a->score} punto(s) sobre {$a->currenthigh} hasta ahora.';
 $string['ongoing_help'] = '<p>Cuando se activa esta opción, cada página mostrará los puntos que el estudiante ha obtenido del total de          puntos posible. Por ejemplo, si un estudiante ha contestado correctamente cuatro preguntas de 5 puntos y ha      fallado una pregunta, la puntuación provisional será de 15/20 puntos.</p>';
+$string['ongoingcustom'] = 'Ha obtenido {$a->score} punto(s) sobre {$a->currenthigh} hasta ahora.';
 $string['ongoingnormal'] = 'Usted ha respondido correctamente {$a->correct} pregunta(s) de un total de {$a->viewed} pregunta(s).';
 $string['onpostperpage'] = 'Solo un mensaje por calificación';
 $string['openafterclose'] = 'Ha indicado un fecha de apertura posterior a la fecha de cierre';
@@ -441,11 +441,11 @@ $string['overrideusereventname'] = '{$a->lesson} - Invalidar';
 $string['overview'] = 'Revisión';
 $string['overview_help'] = 'Una lección se compone de un conjunto de páginas y, ocasionalmente, de páginas de contenido. Una página contiene información y normalmente termina con una pregunta. Con cada respuesta a la pregunta está asociado un salto. Este puede ser relativo (e.g., a la página actual o a la siguiente) o absoluto (e.g., a cualquiera de las páginas de la lección). Una página de contenido es aquella que contiene un conjunto de enlaces a otras páginas de la lección, e.g., una Tabla de Contenidos.';
 $string['page'] = 'Página: {$a}';
-$string['pageanswers'] = 'Respuestas de la página';
-$string['pagecontents'] = 'Contenido de la página';
 $string['page-mod-lesson-edit'] = 'Editar página de la lección';
 $string['page-mod-lesson-view'] = 'Ver página de la lección o una vista previa';
 $string['page-mod-lesson-x'] = 'Cualquier página de lección';
+$string['pageanswers'] = 'Respuestas de la página';
+$string['pagecontents'] = 'Contenido de la página';
 $string['pageresponses'] = 'Respuestas de la página';
 $string['pages'] = 'Páginas';
 $string['pagetitle'] = 'Título de la página';
@@ -535,8 +535,6 @@ $string['showanunseenpage'] = 'Mostrar una página no vista';
 $string['singleanswer'] = 'Una sola respuesta';
 $string['skip'] = 'Pasar por alto la navegación';
 $string['slideshow'] = 'Pase de diapositivas';
-$string['slideshowbgcolor'] = 'Color de fondo del pase de diapositivas';
-$string['slideshowheight'] = 'Altura del pase de diapositivas';
 $string['slideshow_help'] = '<p>Esta opción permite mostrar la lección como una sesión de diapositivas, con una
 anchura, altura y color de fondo personalizado fijos. Se mostrará una barra de
 desplazamiento basada en CSS si el contenido de la página excede la anchura o la altura
@@ -546,6 +544,8 @@ diapositiva. Los botones etiquetados por el idioma por defecto como "Siguiente" 
 "Anterior" aparecerán en los extremos derecho e izquierdo de la diapositiva si
 tal opción es seleccionada en la página. El resto de los botones aparecerán centrados
 debajo de la diapositiva.</p>';
+$string['slideshowbgcolor'] = 'Color de fondo del pase de diapositivas';
+$string['slideshowheight'] = 'Altura del pase de diapositivas';
 $string['slideshowwidth'] = 'Anchura del pase de diapositivas';
 $string['startlesson'] = 'Comenzar lección';
 $string['studentattemptlesson'] = 'Intento número {$a->attempt} de {$a->lastname}, {$a->firstname}';

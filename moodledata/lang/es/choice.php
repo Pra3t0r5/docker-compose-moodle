@@ -34,24 +34,24 @@ $string['calendarend'] = '{$a} cierran';
 $string['calendarstart'] = '{$a} abren';
 $string['cannotsubmit'] = 'Lo lamentamos, se ha producido un error con el envío de su respuesta. Por favor inténtelo de nuevo.';
 $string['choice'] = 'Opción';
-$string['choiceactivityname'] = 'Consulta: {$a}';
 $string['choice:addinstance'] = 'Añadir una nueva opción';
 $string['choice:choose'] = 'Registrar una elección';
-$string['choiceclose'] = 'Permite respuestas hasta';
-$string['choicecloseson'] = 'La consulta se cierra el {$a}';
 $string['choice:deleteresponses'] = 'Modificar y eliminar respuestas';
 $string['choice:downloadresponses'] = 'Descargar respuestas';
+$string['choice:readresponses'] = 'Ver respuestas';
+$string['choice:view'] = 'Ver actividad de consulta';
+$string['choiceactivityname'] = 'Consulta: {$a}';
+$string['choiceclose'] = 'Permite respuestas hasta';
+$string['choicecloseson'] = 'La consulta se cierra el {$a}';
 $string['choicefull'] = 'Esta opción está completa y no hay espacios disponibles.';
 $string['choicename'] = 'Título de la consulta';
 $string['choiceopen'] = 'Permitir respuestas a partir de';
 $string['choiceoptions'] = 'Opciones de la Consulta';
-$string['choiceoptions_help'] = '<P>Aquí es donde usted especifica las opciones que los participantes tienen para escoger.
-<P>Puede rellenar cualquier número de éstas, es decir, puede dejar alguna en blanco si
-no necesita las 6 opciones. Las opciones no rellenadas no aparecerán en el cuestionario.';
-$string['choice:readresponses'] = 'Ver respuestas';
+$string['choiceoptions_help'] = 'Aquí es donde usted especifica las opciones que los participantes tienen para escoger.
+
+Puede rellenar cualquier número de éstas. Si deja alguna en blanco, no aparecerá en el cuestionario. Si necesita más de 8 opciones, haga clic en el botón "Espacios en blanco para 3 opciones más".';
 $string['choicesaved'] = 'Su elección ha sido guardada';
-$string['choicetext'] = 'Pregunta a responder';
-$string['choice:view'] = 'Ver actividad de consulta';
+$string['choicetext'] = 'Texto de la opción';
 $string['chooseaction'] = 'Elija una acción ...';
 $string['chooseoption'] = 'Cambiar a: {$a}';
 $string['closebeforeopen'] = 'Has especificado una fecha de cierre previa a la de la fecha de apertura.';

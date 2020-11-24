@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'certificate', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'certificate', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   certificate
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,11 +44,12 @@ $string['borderstyle_help'] = 'La opción de imagen del borde le permite elegir 
 $string['certificate'] = 'Verificación del código de certificado::';
 $string['certificate:addinstance'] = 'Añada una instancia de certificado';
 $string['certificate:manage'] = 'Administrar una instancia de certificado';
-$string['certificatename'] = 'Nombre de certificado';
 $string['certificate:printteacher'] = 'Figurarás como profesor en el certificado si el ajuste de impresión profesor está habilitado';
+$string['certificate:student'] = 'Recuperar un certificado';
+$string['certificate:view'] = 'Ver un certificado';
+$string['certificatename'] = 'Nombre de certificado';
 $string['certificatereport'] = 'Informe de certificados';
 $string['certificatesfor'] = 'Certificados para';
-$string['certificate:student'] = 'Recuperar un certificado';
 $string['certificatetype'] = 'Tipo de Certificado';
 $string['certificatetype_help'] = 'Aquí es donde usted determina el diseño del certificado. La carpeta del tipo de certificado incluye cuatro certificados por defecto:
 A4 Incrustado imprime en papel tamaño A4 con tipos de letra incrustados.
@@ -59,7 +60,6 @@ Carta no-incrustado imprime en papel tamaño carta sin tipos de letra incrustado
 Los tipos de diseño no-incrustados emplean los tipos de letra Helvetica y Times. Si usted cree que sus usuarios no tiene instalados estos tipos de letra en sus ordenadores, o si su idioma emplea caracteres y símbolos que no están incluidos en los tipos de letra Helvetica y Times, entonces debe elegir tipos incrustados. Los tipos de diseños  incrustados usan los tipos de letra Dejavusans y Dejavuserif. Esto hará que los archivos PDF sean bastante grandes; por eso no se recomienda emplear una variedad incrustada a menos que realmente la necesite.
 
 Se pueden añadir carpetas con nuevos tipos de letra en la carpeta de certificate/type. El nombre de la carpeta y cualquier cadena de idioma nueva deberán añadirse al archivo de idioma del certificado.';
-$string['certificate:view'] = 'Ver un certificado';
 $string['certify'] = 'Hace constar que';
 $string['code'] = 'Código';
 $string['completiondate'] = 'Finalización del curso';
@@ -177,6 +177,8 @@ $string['printwmark'] = 'Marca de agua';
 $string['printwmark_help'] = 'Puede ponerse una marca de agua en el fondo del certificado. Una marca de agua es un gráfico desvanecido. Una marca de agua podría ser un logo, un escudo, un sello, una frase, o cualquier otro elemento que usted quiera emplear como fondo gráfico.';
 $string['receivedcerts'] = 'Certificados recibidos';
 $string['receiveddate'] = 'Fecha de recepción';
+$string['reissuecert'] = 'Re-emitir certificados';
+$string['reissuecert_help'] = 'Si elige \'Sí\', entonces este certificado será re-emitido con una nueva fecha, calificación y número clave cada vez que el usuario seleccione el enlace al certificado. Observe que a pesar que una tabla mostrará las fechas de recepción anteriores, no existirá botón disponible para que el usuario las vea. En el informe de certificado solamente aparecerá el certificado más recientemente emitido.';
 $string['removecert'] = 'Certificados emitidos eliminados';
 $string['report'] = 'Informe';
 $string['reportcert'] = 'Informe de Certificados';

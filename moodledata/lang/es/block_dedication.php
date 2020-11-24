@@ -29,11 +29,11 @@ $string['access_button'] = 'Herramienta de dedicación';
 $string['access_info'] = 'Sólo para profesores:';
 $string['connectionratiorow'] = 'Conexiones por día';
 $string['dedication:addinstance'] = 'Permitir añadir bloque de dedicación al curso';
-$string['dedicationall'] = 'Dedicación de todos los miembros del curso. Haz clic en el nombre de un miembro para ver su dedicación detallada.';
+$string['dedication:use'] = 'Permitir usar bloque de dedicación al curso';
 $string['dedication_estimation'] = 'Tu tiempo de dedicación estimado es';
+$string['dedicationall'] = 'Dedicación de todos los miembros del curso. Haz clic en el nombre de un miembro para ver su dedicación detallada.';
 $string['dedicationgroup'] = 'Dedicación de todos los miembros del grupo <em>{$a}</em>. Haz clic en el nombre de un miembro para ver su dedicación detallada.';
 $string['dedicationrow'] = 'Dedicación al curso';
-$string['dedication:use'] = 'Permitir usar bloque de dedicación al curso';
 $string['form'] = 'Configuración de dedicación al curso';
 $string['form_help'] = 'La dedicación es estimada a partir del concepto de sesión y duración de la sesión, aplicado a las entradas de log.
 

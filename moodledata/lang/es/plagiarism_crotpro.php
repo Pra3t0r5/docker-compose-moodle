@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_crotpro', language 'es', branch 'MOODLE_23_STABLE'
+ * Strings for component 'plagiarism_crotpro', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   plagiarism_crotpro
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['defaultthreshold'] = 'Umbral por defecto';
 $string['default_threshold'] = 'Umbral por defecto';
+$string['defaultthreshold'] = 'Umbral por defecto';

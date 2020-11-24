@@ -65,8 +65,8 @@ $string['gpurldesc'] = 'URL de su organización en Google+.';
 $string['headerheading'] = 'General';
 $string['home'] = 'Inicio';
 $string['homebanner'] = 'Banner de la Página Principal';
-$string['homebannerdesc'] = 'La imagen debería ser de 1345px X 535px.';
 $string['homebanner_slogan'] = 'Tenemos la colección de cursos más grande';
+$string['homebannerdesc'] = 'La imagen debería ser de 1345px X 535px.';
 $string['info'] = 'Info';
 $string['infoblockheading'] = 'Bloque de Información';
 $string['infoblocktext'] = 'Texto del Bloque de Información';
@@ -76,11 +76,6 @@ $string['infoblocktitle'] = 'Título Bloque Información';
 $string['infoblocktitledefault'] = 'Quiénes somos';
 $string['infoblocktitledesc'] = 'El título del bloque de información';
 $string['infolink'] = 'Enlaces de información';
-$string['infolinkdefault'] = 'Comunidad Moodle|https://moodle.org
-Soporte gratuito Moodle|https://moodle.org/support
-Desarrollo Moodle |https://moodle.org/development
-Documentación Moodle|http://docs.moodle.org|Moodle Docs
-Moodle.com|http://moodle.com/';
 $string['infolink_desc'] = 'Puede configurar un Enlace de Información personalizado aquí para que se muestre por temas. Cada línea consta de un texto de menú, un enlace URL (opcional), un título de información sobre herramientas (opcional) y un código de idioma o una lista de códigos separados por comas (opcional, para mostrar la línea solo a los usuarios del idioma especificado), separados por caracteres de tubería Por ejemplo:
 <pre> comunidad Moodle | https: //moodle.org
 Soporte gratuito de Moodle | https: //moodle.org/support
@@ -88,6 +83,11 @@ Desarrollo de Moodle | https: //moodle.org/development
 Documentos de Moodle | http: //docs.moodle.org | Documentos de Moodle
 Documentos de Moodle en alemán | http: //docs.moodle.org/de | Documentación en alemán | de
 Moodle.com | http: //moodle.com/ </pre>';
+$string['infolinkdefault'] = 'Comunidad Moodle|https://moodle.org
+Soporte gratuito Moodle|https://moodle.org/support
+Desarrollo Moodle |https://moodle.org/development
+Documentación Moodle|http://docs.moodle.org|Moodle Docs
+Moodle.com|http://moodle.com/';
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Cargue su logotipo personalizado aquí si desea agregarlo al encabezado. <br> La imagen debe tener 37 píxeles de alto y cualquier ancho razonable (mínimo: 250 píxeles) que se adapte.';
 $string['moodle_community'] = 'Comunidad de Moodle';
@@ -98,6 +98,22 @@ $string['newsblockcontentdesc'] = 'Todo lo que añade a esta area se verán en e
 $string['newsblockheading'] = 'Bloque de Noticias y Eventos';
 $string['newseventbg'] = 'Imagen de Fondo del Bloque de Noticias y Eventos';
 $string['newseventbgdesc'] = 'La imagen debería ser de  1345px X 760px.';
+$string['newseventcontent'] = '<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6">
+<div class="embed-wrap">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/fNE7pyDyw3Y" allowfullscreen="" frameborder="0" height="391" width="545"></iframe>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<div class="info-wrap">
+<h2 class="nomargint">noticias y eventos de 2015</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, sheets taining Lorem Ipsum passages, and more recently into electronic typesetting, sheets taining Lorem Ipsum passages, and more recentwith desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<div class="readmore-btn"><a href="#">Leer Más</a></div>
+</div>
+</div>
+</div>';
 $string['numberofslides'] = 'Número de diapositivas';
 $string['numberofslides_desc'] = 'Número de diapositivas en el slider.';
 $string['numberoftmonials'] = 'Número de Testimoinios';
@@ -109,6 +125,15 @@ $string['pinurl_default'] = 'https://in.pinterest.com/yourpinterestname/';
 $string['pinurldesc'] = 'URL de tu organización en Pinterest.';
 $string['pluginname'] = 'Academi';
 $string['primarymenu'] = 'Menú primario';
+$string['primarymenudesc'] = 'Puede configurar un menú principal aquí para ser mostrado por plantillas. Cada línea en algo de texto del menú, un enlace URL (opcional), una breve ayuda (opcional) y un código de lenguaje o lista de códigos separado por comas (opcional, para mostrar a los usuarios solo la línea del lenguaje especificado), separado por el símbolo |. Las líneas que  comiencen con un guión aparecerán como las opciones del menú en el nivel previo superior del menú, y los separadores pueden ser usados agregando una línea de uno o más caracteres # donde se requiera. Por ejemplo:
+
+Comunidad Moodle|https://moodle.org
+-Soporte gratuito para Moodle|https://moodle.org/support
+-Moodle Docs|http://docs.moodle.org|Moodle Docs
+-Moodle Docs en Alemán|http://docs.moodle.org/de|Documentación en Alemán|de
+-###
+-Desarrollo de Moodle|https://moodle.org/development
+Moodle.com|http://moodle.com/';
 $string['readmore'] = 'Leer más';
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';

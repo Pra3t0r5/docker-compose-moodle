@@ -41,6 +41,7 @@ $string['password'] = 'Su contraseña en Box.net (no se guardará)';
 $string['pluginname'] = 'Box.net';
 $string['sendfailed'] = 'No se pudo enviar el contenido a box.net: {$a}';
 $string['setupinfo'] = 'Instrucciones de instalación';
+$string['setupinfodetails'] = 'Para obtener la clave API, ingrese a Box.net y visite su <a href="{$a->servicesurl}">OpenBox development page</a>. En \'Developer Tools\',  acceda a \'Create new application\' para crear una nueva aplicación para su sitio Moodle. La clave API se mostrará en la sección  \'Backend parameters\' del formato para editar la aplicación. En este formulario, cumplimente el campo  \'Redirect URL\' con:<br /><code>{$a->callbackurl}</code><br />Opcionalmente, puede proporcionar otra información extra sobre su sitio Moodle. Estos valores podrán editarse posteriormente en la página de \'View my applications\' .';
 $string['sharedfolder'] = 'Compartido';
 $string['sharefile'] = '¿Compartir este archivo?';
 $string['sharefolder'] = '¿Compartir esta carpeta nueva?';

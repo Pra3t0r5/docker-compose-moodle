@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'activequiz', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'activequiz', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   activequiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,10 +29,10 @@ $string['activequiz:addinstance'] = 'Añadir una instancia de cuestionario activ
 $string['activequiz:attempt'] = 'Intentar un cuestionario activo';
 $string['activequiz:control'] = 'Controlar un cuestionario activo. (Normalmente sólo para profesores)';
 $string['activequiz:editquestions'] = 'Editar preguntas para un cuestionario activo.';
-$string['activequizintro'] = 'Introducción';
 $string['activequiz:seeresponses'] = 'Ver respuestas de otros estudiantes para evaluarlas';
-$string['activequizsettings'] = 'Configuración general de cuestionario Activo';
 $string['activequiz:viewownattempts'] = 'Permitir a los alumnos ver sus propios intentos en un cuestionario';
+$string['activequizintro'] = 'Introducción';
+$string['activequizsettings'] = 'Configuración general de cuestionario Activo';
 $string['activitygrades'] = 'Evaluaciones de actividad:';
 $string['addquestion'] = 'Añadir pregunta';
 $string['addtoquiz'] = 'Añadir';
@@ -157,11 +157,11 @@ $string['instructorquizinst'] = '<p>Por favor espere en esta página hasta que l
     </ul>
 </p>';
 $string['instructorsessionsgoing'] = 'Ya existe una sesión en progreso. Por favor haz clic en el botón inferior para ir a la sesión.';
-$string['invalidattemptaccess'] = 'No tienes el permiso para acceder a este intento.';
-$string['invalidgroupid'] = 'Se requiere un ID de grupo válido para los estudiantes';
 $string['invalid_indvquestiontime'] = 'El tiempo para la pregrunta debe ser un entero de 0 o superior.';
 $string['invalid_numberoftries'] = 'El número de intentos debe ser un entero de 1 o superior.';
 $string['invalid_points'] = 'Se requiere la puntuación y debe ser un número mayor que 0';
+$string['invalidattemptaccess'] = 'No tienes el permiso para acceder a este intento.';
+$string['invalidgroupid'] = 'Se requiere un ID de grupo válido para los estudiantes';
 $string['invalidquestionattempt'] = 'Pregunta no válida ($a->questionname) siendo añadida a intento de cuestionario.';
 $string['isanonymous'] = 'Todas las respuestas a este cuestionario activo son anónimas';
 $string['joinquiz'] = 'Unirse a Cuestionario';
@@ -178,10 +178,10 @@ $string['modulename'] = 'Cuestionario activo';
 $string['modulename_help'] = '<p>La actividad Cuestionario activo permite a un instructor crear y administrar cuestionarios en tiempo real. Todos los tipos de preguntas regulares del cuestionario se pueden utilizar en el cuestionario activo.</p> <p>El cuestionario activo permite la participación individual o en grupo. La asistencia en grupo es posible, por lo que los puntos otorgados durante el examen activo sólo se aplicarán a los participantes que asistieron a la sesión. Las preguntas se pueden configurar para permitir múltiples intentos. Se puede establecer un límite de tiempo para finalizar automáticamente la pregunta, o el instructor puede finalizar manualmente la pregunta y pasar a la siguiente. El instructor también tiene la capacidad de saltar a diferentes preguntas mientras ejecuta la sesión. Los instructores pueden monitorear la participación en grupo o individual, las respuestas en tiempo real de los participantes y la pregunta que se está encuestando. </p> <p>Cada intento de prueba se califica automáticamente como una prueba regular (con la excepción de las preguntas de ensayo y PoodLLL) y la calificación se registra en el libro de calificaciones. La calificación para la participación en el grupo se puede hacer automáticamente transfiriendo la calificación del encuestado único a los otros miembros del grupo. </p> <p>El instructor tiene opciones para mostrar pistas, dar retroalimentación y mostrar las respuestas correctas a los estudiantes al completar el cuestionario.</p> <p>Los cuestionarios activos pueden ser utilizados como un vehículo para impartir el aprendizaje en equipo dentro de Moodle.</p>.';
 $string['modulenameplural'] = 'Cuestionarios activos';
 $string['nextquestion'] = 'Siguiente pregunta';
+$string['no_questions'] = 'No se han agregado preguntas a este cuestionario.';
 $string['nochangegroups'] = 'No puedes cambiar grupos después de crear las sesiones o no existen grupos definidos para este curso.';
 $string['nochangegroups_label'] = '&nbsp;';
 $string['nofeedback'] = 'No hay retroalimentación para esta pregunta.';
-$string['no_questions'] = 'No se han agregado preguntas a este cuestionario.';
 $string['nosession'] = 'No hay sesión abierta';
 $string['notime'] = 'Sin límite de tiempo';
 $string['notime_help'] = 'Marca este campo si no desea tener temporizador en esta pregunta. <p> El profesor tendrá entonces que pinchar en el botón de fin de la pregunta para que la pregunta finalice. </p>';
@@ -226,23 +226,23 @@ $string['sessionname_required'] = 'El nombre de la sesión es obligatorio';
 $string['sessionnametext'] = '<span style="font-weight: bold">Sesión: </span>';
 $string['show_correct_answer'] = 'Mostrar la respuesta correcta';
 $string['showhistoryduringquiz'] = 'Mostrar historial de la respuesta';
-$string['showhistoryduringquiz_help'] = 'Muestre el historial de las respuestas de estudiante/grupo para esta pregunta a la vez que se revisan las respuestas de una pregunta dentro del cuestionario.';
+$string['showhistoryduringquiz_help'] = 'Muestra el historial de respuestas del estudiante/grupo para esta pregunta mientras revisa las respuestas a una pregunta durante una prueba';
 $string['shownotresponded'] = 'Mostrar las no respondidas';
 $string['showstudentresponses'] = 'Mostrar respuestas';
+$string['start_session'] = 'Comenzar Sesión';
 $string['startedon'] = 'Comenzó en';
 $string['startquiz'] = 'Comenzar cuestionario';
-$string['start_session'] = 'Comenzar Sesión';
 $string['studentquizinst'] = '<p>Por favor espere al profesor para comenzar el cuestionario. Una vez comience verá un contador de tiempo junto a la primera pregunta.</p>';
 $string['successregrade'] = 'Cuestionario recalificado con éxito';
 $string['teacherjoinquizinstruct'] = 'Usar si desea realizar un intento de prueba usted mismo<br />(será necesario comenzar el cuestionario en una ventana nueva)';
-$string['teacherstartinstruct'] = 'Utilice esto para comenzar el cuestionario si los estudiantes <br /> Usan el libro de texto para definir el nombre de esta sesión ( como método de ayuda cuando busquen los resultados posteriormente).';
+$string['teacherstartinstruct'] = 'Usar para empezar una prueba para que los estudiantes la realicen.<br />Usar el cuadro de texto para definir un nombre para esta sesión (para ayudar a ver los resultados en una fecha posterior).';
 $string['theattempt'] = 'El intento';
 $string['theattempt_help'] = 'Si el estudiante puede revisar el intento.';
 $string['timecompleted'] = 'Tiempo completado';
 $string['timemodified'] = 'Tiempo modificado';
 $string['timertext'] = 'Tu cuestionario finalizará y se auto-guardará en:';
 $string['trycount'] = 'Le quedan {$a->tries} intentos.';
-$string['unabletocreate_session'] = 'No se puede crear la sesión';
+$string['unabletocreate_session'] = 'No se pudo crear la sesión';
 $string['view'] = 'Ver cuestionario';
 $string['viewstats'] = 'Ver estadísticas del cuestionario';
 $string['waitforquestion'] = 'Esperando al cuestionario para ser enviado en:';

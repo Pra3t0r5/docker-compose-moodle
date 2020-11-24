@@ -29,14 +29,14 @@ $string['abserror'] = 'Error absoluto';
 $string['addmorepartsblanks'] = 'Espacios en blanco para {no} más partes';
 $string['algebraic_formula'] = 'Fórmula algebraica';
 $string['answer'] = 'Respuesta*';
-$string['answercombinedunitmulti'] = 'Respuesta y unidad para la parte {$a->part}';
-$string['answercombinedunitsingle'] = 'Respuesta y unidad';
-$string['answercoordinatemulti'] = 'Respuesta para parte {$a->part} y coordenada {$a->numanswer}';
-$string['answercoordinatesingle'] = 'Respuesta para coordenada {$a->numanswer}';
 $string['answer_help'] = '**Obligatoria**.
 debe ser una lista de números o una lista de cadenas, en función del tipo de respuesta que se haya elegido. Donde solo haya una respuesta, se puede introducir directamente un número o una cadena. Tenga en cuenta que el número de elementos de la lista define el número de campos de la respuesta para esta parte.
 
 <pre class="prettyprint">123<br>[1, 0, 0, 1]<br>a<br>[1, a, b]<br>"exp(-a t)"<br>["vx t","vy t - 0.5 a t^2"]</pre>';
+$string['answercombinedunitmulti'] = 'Respuesta y unidad para la parte {$a->part}';
+$string['answercombinedunitsingle'] = 'Respuesta y unidad';
+$string['answercoordinatemulti'] = 'Respuesta para parte {$a->part} y coordenada {$a->numanswer}';
+$string['answercoordinatesingle'] = 'Respuesta para coordenada {$a->numanswer}';
 $string['answermark'] = 'Calificación* de esta parte';
 $string['answermark_help'] = '**Obligatoria**.
 La calificación de la respuesta de esta parte, que debe ser un número mayor que 0.
@@ -64,10 +64,10 @@ $string['correctansweris'] = 'Una posible respuesta correcta sería: {$a}';
 $string['correctfeedback'] = 'Para cualquier respuesta correcta';
 $string['correctfeedback_help'] = 'Estos comentarios serán mostrados a estudiantes que obtengan la puntuación máxima en esta parte. Pueden incluir variables globales y locales que serán remplazadas por sus valores';
 $string['correctness'] = 'Criterios* de calificación';
-$string['correctnessexpert'] = 'Experto';
 $string['correctness_help'] = '**Obligatorios**. Puede escoger entre un error relativo o un error absoluto con un rango de error. El error relativo no se puede utilizar para el tipo de respuesta algebraica.
 
 Para una definición precisa del error relativo y del error absoluto cuando existe más de un campo de respuesta, consulte la documentación.';
+$string['correctnessexpert'] = 'Experto';
 $string['correctnesssimple'] = 'Simple';
 $string['defaultanswermark'] = 'Calificación de la parte predeterminada';
 $string['defaultanswermark_desc'] = 'Calificación de la parte predeterminada para las partes de la nueva pregunta';
@@ -78,8 +78,8 @@ $string['defaultcorrectness_desc'] = 'Criterios de calificación predeterminados
 $string['defaultunitpenalty'] = 'Penalización de la unidad predeterminada';
 $string['defaultunitpenalty_desc'] = 'Penalización predeterminada por unidad incorrecta (0-1)';
 $string['error_algebraic_var'] = 'Error de sintaxis de la definición de la variable algebraica.';
-$string['error_answerbox_duplicate'] = 'El marcador de posición de cada campo de respuesta solo se puede utilizar una vez en una parte.';
 $string['error_answer_missing'] = 'No se ha definido ninguna respuesta.';
+$string['error_answerbox_duplicate'] = 'El marcador de posición de cada campo de respuesta solo se puede utilizar una vez en una parte.';
 $string['error_answertype_mistmatch'] = 'No coincide el tipo de respuesta: Para el tipo de respuesta numérica se requiere un número y para el tipo de respuesta algebraica se requiere una cadena';
 $string['error_criterion'] = 'El criterio de calificación se debe evaluar como un único número.';
 $string['error_eval_numerical'] = 'Algunas expresiones no se pueden evaluar con números.';
@@ -136,9 +136,9 @@ $string['number'] = 'Número';
 $string['number_unit'] = 'Número y unidad';
 $string['numdataset'] = 'Número del conjunto de datos';
 $string['numeric'] = 'Numérico';
+$string['numeric_unit'] = 'Numérico y unidad';
 $string['numerical_formula'] = 'Fórmula numérica';
 $string['numerical_formula_unit'] = 'Fórmula numérica y unidad';
-$string['numeric_unit'] = 'Numérico y unidad';
 $string['otherrule'] = 'Otras reglas';
 $string['otherrule_help'] = 'Aquí el autor de la pregunta puede definir normas de conversión adicionales para otras unidades base aceptadas. Consulte la documentación sobre los usos avanzados.';
 $string['partiallycorrectfeedback'] = 'Para cualquier respuesta parcialmente correcta';
@@ -149,8 +149,6 @@ $string['placeholder_help'] = 'El marcador de posición se utiliza para identifi
 Si este campo se deja vacío, la parte se anexará al final del texto de la pregunta principal.';
 $string['pleaseputananswer'] = 'Introduzca una respuesta en cada campo de entrada.';
 $string['pluginname'] = 'Fórmulas';
-$string['pluginnameadding'] = 'Añadir una pregunta de fórmulas';
-$string['pluginnameediting'] = 'Editar una pregunta de fórmulas';
 $string['pluginname_help'] = 'Para empezar a utilizar este tipo de pregunta, lea el <a href="http://code.google.com/p/moodle-coordinate-question/wiki/Tutorial">Tutorial</a>.
 
 Para conocer las posibles preguntas, descargue e importe el <a href="http://code.google.com/p/moodle-coordinate-question/downloads/list">Ejemplo</a>
@@ -159,6 +157,8 @@ o consulte las <a href="http://code.google.com/p/moodle-coordinate-question/wiki
 Para las opciones del siguiente formulario de edición, lea las <a href="http://code.google.com/p/moodle-coordinate-question/wiki/QuestionOptions">Opciones de la pregunta</a>
 
 Para consultar la documentación completa, lea la <a href="http://code.google.com/p/moodle-coordinate-question/wiki/Documentation">Documentación</a>';
+$string['pluginnameadding'] = 'Añadir una pregunta de fórmulas';
+$string['pluginnameediting'] = 'Editar una pregunta de fórmulas';
 $string['pluginnamesummary'] = 'Tipo de pregunta con valores aleatorios y múltiples respuestas
 Los campos de la respuesta se pueden colocar en cualquier lugar de forma que se puedan crear preguntas con diferentes estructuras como vectores, polinomios y matrices.
 Otras características como la verificación de unidades y las preguntas con varias partes también están correctamente integradas y son fáciles de utilizar.';

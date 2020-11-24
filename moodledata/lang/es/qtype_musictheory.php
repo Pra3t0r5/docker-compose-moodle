@@ -119,7 +119,6 @@ $string['gnmajor'] = 'Sol Mayor';
 $string['gnminor'] = 'Sol menor';
 $string['grandstaff'] = 'Gran pentagrama';
 $string['gsharpminor'] = 'Sol♯ menor';
-$string['harmonicfunctiontype-random'] = 'Posibles funciones armónicas';
 $string['harmonicfunction_write_questionastext'] = 'Introducir la función armónica';
 $string['harmonicfunction_write_questionastext_help'] = '<p> Introduzca una lista de notas separadas por comas,
    sin espacios, utilizando la siguiente sintaxis: </p> <p> [Nombre de la nota en mayúscula] [Accidental
@@ -128,6 +127,7 @@ $string['harmonicfunction_write_questionastext_help'] = '<p> Introduzca una list
 $string['harmonicfunction_write_questionasui'] = 'Introducir la función armónica';
 $string['harmonicfunction_write_questionasui_help'] = '<p> Introduzca las notas haciendo clic en el pentagrama, después de seleccionar
   la alteración en la barra de herramientas de la derecha. Para eliminar una nota, vuelva a hacer clic en ella. </p>';
+$string['harmonicfunctiontype-random'] = 'Posibles funciones armónicas';
 $string['hfidentifyresponsetypes'] = 'Posible función armónica en respuesta';
 $string['hftype_aug6th'] = '6ª Aumentada';
 $string['hftype_diatonictriad'] = 'Tríada diatónica';

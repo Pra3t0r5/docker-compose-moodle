@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_morecandy', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'theme_morecandy', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_morecandy
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

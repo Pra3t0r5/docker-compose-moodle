@@ -28,4 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['noparticipantslist'] = 'No es posible ver la lista de participantes en este curso';
 $string['participantslist'] = 'Mostrar listado de participantes';
 $string['people:addinstance'] = 'Añadir un nuevo bloque de Personas';
+$string['people:myaddinstance'] = 'Añadir un nuevo bloque de Personas al Área personal';
 $string['pluginname'] = 'Personas';

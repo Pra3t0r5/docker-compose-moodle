@@ -133,14 +133,6 @@ $string['destination_help'] = '<P>Puede especificar dónde desea importar las en
 </ul>';
 $string['disapprove'] = 'Deshacer aprobación';
 $string['displayformat'] = 'Formato de visualización de entradas';
-$string['displayformatcontinuous'] = 'Continuo sin autor';
-$string['displayformatdefault'] = 'Por defecto la misma que el formato de visualización';
-$string['displayformatdictionary'] = 'Simple, estilo diccionario';
-$string['displayformatencyclopedia'] = 'Enciclopedia';
-$string['displayformatentrylist'] = 'Lista de entradas';
-$string['displayformatfaq'] = 'FAQ';
-$string['displayformatfullwithauthor'] = 'Completo con autor';
-$string['displayformatfullwithoutauthor'] = 'Completo sin autor';
 $string['displayformat_help'] = '<P>Esta variable define la manera cómo se mostrará cada entrada dentro del glosario.
 Los formatos disponibles son:</p>
 <blockquote>
@@ -169,6 +161,14 @@ añade las palabras Pregunta y Respuesta en el concepto y la definición respect
 <hr />
 <p>Los administradores de Moodle pueden crear nuevos formatos siguiendo las instrucciones que
 aparecen en el archivo <b>mod/glossary/formats/README.txt</b> de su instalación.</p>';
+$string['displayformatcontinuous'] = 'Continuo sin autor';
+$string['displayformatdefault'] = 'Por defecto la misma que el formato de visualización';
+$string['displayformatdictionary'] = 'Simple, estilo diccionario';
+$string['displayformatencyclopedia'] = 'Enciclopedia';
+$string['displayformatentrylist'] = 'Lista de entradas';
+$string['displayformatfaq'] = 'FAQ';
+$string['displayformatfullwithauthor'] = 'Completo con autor';
+$string['displayformatfullwithoutauthor'] = 'Completo sin autor';
 $string['displayformats'] = 'Formatos de visualización';
 $string['displayformatssetup'] = 'Ajustar formatos de visualización';
 $string['duplicatecategory'] = 'Categoría duplicada';
@@ -246,18 +246,18 @@ $string['glossary:export'] = 'Exportar entradas';
 $string['glossary:exportentry'] = 'Exportar una sola entrada';
 $string['glossary:exportownentry'] = 'Exportar una sola entrada de las suyas';
 $string['glossary:import'] = 'Importar entradas';
-$string['glossaryleveldefaultsettings'] = 'Ajustes por defecto del nivel de glosario';
 $string['glossary:managecategories'] = 'Gestionar categorías';
 $string['glossary:managecomments'] = 'Gestionar comentarios';
 $string['glossary:manageentries'] = 'Gestionar entradas';
 $string['glossary:rate'] = 'Calificar entradas';
-$string['glossarytype'] = 'Tipo de glosario';
-$string['glossarytype_help'] = 'Un glosario principal es un glosario en el que se pueden importar entradas de glosarios secundarios. Solo puede haber un glosario principal en cada curso. Si no se necesita importar entradas entre glosarios, todos los glosarios en el curso pueden ser de tipo secundario.';
 $string['glossary:view'] = 'Ver glosario';
 $string['glossary:viewallratings'] = 'Ver todas las calificaciones emitidas por las usuarios';
 $string['glossary:viewanyrating'] = 'Ver el total de calificaciones que alguien recibió';
 $string['glossary:viewrating'] = 'Ver calificación total recibida';
 $string['glossary:write'] = 'Crear nuevas entradas';
+$string['glossaryleveldefaultsettings'] = 'Ajustes por defecto del nivel de glosario';
+$string['glossarytype'] = 'Tipo de glosario';
+$string['glossarytype_help'] = 'Un glosario principal es un glosario en el que se pueden importar entradas de glosarios secundarios. Solo puede haber un glosario principal en cada curso. Si no se necesita importar entradas entre glosarios, todos los glosarios en el curso pueden ser de tipo secundario.';
 $string['guestnoedit'] = 'Los invitados no pueden editar glosarios';
 $string['importcategories'] = 'Importar categorías';
 $string['importedcategories'] = 'Categorías importadas';

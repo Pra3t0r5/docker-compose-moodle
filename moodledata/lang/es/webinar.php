@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webinar', language 'es', branch 'MOODLE_26_STABLE'
+ * Strings for component 'webinar', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   webinar
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -115,9 +115,9 @@ $string['edit'] = 'Editar';
 $string['editingsession'] = 'Editando sesión';
 $string['editsession'] = 'Editar sesión';
 $string['email:instrmngr'] = 'Aviso para el gestor';
-$string['emailmanager'] = 'Enviar aviso al gestor';
 $string['email:message'] = 'Mensaje';
 $string['email:subject'] = 'Asunto';
+$string['emailmanager'] = 'Enviar aviso al gestor';
 $string['emptylocation'] = 'La localización estaba vacía.';
 $string['enrolled'] = 'inscrito';
 $string['error:addalreadysignedupattendee'] = '{$a} ya está registrado para esta actividad de Webinar.';

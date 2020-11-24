@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_youtube', language 'es', branch 'MOODLE_27_STABLE'
+ * Strings for component 'tinymce_youtube', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   tinymce_youtube
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -100,11 +100,11 @@ $string['videoprivacy'] = 'Configuración de privacidad';
 $string['videoprivacydetails'] = 'Asegúrese de entender la forma en que YouTube interpreta las configuraciones de privacidad antes de cambiarlas.';
 $string['visibletabsheading'] = 'Configuración de pestañas de YouTube Anywhere';
 $string['youtube:accessible'] = 'Youtube Anywhere para TinyMCE disponible en la barra de herramientas';
+$string['youtube:desc'] = 'Insertar un video de YouTube';
 $string['youtubecallbackfailed'] = 'Falló el proceso de su autorización desde YouTube/Google. No se pudo contactar con el editor HTML.';
 $string['youtubecallbackjsfailed'] = 'Falló el proceso de su autorización desde YouTube/Google. No se pudo cargar JavaScript.';
 $string['youtubeclientid'] = 'ID de cliente de Google OAUTH2';
 $string['youtubeclientiddetails'] = 'Necesario si se identifica con cuentas de estudiante en YouTube.';
-$string['youtube:desc'] = 'Insertar un video de YouTube';
 $string['youtubedevkey'] = 'Clave de Desarrollador de YouTube';
 $string['youtubemasterpass'] = 'Contraseña de la cuenta maestra de YouTube';
 $string['youtubemasterpassdetails'] = 'Necesario si se identifica con una cuenta maestra de YouTube.';

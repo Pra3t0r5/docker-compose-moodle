@@ -98,16 +98,26 @@ $string['parametervalue'] = '{$a->name}: {$a->value}';
 $string['pluginname'] = 'Consultas ad hoc de la base de datos';
 $string['query_deleted'] = 'Consulta eliminada';
 $string['query_edited'] = 'Consulta editada';
+$string['query_viewed'] = 'Consulta visualizada';
 $string['queryfailed'] = 'Error al ejecutar la consulta: {$a}';
 $string['querylimit'] = 'Limitar las filas devueltas';
 $string['querylimitrange'] = 'El número debe estar comprendido entre 1 y {$a}';
+$string['querynote'] = '<ul>
+<li>El token <tt>%%WWWROOT%%</tt>de los resultados se sustituirá por <tt>{$a}</tt>.</li>
+<li>Cualquier valor de salida que parezca una URL se convertirá automáticamente en un enlace.</li>
+<li>Si el nombre de una columna en los resultados termina con la <tt>fecha</tt> de los caracteres y la columna contiene valores enteros , se considerarán marcas de tiempo Unix y se convertirán automáticamente a fechas en lenguaje natural.</li>
+<li>El token <tt>%%USERID%%</tt> de la consulta se sustituirá por el ID de usuario del usuario que esté visualizando el informe antes de que se ejecute el informe.</li>
+<li>Para los informes programados, los tokens <tt>%%STARTTIME%%</tt> y <tt>%%ENDTIME%%</tt> se sustituyen por la marca de tiempo Unix del principio y el final de la semana/mes sobre los que se elabora el informe en la consulta antes de ejecutarse.</li>
+<li>Puede introducir parámetros en SQL utilizando marcadores de posición con nombre, por ejemplo <tt>:parameter_name</tt>. Después, cuando se ejecute el informe, el usuario puede introducir los valores de los parámetros que se utilizarán al ejecutar la consulta.</li>
+<li>Si <tt>:parameter_name</tt> comienza o termina con la <tt>fecha</tt> de los caracteres, se utilizará un selector de fecha/hora para introducir dicho valor; de lo contrario, se utilizará un cuadro de texto sin formato.</li>
+<li>No puede utilizar los caracteres <tt>:</tt> ni <tt>?</tt> en las cadenas de su consulta. Si los necesitase, puede utilizar <tt>CHR(58)</tt> y <tt>CHR(63)</tt> respectivamente, además de la concatenación de cadenas. (<tt>CHR</tt> para Postgres u Oracle, <tt>CHAR</tt> para MySQL o SQL server.)</li>
+</ul>';
 $string['queryparameters'] = 'Parámetros de consulta';
 $string['queryparams'] = 'Introduzca los valores predeterminados para los parámetros de consulta.';
 $string['queryparamschanged'] = 'Han cambiado los marcadores de posición de la consulta.';
 $string['queryrundate'] = 'fecha de ejecución de la consulta';
 $string['querysql'] = 'Consulta de SQL';
 $string['querysqlrequried'] = 'Deberá introducir alguna SQL.';
-$string['query_viewed'] = 'Consulta visualizada';
 $string['recordlimitreached'] = 'Esta consulta ha alcanzado el límite de {$a} filas. Puede que se hayan omitido algunas filas del final.';
 $string['reportfor'] = 'Consulta ejecutada el {$a}';
 $string['requireint'] = 'Se necesita un valor entero';

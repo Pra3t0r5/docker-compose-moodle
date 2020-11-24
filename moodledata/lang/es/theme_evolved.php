@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_evolved', language 'es', branch 'MOODLE_29_STABLE'
+ * Strings for component 'theme_evolved', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_evolved
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,10 +42,10 @@ $string['backgroundfixed_desc'] = 'Utilice este ajuste para dejar fija la imagen
 $string['backgroundimage'] = 'Imagen de fondo';
 $string['backgroundimage_desc'] = 'La imagen para mostrar como fondo para este sitio.';
 $string['backgroundposition'] = 'Posición del fondo';
+$string['backgroundposition_desc'] = 'La posición de la imagen de fondo.';
 $string['backgroundpositioncenterbottom'] = 'Centro Inferior';
 $string['backgroundpositioncentercenter'] = 'Centro centro';
 $string['backgroundpositioncentertop'] = 'Centro superior';
-$string['backgroundposition_desc'] = 'La posición de la imagen de fondo.';
 $string['backgroundpositionleftbottom'] = 'Izquierda inferior';
 $string['backgroundpositionleftcenter'] = 'Izquierda centro';
 $string['backgroundpositionlefttop'] = 'Izquierda superior';

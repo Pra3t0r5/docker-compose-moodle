@@ -27,12 +27,12 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['back'] = 'Atrás';
 $string['el_config_header'] = 'Configuración para suspender cuentas de usuario.';
+$string['el_header'] = 'Configuración de Usuario Suspendido';
+$string['el_navname'] = 'Usuario Suspendido';
 $string['eledia_suspenduser:addinstance'] = 'añadir bloque de usuario suspendido';
 $string['eledia_suspenduser:config'] = 'configurar la extensión de usuario suspendido';
 $string['eledia_suspenduserfile'] = 'Nombre del archivo';
 $string['eledia_suspenduserpath'] = 'Directorio del archivo en moodledata';
-$string['el_header'] = 'Configuración de Usuario Suspendido';
-$string['el_navname'] = 'Usuario Suspendido';
 $string['pluginname'] = 'Usuario Suspendido';
 $string['privacy:metadata'] = 'El complemento de usuario suspendido eLeDia no almacena ningún dato personal.';
 $string['save_changes'] = 'Guardar cambios';

@@ -30,6 +30,7 @@ $string['alert2'] = 'Segunda Alerta';
 $string['alert3'] = 'Tercera Alerta';
 $string['alert_general'] = 'Aviso';
 $string['alert_info'] = 'Información';
+$string['alert_warning'] = 'Precaución';
 $string['alertinfodesc'] = 'Introduzca los ajustes de su alerta.';
 $string['alertsdesc'] = 'Esto mostrará una alerta (o múltiple) en tres estilos diferentes para los usuarios en la página principal de Moodle. Por favor, recuerde que debe desactivar estos cuando ya no sean necesarios.';
 $string['alertsheading'] = 'Alerta a usuarios';
@@ -40,7 +41,6 @@ $string['alerttitle'] = 'Título';
 $string['alerttitledesc'] = 'Título principal / Cabecera para su alerta';
 $string['alerttype'] = 'Nivel';
 $string['alerttypedesc'] = 'Ajuste el nivel/tipo apropiado de la alerta para informar mejor a los usuarios.';
-$string['alert_warning'] = 'Precaución';
 $string['allclasses'] = 'Todas las clases';
 $string['allcourses'] = 'Todos los Cursos';
 $string['allmodules'] = 'Todos los Módulos';
@@ -67,6 +67,7 @@ $string['android'] = 'Android (Google Play)';
 $string['androiddesc'] = 'Proporcione una URL a su aplicación móvil en Google Play Store.  Si no dispone de una personalizada puede si lo desea enlazar con la aplicación oficial gratuita. https://play.google.com/store/apps/details?id=com.moodle.moodlemobile)';
 $string['backtotop'] = 'Volver arriba';
 $string['badgepreferences'] = 'Insignia';
+$string['blogpreferences'] = 'Preferencias de blog';
 $string['breadcrumbsimple'] = 'Simple';
 $string['breadcrumbstyle'] = 'Estilo del  indicador de sitio';
 $string['breadcrumbstyled'] = 'Con estilo';
@@ -78,6 +79,33 @@ $string['categoryiconheading'] = 'Iconos de categoría';
 $string['categoryiconheadingsub'] = 'Usar iconos para representar categorías';
 $string['categoryiconinfo'] = 'Personalizar iconos por categorías';
 $string['categoryiconinfodesc'] = 'Introduzca el nombre del icono que desea usar. La lista está <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_new">aquí</a>. Introduzca solamente lo que hay a partir de "fa-".';
+$string['choosereadme'] = '<div class="clearfix">
+<div class="well">
+<h2>Essential</h2>
+<p><img class="img-polaroid" src="essential/pix/screenshot.jpg" /></p>
+</div>
+<div class="well">
+<h3>Acerca de Essential</h3>
+<p>Essential está basado en el tema Bootstrap, que fue creado para Moodle 2.5, con la ayuda de:<br>
+Bas Brands, Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
+<h3>Créditos del tema</h3>
+<p>Autor Original: Julian Ridden<br>
+Trabajo retomado en Julio de 2014 por:<br>
+Gareth J. Barnard<br>
+David Bezemer<br>
+Trabajo retomado el 9 de Octubre de 2014 por:<br>
+Gareth J. Barnard<br>
+</p>
+<h3>Donaciones</h3>
+<p>Este tema es ofrecido gratuitamente. Si desea expresar su gratitud por usarlo, considere hacer una donación a través de:
+<h4>PayPal</h4>
+<p>Por favor, contácte conmigo a través de mi <a href="http://moodle.org/user/profile.php?id=442195" target="_blank">\'perfil en Moodle\'</a> para más detalles, ya que trabajo solo y no puedo tener botones de \'donación\' / \'comprame ahora\' de acuerdo a sus términos.</p>
+<h4>Flattr</h4>
+<a href="https://flattr.com/profile/gjb2048" target="_blank">
+Haz click aquí para hacer una donación.
+</a>
+<br>Las donaciones me permitirán ofrecerte más y mejores características en menos tiempo.</p>
+</div></div>';
 $string['colordesc'] = 'Aquí puede encontrar varios ajustes para cambiar muchos de los colores de este tema.';
 $string['colorheading'] = 'Configuración de colores';
 $string['colorheadingsub'] = 'Ajuste los colores utilizados en su tema';
@@ -200,11 +228,11 @@ $string['pagewidthdesc'] = 'Elija la anchura del sitio de la lista de anchuras d
 $string['paypal_click'] = 'Perfil de Moodle';
 $string['paypal_desc'] = '{$a->url}\' para detalles ya que soy un particular y no estoy autorizado a tener botones del tipo "cómprame ahora" de acuerdo a sus términos o';
 $string['peakmem'] = 'Memoria máxima';
+$string['perf_max'] = 'Detallada';
+$string['perf_min'] = 'Mínima';
 $string['perfinfo'] = 'Modo de información de rendimiento';
 $string['perfinfodesc'] = 'Muchos sitios no necesitan la información detallada por completo del rendimiento. Especialmente cuando es visualizada por los usuarios. Cuando se habilita muestra un formulario sencillo con información básica de la carga de trabajo.';
 $string['perfinfoheading'] = 'Información de rendimiento';
-$string['perf_max'] = 'Detallada';
-$string['perf_min'] = 'Mínima';
 $string['pinterest'] = 'URL de Pinterest';
 $string['pinterestdesc'] = 'Introduce la URL de tu página de Pinterest (por ejemplo http://pinterest.com/mycollege)';
 $string['pinteresturl'] = 'URL de Pinterest';

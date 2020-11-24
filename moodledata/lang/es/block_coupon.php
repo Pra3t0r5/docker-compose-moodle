@@ -63,20 +63,9 @@ Enviar cupones a: {$a->recipient}<br/><br/>
 Cuerpo del email: {$a->emailbody}<br/>';
 $string['coupon:generatecoupons'] = 'Generar un nuevo cupón';
 $string['coupon:inputcoupons'] = 'Use un cupón para matricularse';
-$string['coupon_mail_content'] = 'Estimado {$a->to_name},<br /><br />
-
-Le informamos que se han generado nuevo cupones, los cuales adjuntamos en este mensaje.<br /><br />
-
-Un cordial saludo,<br /><br />
-
-{$a->from_name}';
-$string['coupon_mail_subject'] = 'Cupón generado';
 $string['coupon:myaddinstance'] = 'Añadir un nuevo bloque de Cupones en la página Mi Moodle';
-$string['coupon:senddate:instant'] = 'Inmediato';
 $string['coupon:send:fail'] = '¡Falló el envío del e-mail! Causa: {$a}';
-$string['coupons_ready_to_send'] = 'Su cupón(es) ha(n) sido generado(s) y será(n) enviado(s) en la fecha indicada.<br />
-Recibirá una notificación por email cuando todos los cupones hayan sido enviados.';
-$string['coupons_sent'] = 'Su(s) cupón(es) han sido generados. En unos minutos recibirá un email con los cupones adjuntos.';
+$string['coupon:senddate:instant'] = 'Inmediato';
 $string['coupon:timeframe'] = 'Tipo';
 $string['coupon:type'] = 'Tipo';
 $string['coupon:type:all'] = 'Todos';
@@ -91,6 +80,17 @@ $string['coupon:user:heading'] = 'Configuración de usuario para {$a->firstname}
 $string['coupon:user:info'] = 'Use el formulario de abajo para configurar las opciones y los cursos  accesibles para los que este usuario puede pedir cupones';
 $string['coupon:viewallreports'] = 'Ver informe de Cupones (para todos los cupones)';
 $string['coupon:viewreports'] = 'Ver informe de Cupones (para mis propios cupones)';
+$string['coupon_mail_content'] = 'Estimado {$a->to_name},<br /><br />
+
+Le informamos que se han generado nuevo cupones, los cuales adjuntamos en este mensaje.<br /><br />
+
+Un cordial saludo,<br /><br />
+
+{$a->from_name}';
+$string['coupon_mail_subject'] = 'Cupón generado';
+$string['coupons_ready_to_send'] = 'Su cupón(es) ha(n) sido generado(s) y será(n) enviado(s) en la fecha indicada.<br />
+Recibirá una notificación por email cuando todos los cupones hayan sido enviados.';
+$string['coupons_sent'] = 'Su(s) cupón(es) han sido generados. En unos minutos recibirá un email con los cupones adjuntos.';
 $string['course'] = 'curso';
 $string['days_access'] = '{$a} días de';
 $string['default-coupon-page-template-botleft'] = '<ol>

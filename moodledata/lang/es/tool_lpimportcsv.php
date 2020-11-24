@@ -25,23 +25,30 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['competencyscale'] = 'Escala de Competencias: {$a}';
 $string['competencyscaledescription'] = 'Escala de Competencias creada por la importación';
 $string['confirm'] = 'Confirmar';
+$string['confirmcolumnmappings'] = 'Confirmar el mapeo de columnas';
 $string['csvdelimiter'] = 'Delimitador CVS';
 $string['description'] = 'Descripción';
 $string['descriptionformat'] = 'Descripción del formato';
 $string['encoding'] = 'Codificación';
 $string['export'] = 'Exportar';
+$string['exportid'] = 'Identificador de la exportación (opcional)';
 $string['exportnavlink'] = 'Exportar marco de competencias';
+$string['idnumber'] = 'Identificador';
 $string['import'] = 'Importar';
 $string['importfile'] = 'Archivo CSV de descripción del marco de competencias';
 $string['invalidimportfile'] = 'El formato del archivo no es válido.';
 $string['isframework'] = 'Es marco de competencias';
 $string['noframeworks'] = 'No se han creado marcos de competencias todavía';
+$string['parentidnumber'] = 'Identificador padre';
 $string['pluginname'] = 'Importar marco de competencias';
+$string['relatedidnumbers'] = 'Identificadores de referencias cruzadas de competencias';
 $string['ruleconfig'] = 'Configuración de regla (opcional)';
 $string['ruleoutcome'] = 'Resultado de la regla (opcional)';
 $string['ruletype'] = 'Tipo de regla (opcional)';
 $string['scaleconfiguration'] = 'Configuración de escala';
 $string['scalevalues'] = 'Valores de escala';
+$string['shortname'] = 'Nombre corto';
 $string['taxonomy'] = 'Taxonomía';

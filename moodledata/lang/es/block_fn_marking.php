@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_fn_marking', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'block_fn_marking', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   block_fn_marking
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -106,8 +106,8 @@ $string['gradingstudentprogress'] = 'Mostrando {$a->index} de {$a->count}';
 $string['headertitle'] = 'Administrador de Marcado';
 $string['help'] = 'Ayuda';
 $string['hideonlineeditor'] = 'Ocultar editor en línea';
-$string['includecourses'] = 'Cursos a incluir';
 $string['include_orphaned'] = 'Incluir actividades huérfanas';
+$string['includecourses'] = 'Cursos a incluir';
 $string['keepseparate'] = 'Mantenga separadas las tareas preliminares';
 $string['labelnoblocks'] = 'Ocultar todos los bloques';
 $string['lastrefreshtime'] = 'Última actualización: hace {$a}';

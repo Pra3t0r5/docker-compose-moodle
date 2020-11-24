@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['advnotifications_edit_label'] = 'Editar';
 $string['advnotifications:managenotifications'] = 'Gestionar notificaciones y las configuraciones relacionadas';
+$string['advnotifications_edit_label'] = 'Editar';
 $string['advnotifications_nav_settings'] = 'Configuraciones';
 $string['setting/settings'] = 'Configuraciones:';

@@ -438,6 +438,8 @@ $string['twitter'] = 'Enlace a Twitter';
 $string['twitterdesc'] = 'Introduzca el enlace (URL) a su cuenta de Twitter.
 <a href="http://twitter.com/" target="_blank"> (twitter.com) .</a>';
 $string['useraigne'] = 'En el Encabezado, al estilo aigne (login + saludo + usuario + foto + logout)';
+$string['userblock'] = 'En el bloque de Navegación, al estilo aigne (login + saludo + usuario + foto + logout)';
+$string['usermoodle'] = 'En el Encabezado, al estilo estándar de moodle (login + usuario + logout)';
 $string['usernav'] = 'Area de Información del Usuario.';
 $string['usernavdesc'] = 'Seleccione el modo que aparecerá la información del usuario en el encabezado.';
 $string['usernavhead'] = 'Opciones del area de Información del Usuario';

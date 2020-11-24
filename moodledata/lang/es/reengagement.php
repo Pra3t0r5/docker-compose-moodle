@@ -39,14 +39,14 @@ La duración del reenganche se especifica como una duración de período (por ej
 
 <p> Este ejemplo significaría que un usuario que comience un período de reenganche ahora se marcará como completado dentro de 7 semanas. </p>';
 $string['emailcontent'] = 'Contenido del email (Usuario)';
-$string['emailcontentdefaultvalue'] = 'Este es un recordatorio por correo electrónico del curso %coursename%.';
 $string['emailcontent_help'] = 'Cuando el módulo envía un correo electrónico a un usuario, coge el contenido para el correo electrónico de este campo.';
+$string['emailcontentdefaultvalue'] = 'Este es un recordatorio por correo electrónico del curso %coursename%.';
 $string['emailcontentmanager'] = 'Contenido del email (Administrador)';
-$string['emailcontentmanagerdefaultvalue'] = 'Este es un recordatorio por correo electrónico del curso %coursename%, con respecto al usuario %userfirstname% %userlastname%.';
 $string['emailcontentmanager_help'] = 'Cuando el módulo envía un correo electrónico al administrador de un usuario, coge el contenido del correo electrónico de este campo.';
+$string['emailcontentmanagerdefaultvalue'] = 'Este es un recordatorio por correo electrónico del curso %coursename%, con respecto al usuario %userfirstname% %userlastname%.';
 $string['emailcontentthirdparty'] = 'Contenido del email (Terceros)';
-$string['emailcontentthirdpartydefaultvalue'] = 'Este es un recordatorio por correo electrónico del curso %coursename%, con respecto al usuario %userfirstname% %userlastname%.';
 $string['emailcontentthirdparty_help'] = 'Cuando el módulo envía un correo electrónico a un tercero, coge el contenido del correo electrónico de este campo.';
+$string['emailcontentthirdpartydefaultvalue'] = 'Este es un recordatorio por correo electrónico del curso %coursename%, con respecto al usuario %userfirstname% %userlastname%.';
 $string['emaildelay'] = 'Retraso de correo electrónico';
 $string['emaildelay_help'] = 'Cuando el módulo está configurado para enviar correos electrónicos a los usuarios "después del retraso", esta configuración controla la duración del retraso.';
 $string['emailrecipient'] = 'Receptor(es) del email';
@@ -80,13 +80,13 @@ $string['receiveemailattimex'] = 'El mensaje se enviará en {$a}.';
 $string['receiveemailattimexunless'] = 'El mensaje se enviará en {$a} a menos que complete la actividad en cuestión.';
 $string['reengagement'] = 'reenganche';
 $string['reengagement:addinstance'] = 'reenganche: añadir distancia';
-$string['reengagementduration'] = 'Duración del reenganche';
 $string['reengagement:editreengagementduration'] = 'Editar duración del reenganche';
+$string['reengagement:startreengagement'] = 'Empezar reenganche';
+$string['reengagementduration'] = 'Duración del reenganche';
 $string['reengagementfieldset'] = 'Detalles del reenganche';
 $string['reengagementintro'] = 'Introducción del reenganche';
 $string['reengagementname'] = 'Nombre del reenganche';
 $string['reengagementsinprogress'] = 'Reenganches en progreso';
-$string['reengagement:startreengagement'] = 'Empezar reenganche';
 $string['remindercount'] = 'Contador de recordatorios';
 $string['remindercount_help'] = 'Este es el número de veces que se envía un correo electrónico después de cada período de retraso. Hay algunos límites para los valores que puede usar <ul>
 <li>menos de 24 horas: límite de 2 recordatorios.</li>

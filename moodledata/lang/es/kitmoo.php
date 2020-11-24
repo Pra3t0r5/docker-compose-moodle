@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'kitmoo', language 'es', branch 'MOODLE_23_STABLE'
+ * Strings for component 'kitmoo', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   kitmoo
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -44,9 +44,9 @@ $string['forum'] = 'Foro';
 $string['info'] = 'A continuación encontrará las actividades propuestas. Recorra la imagen y en los íconos encontrará las diferentes tareas a realizar.';
 $string['kitmoo'] = 'Kitmoo';
 $string['kitmoo:create'] = 'Crear Kitmoo';
+$string['kitmoo:view'] = 'Ver Kitmoo';
 $string['kitmoointro'] = 'Descripción para Kitmoo';
 $string['kitmooname'] = 'Nombre para Kitmoo';
-$string['kitmoo:view'] = 'Ver Kitmoo';
 $string['language'] = 'es';
 $string['message'] = 'Seleccione el ícono a utilizar y arrastralo para crear la actividad o el recurso seleccionado.';
 $string['modulename'] = 'Kitmoo';

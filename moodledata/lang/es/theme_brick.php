@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_brick', language 'es', branch 'MOODLE_27_STABLE'
+ * Strings for component 'theme_brick', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_brick
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,11 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['headingcolor'] = 'headingcolor';
 $string['headingcolordesc'] = 'Color de la cabecera para cabeceras grandes (noticias del sitio, mis cursos) y otras cabeceras.';
 $string['linkcolor'] = 'enlace';
 $string['linkcolordesc'] = 'Establece el color de los enlaces en el tema, utilice el código HTML hexadecimal.';
 $string['linkhover'] = 'linkhover';
 $string['logo'] = 'logotipo';
+$string['maincolor'] = 'maincolor';
 $string['maincolordesc'] = 'Ajuste el código hexadecimal del color de la cabecera, barra lateral y otras áreas. Se ve mejor con un color oscuro o saturado.';
+$string['maincolorlink'] = 'maincolorlink';
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';

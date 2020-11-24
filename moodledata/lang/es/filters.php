@@ -51,17 +51,17 @@ $string['doesnotcontain'] = 'no contiene';
 $string['endswith'] = 'termina en';
 $string['filterallwarning'] = 'Aplicar filtros a las cabeceras y al contenido puede incrementar la sobrecarga del servidor. Por favor, use los ajustes \'Aplicar a\' con moderación. El uso principal es con el filtro multi-idioma.';
 $string['filtersettings'] = 'Ajustes de filtro';
-$string['filtersettingsforin'] = 'Ajustes de filtro para {$a->filter} in {$a->context}';
 $string['filtersettings_help'] = 'Esta página le permite activar y desactivar los filtros en una parte concreta del sitio.
 
 Algunos filtros permiten ajustes locales, en cuyo caso habrá un enlace a los ajustes al lado de su nombre.';
+$string['filtersettingsforin'] = 'Ajustes de filtro para {$a->filter} in {$a->context}';
 $string['filtersettingsin'] = 'Ajustes de filtro en {$a}';
 $string['firstaccess'] = 'Primer acceso';
 $string['globalrolelabel'] = '{$a->label} es {$a->value}';
 $string['isactive'] = '¿Activo?';
-$string['isafter'] = 'es después de ';
-$string['isanyvalue'] = 'es cualquier valor';
-$string['isbefore'] = 'es antes de';
+$string['isafter'] = 'es posterior a';
+$string['isanyvalue'] = 'cualquier valor';
+$string['isbefore'] = 'es anterior a';
 $string['isdefined'] = 'está definido';
 $string['isempty'] = 'está vacío';
 $string['isequalto'] = 'es igual a';

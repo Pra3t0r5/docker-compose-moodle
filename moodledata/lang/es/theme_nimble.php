@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_nimble', language 'es', branch 'MOODLE_27_STABLE'
+ * Strings for component 'theme_nimble', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_nimble
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,7 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['backgroundcolor'] = 'Fondo de la cabecera';
+$string['backgroundcolordesc'] = 'Cambiar el color del fondo de la cabecera';
 $string['footerline'] = 'Footerline';
 $string['footerlinedesc'] = 'Agregar texto (copyright, info, etc.) al pie.';
+$string['linkcolor'] = 'Color de los enlaces';
+$string['linkcolordesc'] = 'Determina el color de los enlaces del tema, utilizar código hexadecimal html.';
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';

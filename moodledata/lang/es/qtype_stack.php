@@ -25,6 +25,106 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['ATAlgEquiv_SA_not_equation'] = 'La respuesta debería ser una ecuación, pero no es así.';
+$string['ATAlgEquiv_SA_not_expression'] = 'La respuesta debería ser una expresión, no una ecuación, desigualdad, lista, conjunto o matriz.';
+$string['ATAlgEquiv_SA_not_function'] = 'Su respuesta debería ser una función, definida usando el operador  <tt>:=</tt>, pero no es así.';
+$string['ATAlgEquiv_SA_not_inequality'] = 'La respuesta debería ser una desigualdad, pero no es así.';
+$string['ATAlgEquiv_SA_not_list'] = 'La respuesta debería ser una lista, pero no es así. La sintaxis para intruducir una lista es: [a,b,c].';
+$string['ATAlgEquiv_SA_not_logic'] = 'Su respuesta debería ser una ecuación, desigualdad, o una combinación lógica de varias de éstas, pero no es así.';
+$string['ATAlgEquiv_SA_not_matrix'] = 'La respuesta debería ser una matriz, pero no es así.';
+$string['ATAlgEquiv_SA_not_set'] = 'La respuesta debería ser un conjunto, pero no es así. La sintaxis para introducir un conjunto es: {a,b,c}.';
+$string['ATAlgEquiv_SA_not_string'] = 'Su respuesta debería ser una cadena de caracteres (string) pero no es así.';
+$string['ATAlgEquiv_TA_not_equation'] = 'Ha escrito una ecuación, pero una ecuación no es lo que se esperaba aquí. Pudo haber escrito algo parecido a  "y=2*x+1" cuando solamente necesitaba escribir "2*x+1".';
+$string['ATCompSquare_SA_not_depend_var'] = '¡Su respuesta debería depender de la variable {$a->m0} pero no lo hace!';
+$string['ATCompSquare_false'] = '';
+$string['ATCompSquare_false_no_summands'] = 'El cuadrado completo es de la forma \\( a(\\cdots\\cdots)^2 + b\\)  donde \\(a\\) y \\(b\\)  no dependen de su variable. Al parecer más de uno de sus sumandos depende de la variable en su respuesta.';
+$string['ATCompSquare_not_AlgEquiv'] = 'La respuesta parece estar en forma correcta, pero no es equivalente a la respuesta correcta.';
+$string['ATCompSquare_true'] = '';
+$string['ATDiff_error_list'] = 'La prueba de respuesta falló. Por favor póngase en contacto con su administrador de sistemas';
+$string['ATDiff_int'] = '¡Parece que ha integrado en lugar de hacer lo que se le pidió!';
+$string['ATEquivFirst_SA_not_list'] = 'El primer argumento de la respuesta a la prueba Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
+$string['ATEquivFirst_SA_wrong_end'] = 'Su respuesta final no está en la forma correcta.';
+$string['ATEquivFirst_SA_wrong_start'] = 'La primera línea de su argumento debe de ser "{$a->m0}".';
+$string['ATEquivFirst_SB_not_list'] = 'El segundo argumento de la respuesta de la prueba Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
+$string['ATEquiv_SA_not_list'] = 'El primer argumento de la respuesta de prueba Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
+$string['ATEquiv_SB_not_list'] = 'El segundo argumento de la prueba de respuesta Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
+$string['ATFacForm_error_degreeSA'] = 'El CAS no pudo establecer el grado algebraico de tu respuesta.';
+$string['ATFacForm_error_list'] = 'La prueba a la respuesta ha fallado. Por favor contacta al administrador del sistema';
+$string['ATFacForm_isfactored'] = 'La respuesta esta factorizada, bien hecho.';
+$string['ATFacForm_notalgequiv'] = 'Nota que tu respuesta no es algebraicamente equivalente a la respuesta correcta. Debiste cometer un error.';
+$string['ATFacForm_notfactored'] = 'La respuesta no esta factorizada.';
+$string['ATInequality_backwards'] = 'La desigualdad parece estar al revés.';
+$string['ATInequality_nonstrict'] = '¡La desigualdad debería ser estricta, pero no es así!';
+$string['ATInequality_strict'] = '¡La desigualdad no debería ser estricta!';
+$string['ATInt_EqFormalDiff'] = 'La derivada formal de su respuesta es igual a la expresión que se le pidió que integrara. Sin embargo, su respuesta difiere de la respuesta correcta de una forma significativa, no trivial; por ejemplo: una constante de integración. Por favor, pregunte a su profesor a este respecto.';
+$string['ATInt_STACKERROR_OptList'] = 'La prueba de respuesta falló y no se ejecutó correctamente. Por favor avise a su profesor. Cuando la opción para ATInt es una lista, debe tener exactamente dos elementos, pero no los tiene.';
+$string['ATInt_const'] = 'Necesita añadir una constante de integración, por lo demás, esto parece estar correcto. Bien hecho.';
+$string['ATInt_const_int'] = 'Necesita añadir una constante de integración. Debe ser una constante arbitraria, no un número.';
+$string['ATInt_diff'] = '¡Parece que ha diferenciado en lugar de hacer lo que se le pidió!';
+$string['ATInt_error_list'] = 'La prueba a la respuesta falló.  Por favor contacta al administrador del sistema';
+$string['ATInt_generic'] = 'La derivada de su respuesta debería de ser igual a la expresión que se le pidió que integrara, que era: {$a->m0} ¡De hecho, la derivada de su respuesta, con respecto a {$a->m1} es: {$a->m2} por lo que debe de haber hecho algo mal!';
+$string['ATInt_logabs'] = 'La derivada formal de su respuesta equivale a la expresión que se le pidió que integrara. Sin embargo, su respuesta difiere de la respuesta correcta de una manera significativa, por ejemplo, en una constante de integración.
+Su profesor puede esperar que use el resultado de \\(\\int\\frac{1}{x} dx = \\log(|x|)+c\\), en lugar de \\(\\int\\frac{1}{x} dx = \\log(x)+c\\).  Por favor, pregúntele a su profesor acerca de esto.';
+$string['ATInt_logabs_inconsistent'] = 'Al parecer hay inconsistencias extrañas entre su uso de \\(\\log(...)\\) y \\(\\log(|...|)\\). Por favor, pregúntele a su profesor al respecto.';
+$string['ATInt_weirdconst'] = 'La derivada formal de su respuesta no es igual a la expresión que se le pidió integrar. Sin embargo, tiene una constante de integración extraña. Por favor, pregunte a su profesor sobre esto.';
+$string['ATList_wrongentries'] = 'Las entradas subrayadas en rojo son aquellas que son incorrectas. {$a->m0}';
+$string['ATList_wronglen'] = 'La lista debería tener {$a->m0} elementos, pero actualmente tiene {$a->m1}.';
+$string['ATLowestTerms_entries'] = 'Los siguientes términos no están en su mínima expresión en tu respuesta.  {$a->m0} Por favor intenta de nuevo.';
+$string['ATLowestTerms_not_rat'] = 'Debe eliminar lo siguiente del denominador de su fracción: {$a->m0}';
+$string['ATLowestTerms_wrong'] = 'Necesitas cancelar fracciones en tu respuesta.';
+$string['ATMatrix_wrongentries'] = 'Las entradas subrayadas en rojo son aquellas que son incorrectas. {$a->m0}';
+$string['ATMatrix_wrongsz'] = 'La matriz debería ser {$a->m0} por {$a->m1}, pero en realidad es {$a->m2} por {$a->m3}.';
+$string['ATNumDecPlaces_NoDP'] = 'Su respuesta debe ser un número decimal, incluyendo un punto decimal.';
+$string['ATNumDecPlaces_OptNotInt'] = 'Para ATNumDecPlaces la opción de prueba debe ser un número entero positivo y se recibió "{$a->opt}".';
+$string['ATNumDecPlaces_Wrong_DPs'] = 'Su respuesta ha sido dada al número equivocado de decimales.';
+$string['ATNumSigFigs_Inaccurate'] = 'La precisión de la respuesta no es correcta. O no has redondeado adecuadamente, o has redondeado un resultado parcial donde se propago el error.';
+$string['ATNumSigFigs_NotDecimal'] = 'La respuesta debería ser un número decimal, pero no es así!';
+$string['ATNumSigFigs_WrongDigits'] = 'La respuesta contiene un número incorrecto de dígitos significativos.';
+$string['ATNumSigFigs_WrongSign'] = 'Su respuesta tiene el signo algebraico equivocado.';
+$string['ATNumSigFigs_error_list'] = 'La prueba a la respuesta falló.  Por favor, contacta al administrador del sistema';
+$string['ATNum_OutofRange'] = 'Una expresión numérica está fuera del rango soportado. Por favor, póngase en contacto con su profesor.';
+$string['ATNumerical_FAILED'] = 'Su respuesta debería ser un número de punto flotante, o una lista o un conjunto de números, y no es así.';
+$string['ATNumerical_SA_not_list'] = 'Su respuesta debería de ser una lista, pero no es así. Tenga en cuenta que la sintaxis para escribir una lista es incluir los valores separados por coma dentro de corchetes.';
+$string['ATNumerical_SA_not_number'] = 'Su respuesta debería de ser un número de punto flotante, pero no es así.';
+$string['ATNumerical_SA_not_set'] = 'Su respuesta debería de ser un conjunto, pero no es así. Tenga en cuenta que la sintaxis para escribir un conjunto es incluir los valores separados por coma dentro de llaves.';
+$string['ATNumerical_STACKERROR_tol'] = 'La tolerancia numérica para ATNumerical debería de ser un número de punto flotante, pero no lo es. Este es un error interno con la prueba. Por favor, dígale esto a su profesor.';
+$string['ATPartFrac_denom_ret'] = 'Si la respuesta se escribe como fracción común, entonces el denominador sería {$a->m0}. De hecho, debería ser {$a->m1}.';
+$string['ATPartFrac_diff_variables'] = 'Las variables en la respuesta son diferentes a las de la pregunta, por favor revisa.';
+$string['ATPartFrac_error_list'] = 'La prueba a la respuesta falló. Por favor contacta al administrador del sistema';
+$string['ATPartFrac_ret_expression'] = 'La respuesta como fracción común es {$a->m0}';
+$string['ATPartFrac_single_fraction'] = 'La respuesta parece ser una fracción común, cuando debería ser una fracción parcial.';
+$string['ATPartFrac_true'] = '';
+$string['ATRegEx_missing_option'] = 'Falta una expresión regular en el campo opciones (CAS).';
+$string['ATSet_wrongentries'] = 'Las siguientes entradas son incorrectas, aunque parece que están en forma simplificada de lo que actualmente entró. {$a->m0}';
+$string['ATSet_wrongsz'] = 'El conjunto debería tener {$a->m0} elementos diferentes, pero actualmente tiene {$a->m1}.';
+$string['ATSingleFrac_div'] = 'La respuesta contiene fracciones dentro de fracciones.  Necesitas simplificar y escribir la respuesta como una fracción común.';
+$string['ATSingleFrac_error_list'] = 'La prueba a la respuesta falló.  Por favor contacta al administrador del sistema';
+$string['ATSingleFrac_part'] = 'La respuesta debe ser una fracción común de la forma ( {a}over{b} ).';
+$string['ATSingleFrac_ret_exp'] = 'La respuesta no es algebraicamente equivalente a la respuesta correcta. Debiste cometer un error.';
+$string['ATSingleFrac_true'] = '';
+$string['ATSingleFrac_var'] = 'Las variables en la respuesta son diferentes a las de la pregunta, por favor revisa.';
+$string['ATSysEquiv_SA_extra_variables'] = 'La respuesta incluye muchas variables!';
+$string['ATSysEquiv_SA_missing_variables'] = 'Falta en la respuesta una o mas variables!';
+$string['ATSysEquiv_SA_not_eq_list'] = 'La respuesta debería ser una lista de ecuaciones, pero no es así!';
+$string['ATSysEquiv_SA_not_list'] = 'La respuesta debería ser una lista, pero no es así!';
+$string['ATSysEquiv_SA_not_poly_eq_list'] = 'Una o mas de las ecuaciones no es un polinomio!';
+$string['ATSysEquiv_SA_system_overdetermined'] = 'Las siguientes entradas en rojo son incorrectas. {$a->m0}';
+$string['ATSysEquiv_SA_system_underdetermined'] = 'The equations in your system appear to be correct, but you need others besides.';
+$string['ATSysEquiv_SB_not_eq_list'] = 'La respuesta del profesor no es una lista de ecuaciones';
+$string['ATSysEquiv_SB_not_list'] = 'La respuesta del profesor no es una lista.  Por favor, contacta al profesor.';
+$string['ATSysEquiv_SB_not_poly_eq_list'] = 'La respuesta del profesor debe ser una lista de ecuaciones polinómicas, pero no es así. Por favor, contacta al profesor.';
+$string['AT_EmptySA'] = 'Se intentó ejecutar una prueba de respuesta con una respuesta del estudiante vacía, probablemente sea un problema de validación CAS al escribir la pregunta.';
+$string['AT_EmptyTA'] = 'Se intentó ejecutar una prueba de respuesta con una respuesta del profesor vacía, probablemente sea un problema de validación CAS al escribir la pregunta.';
+$string['AT_InvalidOptions'] = 'El campo opción es inválido. {$a->errors}';
+$string['AT_MissingOptions'] = 'Se omitió alguna opción cuando se ejecutó la prueba.';
+$string['AT_NOTIMPLEMENTED'] = 'Esta prueba de respuesta no ha sido implementada.';
+$string['FacForm_UnPick_intfac'] = 'Es necesario extraer factor común.';
+$string['FacForm_UnPick_morework'] = 'Podría hacer mas trabajo en el término {$a->m0}.';
+$string['Illegal_floats'] = 'Tu respuesta contiene números con punto decimal, eso no esta permitido en esta pregunta. Necesitas escribir el número en fraciones. Por ejemplo, debes escribir 1/3 no 0.3333.';
+$string['Lowest_Terms'] = 'Tu respuesta contiene fracciones que no están escritas en su mínima expresión. Por favor, cancela facores e intenta de nuevo.';
+$string['Maxima_DivisionZero'] = 'División por cero.';
+$string['Subst'] = 'La respuesta será correcta si utilizas la siguiente sustitución de variables. {$a->m0}';
+$string['TEST_FAILED'] = 'La prueba a la respuesta no se ejecutó correctamente:Por favor avisa a tu profesor. {$a->errors}';
 $string['addanothernode'] = 'Agregar otro nodo';
 $string['addanothertestcase'] = 'Agregar otro caso de prueba...';
 $string['addatestcase'] = 'Agregar caso de prueba...';
@@ -86,11 +186,11 @@ $string['allowwords_help'] = 'Por defecto, los nombres de funciones o variables 
 $string['alreadydeployed'] = 'Una variante que coincide con la nota de esta Pregunta ya se ha implementado.';
 $string['ansnotemismatch'] = '[Discrepancia en NotadeRespuesta]';
 $string['answernote'] = 'Nota de respuesta';
-$string['answernotedefaultfalse'] = '{$a->prtname}-{$a->nodename}-F';
-$string['answernotedefaulttrue'] = '{$a->prtname}-{$a->nodename}-T';
 $string['answernote_err'] = 'Nota de respuesta no deben contener el carácter |. Este carácter es insertado por STACK y luego usado para dividir automaticamente notas de respuesta.';
 $string['answernote_help'] = 'Es una etiqueta clave para los informes. Está diseñada para registrar ruta única a través del árbol y el resultado de cada prueba de respuesta. Esto se genera automáticamente, pero se puede cambiar si tiene sentido.';
 $string['answernote_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Potential_response_trees.md#Answer_note';
+$string['answernotedefaultfalse'] = '{$a->prtname}-{$a->nodename}-F';
+$string['answernotedefaulttrue'] = '{$a->prtname}-{$a->nodename}-T';
 $string['answernoterequired'] = 'Nota de respuesta no debe estar vacío.';
 $string['answernoteunique'] = 'Detectadas notas de respuesta duplicadas en este árbol de respuesta potencial.';
 $string['answertest'] = 'Prueba';
@@ -101,99 +201,8 @@ $string['assumepositive_help'] = 'Esta opción habilita la variable assume_pos d
 $string['assumepositive_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Options.md#Assume_Positive';
 $string['assumereal'] = 'Asumir real';
 $string['assumereal_help'] = 'Esta opción configura la variable assume_real.';
-$string['ATAlgEquiv_SA_not_equation'] = 'La respuesta debería ser una ecuación, pero no es así.';
-$string['ATAlgEquiv_SA_not_expression'] = 'La respuesta debería ser una expresión, no una ecuación, desigualdad, lista, conjunto o matriz.';
-$string['ATAlgEquiv_SA_not_function'] = 'Su respuesta debería ser una función, definida usando el operador  <tt>:=</tt>, pero no es así.';
-$string['ATAlgEquiv_SA_not_inequality'] = 'La respuesta debería ser una desigualdad, pero no es así.';
-$string['ATAlgEquiv_SA_not_list'] = 'La respuesta debería ser una lista, pero no es así. La sintaxis para intruducir una lista es: [a,b,c].';
-$string['ATAlgEquiv_SA_not_logic'] = 'Su respuesta debería ser una ecuación, desigualdad, o una combinación lógica de varias de éstas, pero no es así.';
-$string['ATAlgEquiv_SA_not_matrix'] = 'La respuesta debería ser una matriz, pero no es así.';
-$string['ATAlgEquiv_SA_not_set'] = 'La respuesta debería ser un conjunto, pero no es así. La sintaxis para introducir un conjunto es: {a,b,c}.';
-$string['ATAlgEquiv_SA_not_string'] = 'Su respuesta debería ser una cadena de caracteres (string) pero no es así.';
-$string['ATAlgEquiv_TA_not_equation'] = 'Ha escrito una ecuación, pero una ecuación no es lo que se esperaba aquí. Pudo haber escrito algo parecido a  "y=2*x+1" cuando solamente necesitaba escribir "2*x+1".';
-$string['ATCompSquare_false'] = '';
-$string['ATCompSquare_false_no_summands'] = 'El cuadrado completo es de la forma \\( a(\\cdots\\cdots)^2 + b\\)  donde \\(a\\) y \\(b\\)  no dependen de su variable. Al parecer más de uno de sus sumandos depende de la variable en su respuesta.';
-$string['ATCompSquare_not_AlgEquiv'] = 'La respuesta parece estar en forma correcta, pero no es equivalente a la respuesta correcta.';
-$string['ATCompSquare_SA_not_depend_var'] = '¡Su respuesta debería depender de la variable {$a->m0} pero no lo hace!';
-$string['ATCompSquare_true'] = '';
-$string['ATDiff_error_list'] = 'La prueba de respuesta falló. Por favor póngase en contacto con su administrador de sistemas';
-$string['ATDiff_int'] = '¡Parece que ha integrado en lugar de hacer lo que se le pidió!';
-$string['AT_EmptySA'] = 'Se intentó ejecutar una prueba de respuesta con una respuesta del estudiante vacía, probablemente sea un problema de validación CAS al escribir la pregunta.';
-$string['AT_EmptyTA'] = 'Se intentó ejecutar una prueba de respuesta con una respuesta del profesor vacía, probablemente sea un problema de validación CAS al escribir la pregunta.';
-$string['ATEquivFirst_SA_not_list'] = 'El primer argumento de la respuesta a la prueba Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
-$string['ATEquivFirst_SA_wrong_end'] = 'Su respuesta final no está en la forma correcta.';
-$string['ATEquivFirst_SA_wrong_start'] = 'La primera línea de su argumento debe de ser "{$a->m0}".';
-$string['ATEquivFirst_SB_not_list'] = 'El segundo argumento de la respuesta de la prueba Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
-$string['ATEquiv_SA_not_list'] = 'El primer argumento de la respuesta de prueba Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
-$string['ATEquiv_SB_not_list'] = 'El segundo argumento de la prueba de respuesta Equiv debería de ser una lista, pero la prueba falló. Por favor póngase en contacto con su profesor.';
-$string['ATFacForm_error_degreeSA'] = 'El CAS no pudo establecer el grado algebraico de tu respuesta.';
-$string['ATFacForm_error_list'] = 'La prueba a la respuesta ha fallado. Por favor contacta al administrador del sistema';
-$string['ATFacForm_isfactored'] = 'La respuesta esta factorizada, bien hecho.';
-$string['ATFacForm_notalgequiv'] = 'Nota que tu respuesta no es algebraicamente equivalente a la respuesta correcta. Debiste cometer un error.';
-$string['ATFacForm_notfactored'] = 'La respuesta no esta factorizada.';
-$string['ATInequality_backwards'] = 'La desigualdad parece estar al revés.';
-$string['ATInequality_nonstrict'] = '¡La desigualdad debería ser estricta, pero no es así!';
-$string['ATInequality_strict'] = '¡La desigualdad no debería ser estricta!';
-$string['ATInt_const'] = 'Necesita añadir una constante de integración, por lo demás, esto parece estar correcto. Bien hecho.';
-$string['ATInt_const_int'] = 'Necesita añadir una constante de integración. Debe ser una constante arbitraria, no un número.';
-$string['ATInt_diff'] = '¡Parece que ha diferenciado en lugar de hacer lo que se le pidió!';
-$string['ATInt_EqFormalDiff'] = 'La derivada formal de su respuesta es igual a la expresión que se le pidió que integrara. Sin embargo, su respuesta difiere de la respuesta correcta de una forma significativa, no trivial; por ejemplo: una constante de integración. Por favor, pregunte a su profesor a este respecto.';
-$string['ATInt_error_list'] = 'La prueba a la respuesta falló.  Por favor contacta al administrador del sistema';
-$string['ATInt_generic'] = 'La derivada de su respuesta debería de ser igual a la expresión que se le pidió que integrara, que era: {$a->m0} ¡De hecho, la derivada de su respuesta, con respecto a {$a->m1} es: {$a->m2} por lo que debe de haber hecho algo mal!';
-$string['ATInt_logabs'] = 'La derivada formal de su respuesta equivale a la expresión que se le pidió que integrara. Sin embargo, su respuesta difiere de la respuesta correcta de una manera significativa, por ejemplo, en una constante de integración.
-Su profesor puede esperar que use el resultado de \\(\\int\\frac{1}{x} dx = \\log(|x|)+c\\), en lugar de \\(\\int\\frac{1}{x} dx = \\log(x)+c\\).  Por favor, pregúntele a su profesor acerca de esto.';
-$string['ATInt_logabs_inconsistent'] = 'Al parecer hay inconsistencias extrañas entre su uso de \\(\\log(...)\\) y \\(\\log(|...|)\\). Por favor, pregúntele a su profesor al respecto.';
-$string['ATInt_STACKERROR_OptList'] = 'La prueba de respuesta falló y no se ejecutó correctamente. Por favor avise a su profesor. Cuando la opción para ATInt es una lista, debe tener exactamente dos elementos, pero no los tiene.';
-$string['ATInt_weirdconst'] = 'La derivada formal de su respuesta no es igual a la expresión que se le pidió integrar. Sin embargo, tiene una constante de integración extraña. Por favor, pregunte a su profesor sobre esto.';
-$string['AT_InvalidOptions'] = 'El campo opción es inválido. {$a->errors}';
-$string['ATList_wrongentries'] = 'Las entradas subrayadas en rojo son aquellas que son incorrectas. {$a->m0}';
-$string['ATList_wronglen'] = 'La lista debería tener {$a->m0} elementos, pero actualmente tiene {$a->m1}.';
-$string['ATLowestTerms_entries'] = 'Los siguientes términos no están en su mínima expresión en tu respuesta.  {$a->m0} Por favor intenta de nuevo.';
-$string['ATLowestTerms_not_rat'] = 'Debe eliminar lo siguiente del denominador de su fracción: {$a->m0}';
-$string['ATLowestTerms_wrong'] = 'Necesitas cancelar fracciones en tu respuesta.';
-$string['ATMatrix_wrongentries'] = 'Las entradas subrayadas en rojo son aquellas que son incorrectas. {$a->m0}';
-$string['ATMatrix_wrongsz'] = 'La matriz debería ser {$a->m0} por {$a->m1}, pero en realidad es {$a->m2} por {$a->m3}.';
-$string['AT_MissingOptions'] = 'Se omitió alguna opción cuando se ejecutó la prueba.';
-$string['AT_NOTIMPLEMENTED'] = 'Esta prueba de respuesta no ha sido implementada.';
-$string['ATNumDecPlaces_NoDP'] = 'Su respuesta debe ser un número decimal, incluyendo un punto decimal.';
-$string['ATNumDecPlaces_OptNotInt'] = 'Para ATNumDecPlaces la opción de prueba debe ser un número entero positivo y se recibió "{$a->opt}".';
-$string['ATNumDecPlaces_Wrong_DPs'] = 'Su respuesta ha sido dada al número equivocado de decimales.';
-$string['ATNumerical_FAILED'] = 'Su respuesta debería ser un número de punto flotante, o una lista o un conjunto de números, y no es así.';
-$string['ATNumerical_SA_not_list'] = 'Su respuesta debería de ser una lista, pero no es así. Tenga en cuenta que la sintaxis para escribir una lista es incluir los valores separados por coma dentro de corchetes.';
-$string['ATNumerical_SA_not_number'] = 'Su respuesta debería de ser un número de punto flotante, pero no es así.';
-$string['ATNumerical_SA_not_set'] = 'Su respuesta debería de ser un conjunto, pero no es así. Tenga en cuenta que la sintaxis para escribir un conjunto es incluir los valores separados por coma dentro de llaves.';
-$string['ATNumerical_STACKERROR_tol'] = 'La tolerancia numérica para ATNumerical debería de ser un número de punto flotante, pero no lo es. Este es un error interno con la prueba. Por favor, dígale esto a su profesor.';
-$string['ATNum_OutofRange'] = 'Una expresión numérica está fuera del rango soportado. Por favor, póngase en contacto con su profesor.';
-$string['ATNumSigFigs_error_list'] = 'La prueba a la respuesta falló.  Por favor, contacta al administrador del sistema';
-$string['ATNumSigFigs_Inaccurate'] = 'La precisión de la respuesta no es correcta. O no has redondeado adecuadamente, o has redondeado un resultado parcial donde se propago el error.';
-$string['ATNumSigFigs_NotDecimal'] = 'La respuesta debería ser un número decimal, pero no es así!';
-$string['ATNumSigFigs_WrongDigits'] = 'La respuesta contiene un número incorrecto de dígitos significativos.';
-$string['ATNumSigFigs_WrongSign'] = 'Su respuesta tiene el signo algebraico equivocado.';
-$string['ATPartFrac_denom_ret'] = 'Si la respuesta se escribe como fracción común, entonces el denominador sería {$a->m0}. De hecho, debería ser {$a->m1}.';
-$string['ATPartFrac_diff_variables'] = 'Las variables en la respuesta son diferentes a las de la pregunta, por favor revisa.';
-$string['ATPartFrac_error_list'] = 'La prueba a la respuesta falló. Por favor contacta al administrador del sistema';
-$string['ATPartFrac_ret_expression'] = 'La respuesta como fracción común es {$a->m0}';
-$string['ATPartFrac_single_fraction'] = 'La respuesta parece ser una fracción común, cuando debería ser una fracción parcial.';
-$string['ATPartFrac_true'] = '';
-$string['ATRegEx_missing_option'] = 'Falta una expresión regular en el campo opciones (CAS).';
-$string['ATSet_wrongentries'] = 'Las siguientes entradas son incorrectas, aunque parece que están en forma simplificada de lo que actualmente entró. {$a->m0}';
-$string['ATSet_wrongsz'] = 'El conjunto debería tener {$a->m0} elementos diferentes, pero actualmente tiene {$a->m1}.';
-$string['ATSingleFrac_div'] = 'La respuesta contiene fracciones dentro de fracciones.  Necesitas simplificar y escribir la respuesta como una fracción común.';
-$string['ATSingleFrac_error_list'] = 'La prueba a la respuesta falló.  Por favor contacta al administrador del sistema';
-$string['ATSingleFrac_part'] = 'La respuesta debe ser una fracción común de la forma ( {a}over{b} ).';
-$string['ATSingleFrac_ret_exp'] = 'La respuesta no es algebraicamente equivalente a la respuesta correcta. Debiste cometer un error.';
-$string['ATSingleFrac_true'] = '';
-$string['ATSingleFrac_var'] = 'Las variables en la respuesta son diferentes a las de la pregunta, por favor revisa.';
-$string['ATSysEquiv_SA_extra_variables'] = 'La respuesta incluye muchas variables!';
-$string['ATSysEquiv_SA_missing_variables'] = 'Falta en la respuesta una o mas variables!';
-$string['ATSysEquiv_SA_not_eq_list'] = 'La respuesta debería ser una lista de ecuaciones, pero no es así!';
-$string['ATSysEquiv_SA_not_list'] = 'La respuesta debería ser una lista, pero no es así!';
-$string['ATSysEquiv_SA_not_poly_eq_list'] = 'Una o mas de las ecuaciones no es un polinomio!';
-$string['ATSysEquiv_SA_system_underdetermined'] = 'The equations in your system appear to be correct, but you need others besides.';
-$string['ATSysEquiv_SB_not_eq_list'] = 'La respuesta del profesor no es una lista de ecuaciones';
-$string['ATSysEquiv_SB_not_list'] = 'La respuesta del profesor no es una lista.  Por favor, contacta al profesor.';
-$string['ATSysEquiv_SB_not_poly_eq_list'] = 'La respuesta del profesor debe ser una lista de ecuaciones polinómicas, pero no es así. Por favor, contacta al profesor.';
 $string['autosimplify'] = 'Autosimplificar';
+$string['autosimplify_help'] = 'Fija la variable "simp" de Maxima para el arbol de respuestas potenciales.';
 $string['autosimplify_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/CAS/Maxima.md#Simplification';
 $string['booleangotunrecognisedvalue'] = 'Entrada invalida.';
 $string['boxsize'] = 'Tamaño de la caja';
@@ -207,6 +216,7 @@ Supongamos que tenemos la función (f(g(x))), entonces definimos (u=g(x)), la de
 También podemos escribirla como:
 [frac{df(x)}{dx} = f\'(g(x))cdot g\'(x).]';
 $string['calc_chain_rule_name'] = 'Regla de la Cadena';
+$string['calc_diff_linearity_rule_fact'] = '[{{rm d},over {rm d}x}big(af(x)+bg(x)big)=a{{rm d}f(x)over {rm d}x}+b{{rm d}g(x)over {rm d}x}quad a,b {rm  constant}]';
 $string['calc_diff_linearity_rule_name'] = 'Regla de Linealidad para la Diferenciación';
 $string['calc_diff_standard_derivatives_fact'] = 'La siguiente tabla muestra algunas derivadas de funciones básicas.  Es útil aprender estas derivadas básicas porque son usadas frecuentemente en cálculo.
 <center>
@@ -239,8 +249,23 @@ $string['calc_diff_standard_derivatives_fact'] = 'La siguiente tabla muestra alg
  [ frac{d}{dx}left(sinh^{-1}(x)right) =  frac{1}{sqrt{x^2+1}}]
  [ frac{d}{dx}left(tanh^{-1}(x)right) =  frac{1}{1-x^2}]';
 $string['calc_diff_standard_derivatives_name'] = 'Derivadas Básicas';
+$string['calc_int_linearity_rule_fact'] = '[int left(af(x)+bg(x)right){rm d}x = aint!!f(x),{rm d}x
+,+,bint !!g(x),{rm d}x, quad (a,b , , {rm constant})
+]';
 $string['calc_int_linearity_rule_name'] = 'Regla de Linealidad de la Integral';
+$string['calc_int_methods_parts_fact'] = '[
+int_a^b u{{rm d}vover {rm d}x}{rm d}x=left[uvright]_a^b-
+int_a^b{{rm d}uover {rm d}x}v,{rm d}x
+]
+Or alternatively: [int_a^bf(x)g(x),{rm d}x=left[f(x),int
+g(x){rm d}xright]_a^b -int_a^b{{rm d}fover {rm
+d}x}left{int g(x){rm d}xright}{rm d}x ]';
 $string['calc_int_methods_parts_name'] = 'Integración por Partes';
+$string['calc_int_methods_substitution_fact'] = '[
+int f(u){{rm d}uover {rm d}x}{rm d}x=int f(u){rm d}u
+quadhbox{and}quad int_a^bf(u){{rm d}uover {rm d}x},{rm
+d}x = int_{u(a)}^{u(b)}f(u){rm d}u
+]';
 $string['calc_int_methods_substitution_name'] = 'Integración por sustitución';
 $string['calc_int_standard_integrals_fact'] = '[int k dx = kx +c, mbox{ donde k es una constante.}]
 [int x^n dx  = frac{x^{n+1}}{n+1}+c, quad (nne -1)]
@@ -306,6 +331,7 @@ $string['complexno_help'] = 'Controla el significado y visualización del simbol
 $string['complexno_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Options.md#sqrt_minus_one.';
 $string['createtestcase'] = 'Crear caso de prueba';
 $string['currentlyselectedvariant'] = 'Esta variante se muestra abajo';
+$string['ddl_empty'] = 'No hay opciones en el menú desplegable. Por favor ingresa un grupo de valores enlazados con a,b,c,d';
 $string['debuginfo'] = 'Información de depurado';
 $string['defaultprtcorrectfeedback'] = 'Respuesta correcta, bien hecho.';
 $string['defaultprtincorrectfeedback'] = 'Respuesta incorrecta.';
@@ -329,8 +355,6 @@ $string['expectedanswernote'] = 'Nota de respuesta esperada';
 $string['expectedoutcomes'] = 'Resultado esperado';
 $string['expectedpenalty'] = 'Penalización esperada';
 $string['expectedscore'] = 'Calificación esperada';
-$string['FacForm_UnPick_intfac'] = 'Es necesario extraer factor común.';
-$string['FacForm_UnPick_morework'] = 'Podría hacer mas trabajo en el término {$a->m0}.';
 $string['false'] = 'Falso';
 $string['falsebranch'] = 'Rama falsa';
 $string['falsebranch_help'] = 'Este campo controla la prueba a la respuesta cuando es falsa
@@ -354,11 +378,42 @@ $string['forbidfloat_help'] = 'Si es verdadero, entonces cualquier respuesta del
 $string['forbidfloat_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Forbid_Floats';
 $string['forbidwords'] = 'Palabras prohibidas';
 $string['forbidwords_help'] = 'Es una lista separada por comas de cadenas de texto que serán prohibidas como respuesta de estudiantes.';
+$string['forbidwords_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/CASText.md#Forbidden_Words';
 $string['generalfeedback'] = 'Retroalimentación general';
 $string['generalfeedback_help'] = 'Retroalimentación general es un CASText. También conocida como "solución desarrollada", está se muestra al estudiante después de haber intentado resolver la pregunta. La retroalimentación general se muestra a todos los estudiantes, a diferencia de la retroalimentación que depende de la respuesta que el alumno ingreso. Esta retroalimentación general también puede depender de las variables de la pregunta.';
 $string['generalfeedback_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/CASText.md#general_feedback';
+$string['greek_alphabet_fact'] = '<center>
+<table>
+<tr><td>
+ Mayúsculas, (quad) </td><td>  Minúsculas, (quad) </td><td>  Nombre </td> </tr>   <tr> <td>
+ (A)  </td><td>  (alpha)  </td><td>  alfa  </td> </tr>   <tr> <td>
+ (B)  </td><td>  (beta)  </td><td>  beta </td> </tr>   <tr> <td>
+ (Gamma)  </td><td>  (gamma)  </td><td>  gamma </td> </tr>   <tr> <td>
+ (Delta)  </td><td>  (delta)  </td><td>  delta </td> </tr>   <tr> <td>
+ (E)  </td><td>  (epsilon)  </td><td>  épsilon </td> </tr>   <tr> <td>
+ (Z)  </td><td>  (zeta)  </td><td>  dseta </td> </tr>   <tr> <td>
+ (H)  </td><td>  (eta)  </td><td>  eta </td> </tr>   <tr> <td>
+ (Theta)  </td><td>  (theta)  </td><td>  theta </td> </tr>   <tr> <td>
+ (K)  </td><td>  (kappa)  </td><td>  kappa </td> </tr>   <tr> <td>
+ (M)  </td><td>  (mu)  </td><td>  mi </td> </tr>   <tr> <td>
+ (N)  </td><td>  ) u)  </td><td>  ni </td> </tr>   <tr> <td>
+ (Xi)  </td><td>  (xi)  </td><td>  xi </td> </tr>   <tr> <td>
+ (O)  </td><td>  (o)  </td><td>  omicron </td> </tr>   <tr> <td>
+ (Pi)  </td><td>  (pi)  </td><td>  pi </td> </tr>   <tr> <td>
+ (I)  </td><td>  (iota)  </td><td>  iota </td> </tr>   <tr> <td>
+ (P)  </td><td>  (rho) </td><td>  rho </td> </tr>   <tr> <td>
+ (Sigma)  </td><td>  (sigma)  </td><td>  sigma </td> </tr>   <tr> <td>
+ (Lambda)  </td><td>  (lambda)  </td><td>  lambda </td> </tr>   <tr> <td>
+ (T)  </td><td>  (tau)  </td><td>  tau </td> </tr>   <tr> <td>
+ (Upsilon)  </td><td>  (upsilon)  </td><td>  ípsilon </td> </tr>   <tr> <td>
+ (Phi)  </td><td>  (phi)  </td><td>  phi </td> </tr>   <tr> <td>
+ (X)  </td><td>  (chi)  </td><td>  xi </td> </tr>   <tr> <td>
+ (Psi)  </td><td>  (psi)  </td><td> psi </td> </tr>   <tr> <td>
+ (Omega)  </td><td>  (omega)  </td><td>  omega </td></tr>
+</table></center>';
 $string['greek_alphabet_name'] = 'Alfabeto Griego';
 $string['healthcheck'] = 'STACK healthcheck';
+$string['healthcheck_desc'] = 'The <a href="{$a->link}">healthcheck script</a> helps you verify that all aspects of Stack are working properly.';
 $string['healthcheckcache_db'] = 'CAS results are being cached in the database.';
 $string['healthcheckcache_none'] = 'CAS results are not being cached.';
 $string['healthcheckcachestatus'] = 'The cache currently contains {$a} entries.';
@@ -367,9 +422,9 @@ $string['healthcheckconfigintro1'] = 'Found, and using, Maxima in the following 
 $string['healthcheckconfigintro2'] = 'Trying to automatically write the Maxima configuration file.';
 $string['healthcheckconnect'] = 'Trying to connect to the CAS';
 $string['healthcheckconnectintro'] = 'We are trying to evaluate the following CAS text:';
-$string['healthcheck_desc'] = 'The <a href="{$a->link}">healthcheck script</a> helps you verify that all aspects of Stack are working properly.';
 $string['healthchecklatex'] = 'Check LaTeX is being converted correctly';
 $string['healthchecklatexintro'] = 'STACK generates LaTeX on the fly, and enables teachers to write LaTeX in questions. It assumes that LaTeX will be converted by a moodle filter.  Below are samples of displayed and inline expressions in LaTeX which should be appear correctly in your browser.  Problems here indicate incorrect moodle filter settings, not faults with STACK itself. Stack only uses the single and double dollar notation itself, but some question authors may be relying on the other forms.';
+$string['healthchecklatexmathjax'] = 'One way to get equiation rendering to work is to copy the following code into the <b>Within HEAD</b> setting on <a href="{$a}">Additional HTML</a>.';
 $string['healthcheckmaximabat'] = 'The maxima.bat file is missing';
 $string['healthcheckmaximabatinfo'] = 'This script tried to automatically copy the maxima.bat script from inside "C:Program filesMaxima-1.xx.ybin" into "{$a}stack". However, this seems not to have worked. Please copy this file manually.';
 $string['healthcheckplots'] = 'Graph plotting';
@@ -398,7 +453,6 @@ $string['hyp_inverse_functions_fact'] = '[cosh^{-1}(x)=lnleft(x+sqrt{x^2-1}right
  [tanh^{-1}(x) = frac{1}{2}lnleft({1+xover 1-x}right) quad mbox{ for } -1< x < 1]';
 $string['hyp_inverse_functions_name'] = 'Funciones Hiperbólicas Inversas';
 $string['illegalcaschars'] = 'Los carácteres @ y $ no están permitidos en la entrada CAS.';
-$string['Illegal_floats'] = 'Tu respuesta contiene números con punto decimal, eso no esta permitido en esta pregunta. Necesitas escribir el número en fraciones. Por ejemplo, debes escribir 1/3 no 0.3333.';
 $string['inputdisplayed'] = 'Mostrado como';
 $string['inputentered'] = 'Valor ingresado';
 $string['inputexpression'] = 'Prueba de la entrada';
@@ -411,21 +465,20 @@ $string['inputstatusnamescore'] = 'Calificación';
 $string['inputstatusnamevalid'] = 'Valido';
 $string['inputtest'] = 'Prueba de entrada';
 $string['inputtype'] = 'Tipo de entrada';
+$string['inputtype_help'] = 'Determina el tipo del elemento de entrada, formas como Algebraica, Verdadero/Falso, Área de texto.';
+$string['inputtype_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md';
 $string['inputtypealgebraic'] = 'Algebraica';
 $string['inputtypeboolean'] = 'Verdadero/Falso';
 $string['inputtypedropdown'] = 'Menu desplegable';
-$string['inputtype_help'] = 'Determina el tipo del elemento de entrada, formas como Algebraica, Verdadero/Falso, Área de texto.';
-$string['inputtype_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md';
 $string['inputtypematrix'] = 'Matriz';
 $string['inputtypesinglechar'] = 'Un solo carácter';
 $string['inputtypetextarea'] = 'Área de texto';
 $string['insertstars'] = 'Insertar asteriscos';
+$string['insertstars_help'] = 'Si es verdadero entonces el sistema insertará automaticamente asteriscos dentro de cualquier patrón dentro de Sintaxis extricta. En otro caso, se mostrá un error';
 $string['insertstars_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Insert_Stars';
 $string['irred_Q_commonint'] = 'Tienes que extraer factor común.';
 $string['irred_Q_factored'] = 'El término {$a->m0} debería estar desarrollado, pero no es así.';
 $string['irred_Q_optional_fac'] = 'Podrías trabajar un poco mas, {$a->m0} puede factorizarse mas.  Desde luego, no es necesario.';
-$string['Lowest_Terms'] = 'Tu respuesta contiene fracciones que no están escritas en su mínima expresión. Por favor, cancela facores e intenta de nuevo.';
-$string['Maxima_DivisionZero'] = 'División por cero.';
 $string['multcross'] = 'Cruz';
 $string['multdot'] = 'Punto';
 $string['multiplicationsign'] = 'Signo de multiplicación';
@@ -437,6 +490,21 @@ $string['mustverify_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Author
 $string['next'] = 'Siguiente';
 $string['nextcannotbeself'] = 'Un nodo no puede ligarse a sí mismo con el siguiente nodo.';
 $string['nodehelp'] = 'Nodo del álbol de respuesta';
+$string['nodehelp_help'] = '### Prueba
+Es usada para comparar de expresiones y establecer si satifacen algún criterio matemático.
+
+### SAns
+Es el primer argumento para la función que compara la respuesta. Es un prueba asimétrica que debe considerarse como "la respuesta del alumno" aunque puede ser cualquier expresión CAS válida, y también puede depener de las variables de la pregunta o variables de la retroalimentación.
+
+### TAns
+Es el segundo argumento de la función que compara la respuesta. Es un prueba asimétrica que debe considerarse como "la respuesta del alumno" aunque puede ser cualquier expresión CAS válida, y también puede depener de las variables de la pregunta o variables de la retroalimentación.
+
+### Opciones
+Este campo permite habilitar que la función que compara la respuesta acepte opciones, p.e. variables o preciones numericas.
+
+### Silencio
+Cuando es habilitado, cualquier retroalimentación automaticamente generada por la función que compara la respuesta, es suprimida, y no es mostrada al estudiante. Los campos de retroalimentiación en las ramas del árbol no son afectados por esta opción.';
+$string['nodeloopdetected'] = 'Se ha detectado un ciclo en este PRT.';
 $string['nodenotused'] = 'No hay otros nodos en el PRT que enlazan a este nodo.';
 $string['nodex'] = 'Nodo {$a}';
 $string['nodexdelete'] = 'Borrar nodo {$a}';
@@ -449,10 +517,10 @@ $string['notanswered'] = 'No respondido';
 $string['notestcasesyet'] = 'No se han agregado casos de prueba aún.';
 $string['options'] = 'Opciones';
 $string['penalty'] = 'Penalización';
-$string['penaltyerror'] = 'La penalización es un valor númerico entre 0 y 1.';
-$string['penaltyerror2'] = 'La penalización debe estar en blanco, o ser un valor númerico entre 0 y 1.';
 $string['penalty_help'] = 'El sistema de penalización descuenta este valor del resultado de cada PRT para cada intento diferente y valido que no fué completamente correcto.';
 $string['penalty_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Feedback.md';
+$string['penaltyerror'] = 'La penalización es un valor númerico entre 0 y 1.';
+$string['penaltyerror2'] = 'La penalización debe estar en blanco, o ser un valor númerico entre 0 y 1.';
 $string['phpcasstring'] = 'PHP output';
 $string['phpsuitecolerror'] = 'PHP errors';
 $string['phpvalid'] = 'V1';
@@ -460,15 +528,17 @@ $string['phpvalidatemismatch'] = '[PHP validate mismatch]';
 $string['pleaseananswerallparts'] = 'Por favor, responde todas las partes de la pregunta.';
 $string['pleasecheckyourinputs'] = 'Por favor, verifica que tu respuesta fue interpretada como se esperaba.';
 $string['pluginname'] = 'STACK';
+$string['pluginname_help'] = 'STACK es un sistema de evaluación en matemáticas.';
 $string['pluginnameadding'] = 'Agregando una pregunta STACK';
 $string['pluginnameediting'] = 'Editando una pregunta STACK';
-$string['pluginname_help'] = 'STACK es un sistema de evaluación en matemáticas.';
+$string['pluginnamesummary'] = 'STACK provee preguntas matemáticas para cuestionarios en moodle. Utiliza un sistema de álgebra computacional para establecer las propiedades matemáticas en las respuestas de estudiantes.';
 $string['prtcorrectfeedback'] = 'Retroalimentación standard cuando es correcto';
 $string['prtheading'] = 'Árbol de respuestas potenciales: {$a}';
 $string['prtincorrectfeedback'] = 'Retroalimentación standard cuando es incorrecto';
 $string['prtname'] = 'Nombre del PRT';
 $string['prtpartiallycorrectfeedback'] = 'Retroalimentación standard cuando es parcialmente correcto';
 $string['prtwillbecomeactivewhen'] = 'Este árbol de respuestas potenciales se activará cuando el estudiante haya contestado: {$a}';
+$string['qm_error'] = 'Tu respuesta contiene signos de interrogación, esto no esta permitido como respuestas. Debes reemplazarlos por valores especificos.';
 $string['questiondoesnotuserandomisation'] = 'Esta pregunta no usa aleatorización.';
 $string['questionnotdeployedyet'] = 'Aún no han sido implementadas variantes para esta pregunta.';
 $string['questionnote'] = 'Notas de la pregunta';
@@ -481,9 +551,9 @@ $string['questionsimplify_help'] = 'Establece la variable global "simp" de Maxim
 $string['questionsimplify_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/CAS/Maxima.md#Simplification';
 $string['questiontests'] = 'Casos de prueba';
 $string['questiontext'] = 'Texto de la pregunta';
-$string['questiontextfeedbackonlycontain'] = 'El texo de la pregunta en combinación con la retroalimentación especifica sólo debe contener la palabra \'{$a}\' una véz.';
 $string['questiontext_help'] = 'El texto de la pregunta es un CASText. Esta es la "pregunta" que el estudiante realmente ve. Debes poner los elementos de entrada, y las cadenas de validación en este campo y sólo en este campo. Por ejemplo, usar `[[input:ans1]] [[validation:ans1]]`.';
 $string['questiontext_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/CASText.md#question_text';
+$string['questiontextfeedbackonlycontain'] = 'El texo de la pregunta en combinación con la retroalimentación especifica sólo debe contener la palabra \'{$a}\' una véz.';
 $string['questiontextmustcontain'] = 'EL texto de la pregunta debería contener el símbolo \'{$a}\'.';
 $string['questiontextnonempty'] = 'El texto de la pregunta no debe estar vacío.';
 $string['questiontextonlycontain'] = 'El texto de la pregunta solo debe contener el símbolo \'{$a}\' una vez.';
@@ -493,13 +563,16 @@ $string['questionvariables'] = 'Variables de la pregunta';
 $string['questionvariables_help'] = 'Este campo permite definir y manipular variables CAS, p.e. crear versiones aleatorias. Las variables están disponibles en todas las partes de la pregunta.';
 $string['questionvariables_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/KeyVals.md';
 $string['quiet'] = 'Silencio';
+$string['quiet_help'] = 'Cuando es habilitado, cualquier retroalimentación automaticamente generada por la función que compara la respuesta, es suprimida, y no es mostrada al estudiante. Los campos de retroalimentiación en las ramas del árbol no son afectados por esta opción.';
 $string['requiredfield'] = 'Este campo es requerido!';
 $string['requirelowestterms'] = 'Requerir mínima expresión';
 $string['requirelowestterms_help'] = 'Cuando esta opción es Si, cual quier coeficiente o números racionales dentro de una expresión, deberán ser escritos en su mínima expresión. De otra manera la respuesta será rechazada como inválida.';
 $string['requirelowestterms_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Require_lowest_terms';
+$string['runquestiontests'] = 'Correr casos de prueba...';
 $string['sans'] = 'SAns';
-$string['sansinvalid'] = 'SAns es invalida: {$a}';
+$string['sans_help'] = 'Es el primer argumento para la función que compara la respuesta. Es un prueba asimétrica que debe considerarse como "la respuesta del alumno" aunque puede ser cualquier expresión CAS válida, y también puede depener de las variables de la pregunta o variables de la retroalimentación.';
 $string['sans_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md';
+$string['sansinvalid'] = 'SAns es invalida: {$a}';
 $string['sansrequired'] = 'SAns no debe estar vacía.';
 $string['score'] = 'Calificación';
 $string['scoreerror'] = 'La calificación debe ser un número entre 0 y 1.';
@@ -517,8 +590,11 @@ $string['settingcasresultscache_none'] = 'Do not cache';
 $string['settingcastimeout'] = 'CAS connection timeout';
 $string['settingcastimeout_desc'] = 'The timout to use when trying to connect to Maxima.';
 $string['settingplatformmaximacommand'] = 'Maxima command';
+$string['settingplatformmaximacommand_desc'] = 'Stack needs to know the shell command to start Maxima.  If this is blank, Stack will make an educated guess.';
 $string['settingplatformplotcommand'] = 'Plot command';
+$string['settingplatformplotcommand_desc'] = 'Stack needs to know the gnuplot command.  If this is blank, Stack will make an educated guess.';
 $string['settingplatformtype'] = 'Platform type';
+$string['settingplatformtype_desc'] = 'Stack needs to know what sort of operating system it is running on. The Server and MaximaPool options give better performance at the cost of having to set up an additional server. The option "Linux (optimised)" is explained on the Optimising Maxima page in the documentation.';
 $string['settingplatformtypeserver'] = 'Server';
 $string['settingplatformtypeunix'] = 'Linux';
 $string['settingplatformtypeunixoptimised'] = 'Linux (optimised)';
@@ -534,21 +610,28 @@ $string['specificfeedbacktags'] = 'La retroalimentiación específica no debe co
 $string['sqrtsign'] = 'Radical para la raíz cuadrada';
 $string['sqrtsign_help'] = 'Controla como se muestran los numeros irracionales.';
 $string['sqrtsign_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Options.md#surd';
+$string['stackCas_CASError'] = 'El CAS ha regresado el siguiente error:';
+$string['stackCas_CASErrorCaused'] = 'causó el siguiente error:';
+$string['stackCas_MissingAt'] = 'Hace falta un signo de @.';
+$string['stackCas_MissingCloseDisplay'] = 'Hace falta un ]';
+$string['stackCas_MissingCloseHTML'] = 'Hace falta una etiqueta html cerrada';
+$string['stackCas_MissingCloseInline'] = 'Hace falta un )';
+$string['stackCas_MissingDollar'] = 'Hace falta un signo de $';
+$string['stackCas_MissingOpenDisplay'] = 'Hace falta un [';
+$string['stackCas_MissingOpenHTML'] = 'Hace falta una etiqueta html abierta';
+$string['stackCas_MissingOpenInline'] = 'Hace falta un (';
+$string['stackCas_MissingStars'] = 'Parece que olvidaste el carácter *. Talvéz pretendiste escribir {$a->cmd}.';
 $string['stackCas_allFailed'] = 'Falló el CAS al regresar ninguna expresión evaluada. Por favor comprueba la conexión con el CAS.';
 $string['stackCas_apostrophe'] = 'Los apostrófos no son permitidos en las respuestas.';
 $string['stackCas_bracketsdontmatch'] = 'Existen paréntesis mal anidados en la expresión: {$a->cmd}.';
-$string['stackCas_CASError'] = 'El CAS ha regresado el siguiente error:';
-$string['stackCas_CASErrorCaused'] = 'causó el siguiente error:';
 $string['stackCas_failedReturn'] = 'Falló el CAS al regresar ningún dato.';
 $string['stackCas_failedValidation'] = 'Falló la validación del CASText.';
 $string['stackCas_finalChar'] = '\'{$a->char}\' es un carácter invalido en {$a->cmd}';
 $string['stackCas_forbiddenChar'] = 'Comandos CAS no deben contener los siguientes caráctes: {$a->char}.';
 $string['stackCas_forbiddenWord'] = 'La expresión {$a->forbid} esta prohibida.';
 $string['stackCas_invalidCommand'] = 'Comandos CAS no validos.';
-$string['stackCas_MissingAt'] = 'Hace falta un signo de @.';
 $string['stackCas_missingLeftBracket'] = 'Olvidaste un paréntesis izquierdo <span class="stacksyntaxexample">{$a->bracket}</span> en la expresión: {$a->cmd}.';
 $string['stackCas_missingRightBracket'] = 'Olvidaste un paréntesis derecho  <span class="stacksyntaxexample">{$a->bracket}</span> en la expresión: {$a->cmd}.';
-$string['stackCas_MissingStars'] = 'Parece que olvidaste el carácter *. Talvéz pretendiste escribir {$a->cmd}.';
 $string['stackCas_newline'] = 'Retornos de carro no son permitidos en las respuestas.';
 $string['stackCas_percent'] = 'Se encontró &#037 en la expresión {$a->expr}.';
 $string['stackCas_spaces'] = 'Se encontraron espacios en la expresión {$a->expr}.';
@@ -561,9 +644,11 @@ $string['stackDoc_docs'] = 'Documentación de STACK';
 $string['stackDoc_docs_desc'] = '<a href="{$a->link}">Documentación para  STACK</a>: Wiki estático y local.';
 $string['stackDoc_home'] = 'Inicio de la Documentación';
 $string['stackDoc_index'] = 'Indice de Categorias';
+$string['stackDoc_parent'] = 'Padre';
 $string['stackDoc_siteMap'] = 'Mapa del sitio';
 $string['stackInstall_input_intro'] = 'This page allows you to test how STACK interprets various inputs from a student.  This currently only checks with the most liberal settings, trying to adopt an informal syntax and insert stars.  <br />\'V\' columns record validity as judged by PHP and the CAS.  V1 = PHP valid, V2 = CAS valid.';
 $string['stackInstall_input_title'] = 'A test suite for validation of student\'s input';
+$string['stackInstall_input_title_desc'] = 'The <a href="{$a->link}">input-tests script</a> provides test cases of how STACK interprests mathematical expressions.  They are also useful to learn by example.';
 $string['stackInstall_testsuite_choose'] = 'Please choose an answer test.';
 $string['stackInstall_testsuite_fail'] = 'Not all tests passed!';
 $string['stackInstall_testsuite_intro'] = 'This page allows you to test that the STACK answer tests are functioning correctly.  Note that only answer tests can be checked through the web interface.  Other Maxima commands need to be checked from the command line: see unittests.mac.';
@@ -585,7 +670,6 @@ $string['stackOptions_AnsTest_values_NumAbsolute'] = 'NumAbsolute';
 $string['stackOptions_AnsTest_values_NumRelative'] = 'NumRelative';
 $string['stackOptions_AnsTest_values_NumSigFigs'] = 'NumSigFigs';
 $string['stackOptions_AnsTest_values_PartFrac'] = 'PartFrac';
-$string['stackOptions_AnsTest_values_RegExp'] = 'RegExp';
 $string['stackOptions_AnsTest_values_SameType'] = 'SameType';
 $string['stackOptions_AnsTest_values_SingleFrac'] = 'SingleFrac';
 $string['stackOptions_AnsTest_values_String'] = 'String';
@@ -598,30 +682,29 @@ $string['strictsyntax'] = 'Sintaxis estricta';
 $string['strictsyntax_help'] = '¿La entrada debe ser usando la sintaxis estricta de Maxima? Si no, esto incrementa la gama de patrones que indican la falta de astericos, incluyendo el uso de funciones y notación científica en la entrada.';
 $string['strictsyntax_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Strict_Syntax';
 $string['strlengtherror'] = 'Esta cadena no debe exceder 255 carácteres de tamaño.';
-$string['studentanswer'] = 'Student response';
 $string['studentValidation_invalidAnswer'] = 'Esta respuesta es invalida.';
 $string['studentValidation_yourLastAnswer'] = 'Tu respuesta fue interpretado como: {$a}';
-$string['Subst'] = 'La respuesta será correcta si utilizas la siguiente sustitución de variables. {$a->m0}';
+$string['studentanswer'] = 'Student response';
 $string['switchtovariant'] = 'Cambiar a una variarte arbitraria';
 $string['syntaxhint'] = 'Sugerir sintaxis';
 $string['syntaxhint_help'] = 'Cuando el estudiante deje en blanco el campo de respuesta aparecerá el contenido sugerido en esta caja.';
 $string['syntaxhint_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#Syntax_Hint';
 $string['tans'] = 'TAns';
-$string['tansinvalid'] = 'TAns es invalida: {$a}';
+$string['tans_help'] = 'Es el segundo argumento de la función que compara la respuesta. Es un prueba asimétrica que debe considerarse como "la respuesta del alumno" aunque puede ser cualquier expresión CAS válida, y también puede depener de las variables de la pregunta o variables de la retroalimentación.';
 $string['tans_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md';
+$string['tansinvalid'] = 'TAns es invalida: {$a}';
 $string['tansrequired'] = 'TAns no debe esta vacía.';
 $string['teacheranswer'] = 'Teacher answer';
 $string['teachersanswer'] = 'Respuesta modelo';
 $string['teachersanswer_help'] = 'El profesor debe especificar un modelo de respuesta para cada entrada. Este modelo debe ser una expresión de Maxima, y puede ser construida usando las variables de la pregunta.';
 $string['teachersanswer_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Inputs.md#model_answer';
 $string['testcasexresult'] = 'Caso de prueba {$a->no} {$a->result}';
-$string['TEST_FAILED'] = 'La prueba a la respuesta no se ejecutó correctamente:Por favor avisa a tu profesor. {$a->errors}';
 $string['testingquestion'] = 'Probando pregunta {$a}';
 $string['testinputs'] = 'Entradas a probar';
 $string['testoptions'] = 'Opciones';
 $string['testoptions_help'] = 'Este campo permite habilitar que la función que compara la respuesta acepte opciones, p.e. variables o preciones numericas.';
-$string['testoptionsinvalid'] = 'Las opciones de la prueba son invalidas: {$a}';
 $string['testoptions_link'] = '%%WWWROOT%%/question/type/stack/doc/doc.php/Authoring/Answer_tests.md';
+$string['testoptionsinvalid'] = 'Las opciones de la prueba son invalidas: {$a}';
 $string['testoptionsrequired'] = 'Las opciones de la prueba son requeridas para esta prueba.';
 $string['testsuitecolerror'] = 'CAS errors';
 $string['testsuitecolexpectedscore'] = 'Expected mark';

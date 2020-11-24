@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_aardvark', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'theme_aardvark', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_aardvark
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -29,6 +29,16 @@ $string['android'] = 'URL de Google Play Store';
 $string['androiddesc'] = 'Escriba la URL de su página de Google Play Store (por ejemplo: https://play.google.com/store/apps/developer?id=mycollege)';
 $string['apple'] = 'URL de Apple App Store';
 $string['appledesc'] = 'Introduzca la URL de su página en la Apple App Store. (algo como https://itunes.apple.com/gb/artist/my-college/id123456789)';
+$string['backcolor'] = 'Color de fondo';
+$string['backcolordesc'] = 'Cambia el color del fondo (Corresponde a las áreas laterales y  no afecta al área del contenido principal)';
+$string['backimage'] = 'Imagen de fondo';
+$string['backimagedesc'] = 'Cambia la imagen de fondo en el aspecto gráfico. El actual es un azul nube borroso, pero si te parece una cabecera demasiado clara, puedes pegat la URL de la imagen que quieras usar aquí o déjar el campo vacío para utilizar fondo de color blanco.';
+$string['backposition'] = 'Posición de la imagen de fondo';
+$string['backpositioncentred'] = 'Centrado';
+$string['backpositiondesc'] = 'Elija entre una imagen centrada o repetida.';
+$string['backpositionfixed'] = 'Centrado (fijo)';
+$string['backpositionrepeat'] = 'Repetido (horizontal)';
+$string['backpositiontiled'] = 'Repetido (mosaico)';
 $string['basicheading'] = 'Ajustes básicos';
 $string['basicheadingdesc'] = 'Personalizar elementos básicos del tema.';
 $string['ceop'] = 'CEOP';
@@ -70,6 +80,7 @@ $string['customfooter'] = 'Pie de página por defecto';
 $string['customfooterdesc'] = 'El contenido de este área de texto se mostrará en la primera parte/zona del pié de página de todas las páginas.';
 $string['disclaimer'] = 'Renuncia';
 $string['disclaimerdesc'] = 'El contenido de este área de texto se mostrará en la segunda parte/zona del pié de página de todas las páginas.';
+$string['emailurldesc'] = 'Escriba la URL de su servicio de email (por jemplo, http://mail.mycollege.ac.uk or http://www.mycollege.edu/mail)';
 $string['facebook'] = 'URL de Facebook';
 $string['facebookdesc'] = 'Introduzca la URL de su página de Facebook. (algo como http://www.facebook.com/mycollege)';
 $string['flickr'] = 'URL de Flickr';

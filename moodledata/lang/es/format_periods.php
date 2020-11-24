@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_periods', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'format_periods', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   format_periods
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,9 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['currentsection'] = 'Este periodo';
 $string['customdatesformat'] = 'Por defecto';
 $string['datesformat'] = 'Formato de fecha';
+$string['datesformat_help'] = 'Seleccione el formato de las fechas que se muestra en el nombre de periodo por defecto';
 $string['datesformatcustom'] = 'Formato de fecha por defecto';
 $string['datesformatcustom_help'] = 'Especifica un formato de fecha por defecto. Consulte <a href="http://php.net/manual/en/function.strftime.php" target="_blank">php manual</a> para la sintaxis';
-$string['datesformat_help'] = 'Seleccione el formato de las fechas que se muestra en el nombre de periodo por defecto';
 $string['deletesection'] = 'Borrar periodo';
 $string['editsection'] = 'Editar periodo';
 $string['editsectionname'] = 'Editar nombre de periodo';

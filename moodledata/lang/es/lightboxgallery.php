@@ -53,8 +53,8 @@ $string['configenablerssfeeds'] = 'Habilitar canales RSS';
 $string['configenablerssfeedsdesc'] = 'Permitir que se generen canales RSS desde las galerías.';
 $string['configimagelifetime'] = 'Tiempo de vida de imagen';
 $string['configimagelifetimedesc'] = 'Tiempo (en segundos) que permanecen las imágenes en el caché del navegador.';
-$string['configoverwritefiles'] = 'Sobrescribir archivos';
-$string['configoverwritefilesdesc'] = 'Sobrescribir imágenes cuando se suban nuevas imágenes con el mismo nombre de archivo.';
+$string['configoverwritefiles'] = 'Sobre-escribir archivos';
+$string['configoverwritefilesdesc'] = 'Sobre-escribir imágenes cuando se suban nuevas imágenes con el mismo nombre de archivo.';
 $string['configstrictfilenames'] = 'Usar nombres de archivo estrictos';
 $string['configstrictfilenamesdesc'] = 'Forzar a que el editor de imágenes limpie los nombres de acuerdo a las reglas de Moodle para nombres.';
 $string['currentsize'] = 'Tamaño actual';
@@ -69,12 +69,12 @@ $string['edit_choose'] = 'Elija...';
 $string['edit_crop'] = 'Recortar';
 $string['edit_delete'] = 'Eliminar';
 $string['edit_flip'] = 'Voltear';
-$string['editimage'] = 'Editar imagen';
 $string['edit_resize'] = 'Cambiar tamaño';
 $string['edit_resizescale'] = 'Escala';
 $string['edit_rotate'] = 'Rotar';
 $string['edit_tag'] = 'Marca (tag)';
 $string['edit_thumbnail'] = 'Miniatura';
+$string['editimage'] = 'Editar imagen';
 $string['errornofile'] = 'No se encontró el archivo solicitado: {$a}';
 $string['errornoimages'] = 'No se encontraron imágenes en esta galería';
 $string['errornosearchresults'] = 'Su búsqueda no encontró imágenes';
@@ -106,7 +106,6 @@ $string['lightboxgallery:viewcomments'] = 'Ver comentarios de galería de Lightb
 $string['makepublic'] = 'Hacer pública';
 $string['metadata'] = 'Meta datos';
 $string['modulename'] = 'Galería de Caja-de-Luz (Lightbox Gallery)';
-$string['modulenameadd'] = 'Galería de Caja-de-Luz (Lightbox Gallery)';
 $string['modulename_help'] = 'El módulo de recurso de galería Lightbox (lightboxgallery) le permite a los participantes ver una galería de imágenes.
 
 Este recurso le permite a Usted crear galerías de imágenes con  una ´caja de luz\' (lightbox) habilitada dentro de su curso Moodle.
@@ -114,6 +113,7 @@ Este recurso le permite a Usted crear galerías de imágenes con  una ´caja de 
 Como profesor de curso, Usted puede crear, editar y eliminar galerías. Se generarán pequeñas imágenes (thumbnails), que pueden usarse para la vista en imágenes reducidas.
 
 Al elegir cualquiera de las imágenes reducidas le podrá en foco la imágen referida y le permitirá desplazarse por la galería a su antojo. Al usar los scripts de la Lightbox se crean efectos de transición agradables cuando se cargan o desplazan las imágenes.';
+$string['modulenameadd'] = 'Galería de Caja-de-Luz (Lightbox Gallery)';
 $string['modulenameplural'] = 'Galerías de Caja-de-Luz (Lightbox Galleries)';
 $string['modulenameshort'] = 'Galería';
 $string['newgallerycomments'] = 'Comentarios de galería nueva';

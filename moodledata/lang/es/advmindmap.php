@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'advmindmap', language 'es', branch 'MOODLE_29_STABLE'
+ * Strings for component 'advmindmap', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   advmindmap
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

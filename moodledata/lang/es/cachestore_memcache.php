@@ -34,7 +34,6 @@ $string['prefix_help'] = 'Este prefijo se utiliza para todas las claves en el se
 * Debido a las restricciones de longitud de clave, sólo se permite un máximo de 5 caracteres.';
 $string['prefixinvalid'] = 'Prefijo inválido. Sólo puede usar a-z A-Z 0-9-_.';
 $string['servers'] = 'Servidores';
-$string['serversclusterinvalid'] = 'Se requiere un servidor cuando la agrupación está activada.';
 $string['servers_help'] = 'Este ajuste configura los servidores utilizados por el adaptador memcache.
 Los servidores deben definirse uno por línea, indicando la dirección de servidor y, opcionalmente, un puerto y peso.
 Si no se proporciona ningún puerto se utilizará el puerto predeterminado (11211).
@@ -44,7 +43,10 @@ Por ejemplo:
 server.url.com
 IP address:port
 nombre_servidor:puerto:peso
-</pre>';
+</pre>
+
+Si *habilitar servidores agrupados* está habilitado, sólo puede haber un servidor en esta lista. Normalmente será un nombre que siempre determina el equipo local, como 127.0.0.1 o localhost.';
+$string['serversclusterinvalid'] = 'Se requiere un servidor cuando la agrupación está activada.';
 $string['sessionhandlerconflict'] = 'Advertencia: Una instancia memcache ({$a}) ha sido configurada para utilizar el mismo servidor memcached que las sesiones. Al purgar todas las cachés también se purgarán las sesiones.';
 $string['setservers'] = 'Configurar Servidores';
 $string['setservers_help'] = 'Esta es la lista de servidores que se actualizarán cuando los datos se modifican en la caché. Normalmente el nombre completo de cada servidor en el inventario. **Debe** incluir el servidor especificado en *servidores* encima, incluso si es con un nombre de equipo diferente.

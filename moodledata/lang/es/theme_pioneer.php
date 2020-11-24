@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_pioneer', language 'es', branch 'MOODLE_31_STABLE'
+ * Strings for component 'theme_pioneer', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_pioneer
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -50,10 +50,10 @@ $string['backgroundimage_desc'] = 'La imagen a mostrar como fondo del sitio.';
 $string['backgroundimageinfo'] = 'Imagen de fondo';
 $string['backgroundimageinfodesc'] = 'Dado que el contenido principal ocupa todo el ancho solo verá una pequeña porción del color de fondo al final de la página. Puede subir una imagen si lo desea.';
 $string['backgroundposition'] = 'Posición del fondo';
+$string['backgroundposition_desc'] = 'La posición de la imagen de fondo.';
 $string['backgroundpositioncenterbottom'] = 'Centrado abajo';
 $string['backgroundpositioncentercenter'] = 'Centrado en medio';
 $string['backgroundpositioncentertop'] = 'Centrado arriba';
-$string['backgroundposition_desc'] = 'La posición de la imagen de fondo.';
 $string['backgroundpositionleftbottom'] = 'Izuierda abajo';
 $string['backgroundpositionleftcenter'] = 'Izquierdo en medio';
 $string['backgroundpositionlefttop'] = 'Izquierdo arriba';
@@ -99,9 +99,9 @@ $string['choosereadme'] = '<p> Pioneer es un tema hermoso y adaptable cargado co
 $string['colorheading'] = 'Opciones de Color';
 $string['configtitle'] = 'Pioneer';
 $string['contentbackground'] = 'Color de fondo del área principal';
+$string['contentbackground_desc'] = 'El color de fondo de contenido principal del sitio. Déjelo vacío para ninguno.';
 $string['contentbackgroundcolor'] = 'Color de Fondo de Contenidos';
 $string['contentbackgroundcolor_desc'] = 'Este es el color del fondo del área de contenido principal del curso. Si borra el color aquí se aplicará el color de Fondo del Cuerpo así como los ajustes de imagen de fondo.';
-$string['contentbackground_desc'] = 'El color de fondo de contenido principal del sitio. Déjelo vacío para ninguno.';
 $string['copyrighttext'] = 'Nota de Copyright';
 $string['copyrighttext_desc'] = 'Agregar una nota de copyrigth para el sitio. Aparecerá en el pie.';
 $string['coursecomplete'] = 'Mostrar Cumplimiento del Curso de forma Radial';
@@ -140,8 +140,8 @@ $string['footertext1'] = 'Caja de Texto Una Pie de Página';
 $string['footertext2'] = 'Caja de Texto Dos Pie de Página';
 $string['footertext3'] = 'Caja de Texto Tres Pie de Página';
 $string['footertext4'] = 'Caja de Texto Cuatro Pie de Página';
-$string['footertextboxes'] = 'Pie de Página';
 $string['footertext_desc'] = 'Entre el texto HTML que aparecerá al pie de cada página. Se utiliza <span3> con Bootstrap dando 4 columnas.';
+$string['footertextboxes'] = 'Pie de Página';
 $string['forgotpasstoggle'] = 'Enlace Olvido Contraseña';
 $string['forgotpasstoggle_desc'] = 'Muestra u oculta el enlace a Olvido de Contraseña en el formulario personalizable de inicio de sesión de la página principal.';
 $string['fpcreatortextbox'] = 'Cuadro de texto Página Principal Rol Creador de Curso';

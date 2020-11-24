@@ -65,9 +65,9 @@ $string['exporttour'] = 'Exportar tour';
 $string['filter_category'] = 'Categoría';
 $string['filter_category_help'] = 'Mostrar el tour en una página que está asociada con un curso en la categoría seleccionada.';
 $string['filter_course'] = 'Cursos';
+$string['filter_course_help'] = 'Mostrar el tour en una página que está asociada con el curso seleccionado.';
 $string['filter_courseformat'] = 'Formato del curso';
 $string['filter_courseformat_help'] = 'Mostrar el tour en una página que está asociada con un curso usando el formato de curso seleccionado.';
-$string['filter_course_help'] = 'Mostrar el tour en una página que está asociada con el curso seleccionado.';
 $string['filter_header'] = 'Filtros del tour';
 $string['filter_help'] = 'Selecione las condiciones bajo las que se mostrará el tour. Todos los filtros deben de coincidir para que un tour se le muestre a un usuario.';
 $string['filter_role'] = 'Rol';
@@ -126,13 +126,13 @@ $string['target_heading'] = 'Destino del paso';
 $string['target_selector'] = 'Selector';
 $string['target_selector_targetvalue'] = 'Selectores CSS';
 $string['target_selector_targetvalue_help'] = 'Se puede usar un Selector CSS para dirigirse a casi cualquier elemento de la página. El selector apropiado puede encontrarse fácilmente usando las herramientas para desarrolladores de su navegador de Internet.';
+$string['target_unattached'] = 'Mostrar en medio de la página';
 $string['targettype'] = 'Tipo de destino';
 $string['targettype_help'] = 'Cada paso está asociado con una parte de la página - el destino. Los tipos de  destinos son:.
 
 * Bloque - para mostrar un paso junto a un bloque especificado
 * Selector CSS - para definir con precisión el área destino usando CSS
 * Mostrar a la mitad de la página - para un paso que no necesita estar asociado con una parte especifica de la página';
-$string['target_unattached'] = 'Mostrar en medio de la página';
 $string['title'] = 'Título';
 $string['title_help'] = 'El título de un paso puede añadirse como texto simple, rodeado por marcas multi-idioma (para usarse con el filtro de contenido multi-idioma) si se necesita.
 
@@ -165,10 +165,10 @@ $string['tour2_title_navigation'] = 'Navegación';
 $string['tour2_title_opendrawer'] = 'Abrir el cajón de navegación';
 $string['tour2_title_participants'] = 'Participantes del curso';
 $string['tour2_title_welcome'] = 'Bienvenida';
+$string['tour_resetforall'] = 'El estado del tour ha sido reiniciado. Se mostrará nuevamente a todos los usuarios.';
 $string['tourconfig'] = 'Archivo de configuración de tour a importar';
 $string['tourisenabled'] = 'El Tour está habilitado';
 $string['tourlist_explanation'] = 'Puede crear tantos tours como desee y habilitarlos para diferentes partes de Moodle. Solamente puede crearse un tour por página.';
-$string['tour_resetforall'] = 'El estado del tour ha sido reiniciado. Se mostrará nuevamente a todos los usuarios.';
 $string['tours'] = 'Tours';
 $string['usertours'] = 'Tours para usuario';
 $string['usertours:managetours'] = 'Crear, editar, y eliminar tours para usuarios';

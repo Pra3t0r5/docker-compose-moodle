@@ -65,8 +65,8 @@ $string['changetoindividualmode'] = 'El modo de juego ha cambiado a jugar indivi
 $string['changetoplaywithmove'] = 'El modo de juego ha cambiado a jugar desplazándose';
 $string['changetoplaywithoutmoving'] = 'El modo de juego ha cambiado a jugar sin desplazarse';
 $string['cleartreasurehunt'] = 'Resetea la Caza del Tesoro';
-$string['cleartreasurehuntconfirm'] = 'Cuidado con esta acción. Si continua se eliminará toda la actividad de los participantes. Normalmente sólo es necesario para reiniciar la actividad y poder modificar el número de caminos o etapas en una Caza del Tesoro en la que haya participado alguien por error o para pruebas. Actualmente hay {$a} registros de actividad.';
 $string['cleartreasurehunt_done'] = 'La actividad se ha inicializado. Toda la actividad de los participantes se ha eliminado.';
+$string['cleartreasurehuntconfirm'] = 'Cuidado con esta acción. Si continua se eliminará toda la actividad de los participantes. Normalmente sólo es necesario para reiniciar la actividad y poder modificar el número de caminos o etapas en una Caza del Tesoro en la que haya participado alguien por error o para pruebas. Actualmente hay {$a} registros de actividad.';
 $string['completionfinish'] = 'Requiere terminar el itinerario.';
 $string['completionfinish_help'] = 'Se completa cuando el usuario pasa todas las etapas de un itinerario.';
 $string['configintro'] = 'Los valores fijados aquí definen los valores por defecto usados en el formulario de especificaciones
@@ -82,7 +82,7 @@ $string['customlayertype'] = 'Tipo de capa';
 $string['customlayertype_help'] = 'La imagen puede usarse como fondo del mapa o mostrarse por encima de los mapas usuales de carreteras o satélite.';
 $string['customlayerwms'] = 'Servicio WMS';
 $string['customlayerwms_help'] = 'Utiliza una capa cartográfica obtenida de un servicio OGC WMS. (Por ejemplo, la capa de ecosistemas de bosques EUNIS Forest Ecosystems WMS se configura con: WMS: <code style="overflow-wrap: break-word;word-wrap: break-word;">http://bio.discomap.eea.europa.eu/arcgis/services/Ecosystem/Ecosystems/MapServer/WMSServer</code> PARAMS: <code>LAYERS=4</code>)';
-$string['custommapbaselayer'] = 'La imagen se usa como una opción ADICIONAL de mapa base';
+$string['custommapbaselayer'] = 'La imagen se usa como una opción adicional de mapa base.';
 $string['custommapimagefile'] = 'Imagen de mapa';
 $string['custommapimagefile_help'] = 'Cargue una imagen de suficiente resolución y rellene los 4 campos siguientes con las coordenadas de proyección sobre el terreno.';
 $string['custommapmaxlat'] = 'Latitud norte';
@@ -100,8 +100,8 @@ $string['custommapping'] = 'Mapa personalizado';
 $string['customwmsparams'] = 'Parámetros adicionales WMS';
 $string['customwmsparams_help'] = 'Los parámetros que definen el aspecto del mapa. Con formato análogo a: "LAYERS=fondo,calles;STYLES=azul,callejero"';
 $string['cutoffdate'] = 'Fecha límite';
-$string['cutoffdatefromdatevalidation'] = 'La fecha límite debe ser posterior de la de inicio.';
 $string['cutoffdate_help'] = 'Si se activa la opción, no se aceptarán intentos después de esta fecha sin una ampliación.';
+$string['cutoffdatefromdatevalidation'] = 'La fecha límite debe ser posterior de la de inicio.';
 $string['discoveredlocation'] = 'Localización descubierta';
 $string['donetutorial'] = '¡Visto!';
 $string['drawmode'] = 'Dibujar';
@@ -200,28 +200,25 @@ nota en un 16.2%, es decir, recibirá el 83.8% de la calificación calculada con
 $string['gradesdeleted'] = 'Eliminadas calificaciones de la caza del tesoro';
 $string['gradingsummary'] = 'Sumario de calificaciones';
 $string['group'] = 'Grupo';
-$string['groupactivityovercome'] = 'Actividad a finalizar completada con éxito por {$a->user} para la etapa {$a->position} {$a->date}';
+$string['groupactivityovercome'] = 'Actividad a finalizar completada con éxito por {$a->user}
+para la etapa {$a->position} en la fecha: {$a->date}';
 $string['groupid'] = 'Grupo asignado al camino';
 $string['groupid_help'] = 'Los usuarios de este grupo son asignados a este camino cuando empieza el juego.
 Si sólo existe un camino y la opción seleccionada es "ninguno", todos los participantes de la actividad jugarán por él';
 $string['groupingid'] = 'Agrupación asignada al camino';
 $string['groupingid_help'] = 'Los grupos de esta agrupación son asignados a este camino cuando empieza el juego';
 $string['groupinvalidroad'] = '{$a} tiene asignado un camino no validado.';
-$string['grouplocationfailed'] = 'Localización fallida por {$a->user} en la etapa {$a->position} {$a->date}';
-$string['grouplocationovercome'] = 'Localización encontrada por {$a->user} de la etapa {$a->position} {$a->date}';
+$string['grouplocationfailed'] = 'Localización fallida por {$a->user} de la etapa {$a->position} en la fecha: {$a->date}';
+$string['grouplocationovercome'] = 'Localización encontrada por {$a->user} de la etapa {$a->position} en la fecha: {$a->date}';
 $string['groupmode'] = 'Juego en grupos';
-$string['groupmode_help'] = 'Si está habilitado, los estudiantes se dividirán en grupos en función de la configuración de grupos del curso.
-El objetivo del grupo será compartido por los miembros del grupo y todos ellos verán los cambios producidos en el juego.
-Cada miembro del equipo puede resolver la etapa actual y el progreso es común a todos los compañeros. <br/>
-Esto permite "paralelizar" la caza y cubrir más territorio.
-Los participantes ven todos la misma información pero orientada al equipo.';
+$string['groupmode_help'] = 'Si está habilitado los estudiantes se dividirán en grupos en función de la configuración de grupos del curso.
+El juego del grupo será compartido entre los miembros del grupo y todos ellos verán los cambios producidos en el juego.';
 $string['groupmultipleroads'] = '{$a} tiene más de un camino asignado.';
-$string['groupquestionfailed'] = 'Respuesta fallida por {$a->user} a la pregunta de la etapa {$a->position} {$a->date}';
-$string['groupquestionovercome'] = 'Respuesta acertada por {$a->user} a la pregunta de la etapa {$a->position} {$a->date}';
+$string['groupquestionfailed'] = 'Respuesta fallida por {$a->user} a la pregunta de la etapa {$a->position} en la fecha: {$a->date}';
+$string['groupquestionovercome'] = 'Respuesta acertada por {$a->user} a la pregunta de la etapa {$a->position} en la fecha: {$a->date}';
 $string['groups'] = 'Grupos';
-$string['groupstageovercome'] = 'Etapa {$a->position} superada por {$a->user} {$a->date}';
+$string['groupstageovercome'] = 'Etapa {$a->position} superada por {$a->user} en la fecha: {$a->date}';
 $string['hello'] = 'Hola';
-$string['historicalattempts'] = 'Historial de intentos de {$a}';
 $string['history'] = 'Historial';
 $string['huntcompleted'] = 'Ya has completado esta caza del tesoro';
 $string['incorrectanswer'] = 'Respuesta incorrecta.';
@@ -242,8 +239,8 @@ $string['locktimeediting_help'] = 'Tiempo en segundos durante el cual un usuario
 renovar el bloqueo. Cuanto más grande es, menos peticiones de renovación deben hacerse,
 pero más tiempo queda bloqueada la página de edición una vez que el usuario termine.
 Debe ser mayor a 5 segundos, sino se fijará el tiempo por defecto.';
-$string['mapplay_tour'] = 'En este mapa verás todos los intentos que habéis hecho durante este juego geolocalizado. Las pistas acertadas se marcan con <img src="pix/success_mark.png" width="28"/> y las falladas con <img src="pix/failure_mark.png" width="28"/>';
 $string['map_tour'] = 'En el mapa se ven y gestionan todas las localizaciones de las etapas de un juego. Las etapas están numeradas para identificarlas facilmente.';
+$string['mapplay_tour'] = 'En este mapa verás todos los intentos que habéis hecho durante este juego geolocalizado. Las pistas acertadas se marcan con <img src="pix/success_mark.png" width="28"/> y las falladas con <img src="pix/failure_mark.png" width="28"/>';
 $string['mapview'] = 'Vista del mapa';
 $string['modify'] = 'Modificar';
 $string['modulename'] = 'Caza del tesoro';
@@ -300,15 +297,13 @@ borrando la anterior si existiese, indicando el último punto deseado';
 $string['pluginadministration'] = 'Administración de la caza del tesoro';
 $string['pluginname'] = 'Caza del tesoro';
 $string['prevstep'] = 'Ant.';
-$string['privacy:metadata_treasurehunt_attempts'] = 'La caza del tesoro almacena el tipo, tiempo y lugar de los intentos, éxitos y fracasos de los usuarios durante la actividad';
-$string['privacy:metadata_treasurehunt_track_userid'] = 'El ID del usuario que está siendo rastreado.';
 $string['question'] = 'Pregunta';
 $string['remove'] = 'Eliminar';
+$string['remove_tour'] = 'Se pueden borrar los polígonos de las etapas. Símplemente selecciona un polígono en el mapa y pulsa este botón.';
 $string['removealltreasurehuntattempts'] = 'Eliminar todos los intentos de resolver la caza del tesoro';
 $string['removedactivitytoend'] = 'Se ha eliminado la actividad a completar';
 $string['removedquestion'] = 'Se ha eliminado la pregunta';
 $string['removeroadwarning'] = 'Si eliminas el camino se eliminaran todas las etapas asociadas y ya no podras recuperarlas';
-$string['remove_tour'] = 'Se pueden borrar los polígonos de las etapas. Símplemente selecciona un polígono en el mapa y pulsa este botón.';
 $string['removewarning'] = 'Si la eliminas ya no podras recuperarla';
 $string['restrictionsdiscoverstage'] = 'Restricciones para descubrir la etapa';
 $string['reviewofplay'] = 'Revisión del juego';
@@ -319,8 +314,8 @@ $string['roadname'] = 'Nombre del camino';
 $string['roads_tour'] = 'En este área se muestran los caminos que has creado. Selecciona uno de los caminos para ver y gestionar sus etapas.';
 $string['roadview'] = 'Callejero';
 $string['save'] = 'Guardar';
-$string['saveemptyridle'] = 'Todas las etapas modificadas deben tener geometría antes de guardar';
 $string['save_tour'] = 'Tras dibujar los polígonos de las etapas, no olvides guardar tus cambios con este botón.';
+$string['saveemptyridle'] = 'Todas las etapas modificadas deben tener geometría antes de guardar';
 $string['savewarning'] = 'No ha guardado los cambios realizados.';
 $string['scanQR_generatebutton'] = 'Generar un nuevo QR';
 $string['scanQR_scanbutton'] = 'Escanear código QR';
@@ -347,56 +342,50 @@ $string['timeago'] = 'hace {$a->shortduration}';
 $string['timeagolong'] = 'hace {$a->shortduration} ({$a->date})';
 $string['timeat'] = '{$a->date}';
 $string['timeexceeded'] = 'Se ha superado el tiempo limite para realizar la actividad. Esta pantalla solo sirve para revisar el juego';
-$string['timelabelfailed'] = 'Ubicación enviada en la fecha:';
-$string['timelabelsuccess'] = 'Etapa descubierta en la fecha:';
 $string['timetocome'] = 'dentro de {$a->shortduration}';
 $string['timetocomelong'] = 'dentro de {$a->shortduration} ({$a->date})';
-$string['totaltime'] = 'Tiempo total';
 $string['trackusers'] = 'Almacenar itinerarios';
-$string['trackusers_help'] = 'Registra los itinerarios realizados por los usuarios. Se pueden ver en la pantalla del "Visor de Rutas".<br/>
-Las posiciones de los usuarios se registran entre los intentos de validación (y en las actualizaciones periódicas en segundo plano).<br/>
-Si el usuario tiene su GPS deshabilitado, entonces la única ubicación que puede registrarse es la de los códigos QR escaneados.<br/>
-Si esta opción es <b>desactivada</b>, las únicas ubicaciones registradas son las de los intentos de validación.';
+$string['trackusers_help'] = 'Almacena el itinerario que realizan los usuarios mientras usan el modo de juego.';
 $string['trackviewer'] = 'Visor de rastreo';
 $string['trackviewerrefreshtracks'] = 'Actualizar las trayectorias cada {$a} segundos.';
 $string['treasurehunt'] = 'Treasure hunt';
 $string['treasurehunt:addinstance'] = 'Añadir nueva caza del tesoro';
 $string['treasurehunt:addroad'] = 'Añadir camino';
 $string['treasurehunt:addstage'] = 'Añadir etapa';
-$string['treasurehuntclosed'] = 'Esta caza del tesoro cerró {$a}';
-$string['treasurehuntcloses'] = 'Caza del tesoro cerrada';
-$string['treasurehuntcloseson'] = 'Esta caza del tesoro cerrará {$a}';
 $string['treasurehunt:editroad'] = 'Editar camino';
 $string['treasurehunt:editstage'] = 'Editar etapa';
-$string['treasurehuntislocked'] = '{$a} está editando esta caza del tesoro. Intenta editarla dentro de unos minutos.';
 $string['treasurehunt:managetreasure'] = 'Administrar Caza del tesoro';
 $string['treasurehunt:managetreasurehunt'] = 'Gestionar caza del tesoro';
-$string['treasurehuntname'] = 'Nombre de la caza del tesoro';
-$string['treasurehuntnotavailable'] = 'Esta caza del tesoro no estará disponible hasta el {$a}';
-$string['treasurehuntopenedon'] = 'Esta caza del tesoro se inició {$a}';
-$string['treasurehuntopens'] = 'Caza del tesoro abierta';
 $string['treasurehunt:play'] = 'Jugar';
 $string['treasurehunt:view'] = 'Ver la caza del tesoro';
 $string['treasurehunt:viewusershistoricalattempts'] = 'Ver el historial de intentos de los usuarios';
+$string['treasurehuntclosed'] = 'Esta caza del tesoro está cerrada desde el {$a}';
+$string['treasurehuntcloses'] = 'Caza del tesoro cerrada';
+$string['treasurehuntcloseson'] = 'Esta caza del tesoro cerrará el {$a}';
+$string['treasurehuntislocked'] = '{$a} está editando esta caza del tesoro. Intenta editarla dentro de unos minutos.';
+$string['treasurehuntname'] = 'Nombre de la caza del tesoro';
+$string['treasurehuntnotavailable'] = 'Esta caza del tesoro no estará disponible hasta el {$a}';
+$string['treasurehuntopenedon'] = 'Esta caza del tesoro está abierta desde el {$a}';
+$string['treasurehuntopens'] = 'Caza del tesoro abierta';
 $string['updates'] = 'Actualizaciones';
 $string['updatetimes'] = 'Tiempos de actualización';
 $string['user'] = 'Usuario';
-$string['useractivityovercome'] = '<b>Actividad Moodle completada con éxito</b> para la "etapa {$a->position}" {$a->date}';
+$string['useractivityovercome'] = 'Actividad a finalizar completada con éxito para la etapa {$a->position} en la fecha: {$a->date}';
 $string['userinvalidroad'] = '{$a} tiene asignado un camino no validado.';
-$string['userlocationfailed'] = '<b>Localización fallida</b> de la "etapa {$a->position}" {$a->date}';
-$string['userlocationovercome'] = '<b>Localización encontrada</b> de la "etapa {$a->position}" {$a->date}';
+$string['userlocationfailed'] = 'Localización fallida de la etapa {$a->position} en la fecha: {$a->date}';
+$string['userlocationovercome'] = 'Localización encontrada de la etapa {$a->position} en la fecha: {$a->date}';
 $string['usermultipleroads'] = '{$a} tiene más de un camino asignado.';
 $string['usermultiplesameroad'] = '{$a} pertenece a más de un grupo asignado al mismo camino.';
 $string['userprogress'] = 'El progreso de usuario se ha actualizado con éxito';
-$string['userquestionfailed'] = '<b>Respuesta fallida</b> a la pregunta de la "etapa {$a->position}"  {$a->date}';
-$string['userquestionovercome'] = '<b>Respuesta acertada</b> a la pregunta de la "etapa {$a->position}" {$a->date}';
+$string['userquestionfailed'] = 'Respuesta fallida a la pregunta de la etapa {$a->position}  en la fecha: {$a->date}';
+$string['userquestionovercome'] = 'Respuesta acertada a la pregunta de la etapa {$a->position} en la fecha: {$a->date}';
 $string['usersprogress'] = 'Progreso de los usuarios';
 $string['usersprogress_help'] = 'Indica el progreso de las etapas de cada alumno/grupo en función de los colores:
 <P>El color <B>verde</B> indica que la etapa se ha superado sin fallos.</P>
 <P>El color <B>amarillo</B> indica que la etapa se ha superado con fallos.</P>
 <P>El color <B>rojo</B> indica que la etapa no se ha superado y se han cometido fallos.</P>
 <P>El color <B>gris</B> indica que la etapa no se ha superado y no se han cometido fallos.</P>';
-$string['userstageovercome'] = '<b>Etapa {$a->position} superada</b> {$a->date}';
+$string['userstageovercome'] = 'Etapa {$a->position} superada en la fecha: {$a->date}';
 $string['validatelocation'] = 'Validar ubicación';
 $string['validatelocation_tour'] = 'Cuando estés seguro de la localización de una etapa del juego debes enviar tu posición para comprobar si has acertado. Pulsa este botón una vez que el mapa esté centrado en tu posición.';
 $string['validateqr'] = 'Escanea QR';

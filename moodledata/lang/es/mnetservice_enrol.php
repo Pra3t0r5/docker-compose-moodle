@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['availablecourseson'] = 'Cursos disponibles en {$a}';
 $string['availablecoursesonnone'] = 'El host remoto <a href="{$a->hosturl}">{$a->hostname}</a> no ofrece ningún curso a nuestros usuarios.';
 $string['clientname'] = 'Cliente de matriculaciones remoto';
-$string['clientname_help'] = 'Matricular y desmatricular usuarios de su instalación en los Hosts de Moodle que le permitan hacerlo a través del conector (\'plugin\') de matriculación de la Red Moodle.';
+$string['clientname_help'] = 'Esta herramienta le permite matricular y dar de baja a sus usuarios locales en hosts remotos que permitan hacerlo a través de la extensión (plugin) \'Matriculaciones remotas MNet';
 $string['editenrolments'] = 'Editar matriculaciones';
 $string['hostappname'] = 'Aplicación';
 $string['hostname'] = 'Nombre del host';

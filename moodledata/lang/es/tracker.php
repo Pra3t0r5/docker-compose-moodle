@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tracker', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'tracker', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   tracker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['AND'] = 'Y';
+$string['IN'] = 'EN';
 $string['abandonned'] = 'Abandonado';
 $string['action'] = 'Acción';
 $string['activeplural'] = 'Activos';
@@ -37,7 +39,6 @@ $string['administration'] = 'Administración';
 $string['administrators'] = 'Administradores';
 $string['allownotifications_help'] = 'Cuando está disponible algunos cambios de estado puede dar como resultado el envío a otros usuarios cuando se está viendo un tema. Los usuarios pueden configurar que eventos se le notifican.';
 $string['alltracks'] = 'Ver mi trabajo en todos los trackers';
-$string['AND'] = 'Y';
 $string['any'] = 'Todos';
 $string['askraise'] = 'Pedir a los responsables elevar la prioridad';
 $string['assignedto'] = 'Asignado a';
@@ -57,6 +58,7 @@ $string['checkboxhoriz'] = 'Casilla de verificación horizontal';
 $string['chooselocal'] = 'Escoger un tracker local como padre';
 $string['chooseremote'] = 'Elegir un host remoto';
 $string['chooseremoteparent'] = 'Elegir una instancia remota';
+$string['choosetarget'] = 'Elegir destino';
 $string['clearsearch'] = 'Limpiar criterio de búsqueda';
 $string['comment'] = 'Comentario';
 $string['commentedby'] = 'Comentado por';
@@ -84,6 +86,7 @@ $string['deleteattachedfile'] = 'Borrar adjuntos';
 $string['dependancies'] = 'Dependencias';
 $string['dependson'] = 'Depende de';
 $string['descriptionisempty'] = 'La descripción está vacía';
+$string['distribute'] = 'Mover la incidencia a otro reporte';
 $string['doaddelementcheckbox'] = 'Añadir un elemento del tipo casilla de verificación';
 $string['doaddelementcheckboxhoriz'] = 'Añadir un elemento del tipo casilla de verificación horizontal';
 $string['doaddelementdropdown'] = 'Añadir un elemento desplegable';
@@ -208,7 +211,6 @@ $string['icannotresolve'] = 'No puedo resolver';
 $string['icanreport'] = 'Puedo emitir informes';
 $string['icanresolve'] = 'Se me pueden asignar algunos tickets';
 $string['id'] = 'Identificador';
-$string['IN'] = 'EN';
 $string['intest'] = 'Probando';
 $string['intro'] = 'Descripción';
 $string['inworkinmonth'] = 'Todavia en progreso';
@@ -366,11 +368,11 @@ $string['strictworkflow'] = 'Flujo de trabajo estricto';
 $string['submission'] = 'Se ha publicado de un nuevo ticket en el tracker [$a]';
 $string['submitbug'] = 'Enviar el ticket';
 $string['subtrackers'] = 'Subtrackers';
-$string['summary'] = 'Resumen';
 $string['sum_opened'] = 'Abierto';
 $string['sum_posted'] = 'Esperando';
 $string['sum_reported'] = 'Publicados';
 $string['sum_resolved'] = 'Resuelto';
+$string['summary'] = 'Resumen';
 $string['supportmode'] = 'Tipo de soporte';
 $string['testing'] = 'En proceso de comprobación';
 $string['text'] = 'Campo de texto simple';
@@ -379,22 +381,16 @@ $string['thanksdefault'] = 'Gracias por su contribución a la mejora constante d
 $string['thanksmessage'] = 'Mensaje de agradecimiento.';
 $string['ticketprefix'] = 'Prefijo del Ticket';
 $string['tickets'] = 'Tickets';
+$string['tracker-levelaccess'] = 'Mis permisos en este tracker';
 $string['tracker:addinstance'] = 'Añadir un tracker';
 $string['tracker:canbecced'] = 'Puedo ser elegido para cc';
 $string['tracker:comment'] = 'Comentar asuntos';
 $string['tracker:configure'] = 'Configurar opciones del tracker';
 $string['tracker:configurenetwork'] = 'Configurar propiedades de red Moodle';
-$string['tracker_description'] = '<p>Cuando publica este servicio usted permite a los trackers de {$a} enlazar en cascada los tickets de soporte a un tracker local.</p>';
 $string['tracker:develop'] = 'Puedo ser elegido para resolver tickets (responsable)';
-$string['trackerelements'] = 'Definición del Tracker';
-$string['trackereventchanged'] = 'Cambio de estado del asunto en el tracker [$a]';
-$string['trackerhost'] = 'Host Padre para el tracker';
-$string['tracker-levelaccess'] = 'Mis permisos en este tracker';
 $string['tracker:manage'] = 'Gestionar asuntos';
 $string['tracker:managepriority'] = 'Gestionar prioridades';
 $string['tracker:managewatches'] = 'Gestionar seguimientos de un ticket';
-$string['trackername'] = 'Nombre del Tracker';
-$string['tracker_name'] = 'Servicios del módulo Tracker';
 $string['tracker:report'] = 'Informar sobre tickets';
 $string['tracker:resolve'] = 'Resolver tickets';
 $string['tracker:seeissues'] = 'Ver contenidos de los asuntos';
@@ -402,6 +398,12 @@ $string['tracker:shareelements'] = 'Compartir elementos para todo el sitio.';
 $string['tracker:viewallissues'] = 'Ver todos los tickets';
 $string['tracker:viewpriority'] = 'Ver prioridad de mis propios tickets';
 $string['tracker:viewreports'] = 'Ver informes de asuntos de trabajo';
+$string['tracker_description'] = '<p>Cuando publica este servicio usted permite a los trackers de {$a} enlazar en cascada los tickets de soporte a un tracker local.</p>';
+$string['tracker_name'] = 'Servicios del módulo Tracker';
+$string['trackerelements'] = 'Definición del Tracker';
+$string['trackereventchanged'] = 'Cambio de estado del asunto en el tracker [$a]';
+$string['trackerhost'] = 'Host Padre para el tracker';
+$string['trackername'] = 'Nombre del Tracker';
 $string['transfer'] = 'Transferencia';
 $string['transfered'] = 'Transferido';
 $string['transferservice'] = 'Cascada del soporte de tickets';

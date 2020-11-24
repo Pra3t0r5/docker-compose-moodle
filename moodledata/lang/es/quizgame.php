@@ -41,10 +41,10 @@ Tome nota de que usted solamente debería de seleccionar preguntas que NO sean c
 
 **Nota**: Quizventure está diseñado para promover el aprendizaje en lugar de la evaluación. Los estudiantes tendrán intentos infinitos con retroalimentación inmediata. Por esta razón, añada solamente las preguntas para las que desea que los estudiantes se aprendan las respuestas, en lugar de añadir las preguntas que quiere emplear para evaluar si han aprendido.';
 $string['quizgame:addinstance'] = 'Añadir una instancia de Quizventure';
+$string['quizgame:view'] = 'Ver Quizventure';
 $string['quizgamefieldset'] = 'Ejemplo de campo personalizado';
 $string['quizgamename'] = 'Nombre del Quizventure';
 $string['quizgamename_help'] = '¿Cuál es el nombre de este Quizventure?';
-$string['quizgame:view'] = 'Ver Quizventure';
 $string['score'] = 'Puntuación: {$a->score} Vidas: {$a->lives}';
 $string['sound'] = 'Sonido';
 $string['spacetostart'] = 'Pulse la barra espaciadora o haga clic para comenzar';

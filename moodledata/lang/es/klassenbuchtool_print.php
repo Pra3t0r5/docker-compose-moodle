@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'klassenbuchtool_print', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'klassenbuchtool_print', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   klassenbuchtool_print
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

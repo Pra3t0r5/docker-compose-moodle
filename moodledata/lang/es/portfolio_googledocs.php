@@ -34,5 +34,5 @@ $string['oauthinfo'] = '<p> Para utilizar este plugin, debe registrar su sitio e
 $string['pluginname'] = 'Google Drive';
 $string['privacy:metadata'] = 'Este plugin envía datos externamente hacia una cuenta Google enlazada. No almacena datos localmente.';
 $string['privacy:metadata:data'] = 'Datos personales enviados a través del subsistema de portafolio.';
-$string['secret'] = 'Secreto';
+$string['secret'] = 'Secreta';
 $string['sendfailed'] = 'No se ha podido transferir el archivo {$a} a google';

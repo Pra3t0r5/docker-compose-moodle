@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = 'Configuración del tipo de repositorio URL';
 $string['download'] = 'Descargar';
-$string['pluginname'] = 'Descargador URL';
+$string['pluginname'] = 'URL de descarga';
 $string['rename'] = 'Nombre';
 $string['url'] = 'URL';
 $string['url:view'] = 'Usar descargador URL en selector de archivos';

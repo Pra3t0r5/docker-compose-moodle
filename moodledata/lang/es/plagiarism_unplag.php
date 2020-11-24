@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_unplag', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'plagiarism_unplag', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   plagiarism_unplag
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,8 +77,8 @@ $string['similarity'] = 'Similitud';
 $string['similarity_sensitivity'] = 'Omitir fuentes con el porcentaje de similitud inferior a (%)';
 $string['status'] = 'Estado';
 $string['studentdisclosure'] = 'Notificar al estudiante sobre la Política de Privacidad de UNPLAG';
-$string['studentdisclosuredefault'] = 'Todos los archivos subidos serán sometidos al sistema de detección de plagio UNPLAG.';
 $string['studentdisclosure_help'] = 'Este texto se mostrará a todos los estudiantes en la página de carga del archivo.';
+$string['studentdisclosuredefault'] = 'Todos los archivos subidos serán sometidos al sistema de detección de plagio UNPLAG.';
 $string['studentemailcontent'] = 'El archivo que envió a {$a->modulename} en {$a->coursename} ya ha sido procesado por el sistema de detección de plagios UNPLAG {$a->modulelink}';
 $string['studentemailsubject'] = 'Archivo procesado por UNPLAG';
 $string['submitondraft'] = 'Comprobar el archivo cuando se sube por primera vez';
@@ -86,19 +86,18 @@ $string['submitonfinal'] = 'Comprobar el archivo cuando el estudiante lo envía 
 $string['toolarge'] = 'Este archivo es muy grande para procesarlo con UNPLAG';
 $string['unknownwarning'] = 'Se ha producido un error al enviar este archivo al UNPLAG';
 $string['unplag'] = 'Plugin de detección de plagio UNPLAG';
+$string['unplag:enable'] = 'Permitir a los profesores activar/desactivar UNPLAG dentro de una actividad';
+$string['unplag:resetfile'] = 'Permitir al profesor volver a comprobar un archivo con UNPLAG después de producirse un error';
+$string['unplag:vieweditreport'] = 'Permitir al Profesor ver y modificar el informe completo de Unplag';
+$string['unplag:viewreport'] = 'Permitir al profesor ver el informe completo de UNPLAG';
 $string['unplag_api_secret'] = 'API Secreta';
 $string['unplag_api_secret_help'] = 'API Secreta proporcionada por UNPLAG para acceder a la API. Puede encontrarla en <a href="https://unplag.com/profile/apisettings">https://unplag.com/profile/apisettings</a>';
 $string['unplag_client_id'] = 'ID de Cliente';
 $string['unplag_client_id_help'] = 'ID de cliente proporcionada por UNPLAG para acceder a API. Puede encontrarla en <a href="https://unplag.com/profile/apisettings">https://unplag.com/profile/apisettings</a>';
-$string['unplagdebug'] = 'Depuración';
-$string['unplagdefaults'] = 'Ajustes predeterminados de UNPLAG';
 $string['unplag_draft_submit'] = 'Cuando debe enviarse el archivo a UNPLAG';
-$string['unplag:enable'] = 'Permitir a los profesores activar/desactivar UNPLAG dentro de una actividad';
 $string['unplag_enableplugin'] = 'UNPLAG activado para {$a}';
-$string['unplagfiles'] = 'Archivos de UNPLAG';
 $string['unplag_lang'] = 'Idioma';
 $string['unplag_lang_help'] = 'Código de idioma suministrado por UNPLAG';
-$string['unplag:resetfile'] = 'Permitir al profesor volver a comprobar un archivo con UNPLAG después de producirse un error';
 $string['unplag_settings_url_text'] = 'Abra la cuenta del Administrador en unplag.com para ver/copiar ID del Cliente/ API Secreta';
 $string['unplag_show_student_report'] = 'Mostrar el informe de similitud al estudiante';
 $string['unplag_show_student_report_help'] = 'El informe de similitud proporciona la lista de las partes del envío plagiadas y las fuentes donde UNPLAG ha encontrado este contenido';
@@ -106,13 +105,14 @@ $string['unplag_show_student_score'] = 'Mostrar grado de similitud al estudiante
 $string['unplag_show_student_score_help'] = 'El porcentaje de similitud es el porcentaje del texto que coincide con el contenido de otras fuentes.';
 $string['unplag_studentemail'] = 'Enviar un mensaje al estudiante';
 $string['unplag_studentemail_help'] = 'Se le enviará un correo electrónico al estudiante cuando se haya procesado su archivo para hacerle saber que su informe está disponible.';
-$string['unplag:vieweditreport'] = 'Permitir al Profesor ver y modificar el informe completo de Unplag';
-$string['unplag:viewreport'] = 'Permitir al profesor ver el informe completo de UNPLAG';
+$string['unplagdebug'] = 'Depuración';
+$string['unplagdefaults'] = 'Ajustes predeterminados de UNPLAG';
+$string['unplagfiles'] = 'Archivos de UNPLAG';
 $string['unsupportedfiletype'] = 'UNPLAG no soporta este tipo de archivo';
 $string['use_unplag'] = 'Activar UNPLAG';
+$string['use_unplag_help'] = 'Para utilizar el plugin de Unplag, active la opción "Requerir que los estudiantes hagan clic en Entregar", poniendo Sí (Configuración de entrega)';
 $string['useunplag_assign_desc_param'] = 'Para desbloquear los ajustes de Unplag';
 $string['useunplag_assign_desc_value'] = 'Establecer ajustes de entrega →  Requerir que los estudiantes hagan clic en Entregar = Sí';
-$string['use_unplag_help'] = 'Para utilizar el plugin de Unplag, active la opción "Requerir que los estudiantes hagan clic en Entregar", poniendo Sí (Configuración de entrega)';
 $string['waitingevents'] = 'Hay {$a->countallevents} eventos en espera del cron y {$a->countheld} eventos que están retenidos para volver a ser comprobados';
 $string['web'] = 'Doc vs Internet';
 $string['web_and_my_library'] = 'Doc vs Internet + Biblioteca';

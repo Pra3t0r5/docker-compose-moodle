@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['effect'] = 'Efecto carrusel';
 $string['header'] = 'Cabecera del carrusel';
-$string['images'] = 'Carrusel de imágenes';
 $string['int'] = 'Intervalo del carrusel en ms';
 $string['nav'] = 'Navegación';
 $string['pag'] = 'Paginación';

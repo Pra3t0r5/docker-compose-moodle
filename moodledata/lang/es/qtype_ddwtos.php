@@ -32,5 +32,7 @@ $string['correctansweris'] = 'La respuesta correcta es: {$a}';
 $string['infinite'] = 'Ilimitado';
 $string['pleaseputananswerineachbox'] = 'Por favor, ponga una respuesta en cada caja.';
 $string['pluginname'] = 'Arrastrar y soltar sobre texto';
+$string['pluginname_help'] = 'Escriba alguna pregunta del tipo "The [[1]] jumped over the [[2]]", luego las posibles palabras en los espacios 1 y 2.';
 $string['pluginnameadding'] = 'Añadiendo arrastrar y soltar sobre texto';
 $string['pluginnameediting'] = 'Editando arrastrar y soltar sobre texto';
+$string['pluginnamesummary'] = 'Las palabras que faltan en un texto se rellenan usando arrastrar y soltar.';

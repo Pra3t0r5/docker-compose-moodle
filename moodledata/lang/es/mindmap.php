@@ -26,13 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['editable'] = 'Permitir que los estudiantes editen este mapa mental';
-$string['index_help'] = 'El Módulo del Mapa mental está provisto por <a href="http://ekpenso.com">ekpenso.com</a> - si tiene problemas o desea dejar algún comentario, no dude en contactarnos.';
 $string['locking'] = 'Habilitar bloqueo';
 $string['mindmap'] = 'mapa mental';
 $string['mindmap:addinstance'] = 'Añadir un nuevo ejemplo de Mapa mental';
 $string['mindmapfieldset'] = 'Personalizar grupo de elementos de ejemplo';
-$string['mindmap_help'] = 'El Módulo del Mapa mental está provisto por <a href="http://ekpenso.com">ekpenso.com</a> - si tiene problemas o desea dejar algún comentario, no dude en contactarnos.';
-$string['mindmaphint'] = '¡Para añadir un nuevo nódulo, presione "Enter" en el teclado!';
 $string['mindmapintro'] = 'Introducción al Mapa mental';
 $string['mindmaplocked'] = 'No se puede editar este mapa mental porque el usuario {$a->firstname} {$a->lastname} lo está editando.';
 $string['mindmapname'] = 'Nombre del Mapa mental';

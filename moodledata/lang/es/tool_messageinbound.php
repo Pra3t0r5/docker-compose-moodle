@@ -43,15 +43,15 @@ $string['handlerdisabled'] = 'El controlador del correo electrónico con el que 
 $string['incomingmailconfiguration'] = 'Configuración del correo entrante';
 $string['incomingmailserversettings'] = 'Ajustes del servidor de correo entrante';
 $string['incomingmailserversettings_desc'] = 'Moodle puede conectarse a servidores IMAP que estén configurados correctamente. Puede especificar los ajustes utilizados para conectarse a su servidor IMAP aquí.';
-$string['invalidrecipientdescription'] = 'No se ha podido autenticar el mensaje "{$a->subject}" debido a que se envió desde una dirección de correo electrónico distinta a la que aparece en su perfil de usuario. Deberá responder a este mensaje para que se pueda autenticar el mensaje.';
-$string['invalidrecipientdescriptionhtml'] = 'No se ha podido autenticar el mensaje "{$a->subject}" debido a que se envió desde una dirección de correo electrónico distinta a la que aparece en su perfil de usuario. Deberá responder a este mensaje para que se pueda autenticar el mensaje.';
-$string['invalidrecipientfinal'] = 'No se ha podido autenticar el mensaje "{$a->subject}". Compruebe que haya enviado el mensaje desde la misma dirección de correo electrónico que figura en su perfil.';
 $string['invalid_recipient_handler'] = 'Si se recibe un mensaje válido pero no se puede autenticar el remitente, el mensaje se guarda en el servidor de correo electrónico y se contacta con el usuario utilizando para ello la dirección de correo electrónico de su perfil de usuario. El usuario puede responder para confirmar la autenticidad del mensaje original.
 
 Este controlador procesa dichas respuestas.
 
 No es posible deshabilitar la verificación del remitente de este controlador debido a que el usuario puede responder desde una dirección de correo electrónico incorrecta si posee una configuración incorrecta del cliente de correo electrónico.';
 $string['invalid_recipient_handler_name'] = 'Controlador del destinatario no válido';
+$string['invalidrecipientdescription'] = 'No se ha podido autenticar el mensaje "{$a->subject}" debido a que se envió desde una dirección de correo electrónico distinta a la que aparece en su perfil de usuario. Deberá responder a este mensaje para que se pueda autenticar el mensaje.';
+$string['invalidrecipientdescriptionhtml'] = 'No se ha podido autenticar el mensaje "{$a->subject}" debido a que se envió desde una dirección de correo electrónico distinta a la que aparece en su perfil de usuario. Deberá responder a este mensaje para que se pueda autenticar el mensaje.';
+$string['invalidrecipientfinal'] = 'No se ha podido autenticar el mensaje "{$a->subject}". Compruebe que haya enviado el mensaje desde la misma dirección de correo electrónico que figura en su perfil.';
 $string['mailbox'] = 'Nombre de buzón';
 $string['mailboxconfiguration'] = 'Configuración del buzón';
 $string['mailboxdescription'] = '[mailbox]+subaddress@[domain]';

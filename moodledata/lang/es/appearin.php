@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['appearin'] = 'appearin';
 $string['appearin:addinstance'] = 'Añadir un nuevo appearin';
-$string['appearinname'] = 'Nombre de appearin';
-$string['appearinname_help'] = 'Este es el contenido de la información sobre herramientas de ayuda asociada con el campo de nombre de imagen.';
 $string['appearin:submit'] = 'Enviar appearin';
 $string['appearin:view'] = 'Ver appearin';
+$string['appearinname'] = 'Nombre de appearin';
+$string['appearinname_help'] = 'Este es el contenido de la información sobre herramientas de ayuda asociada con el campo de nombre de imagen.';
 $string['invalidroom'] = 'Se especificó un nombre de sala no válido. Debe ser alfanumérico (_- permitido también)';
 $string['modulename'] = 'appearin';
 $string['modulename_help'] = '<p>Este módulo integra una sala appearin en su página Moodle.</p>

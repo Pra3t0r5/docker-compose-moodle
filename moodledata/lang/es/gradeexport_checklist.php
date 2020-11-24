@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['alldistrict'] = 'Todos';
-$string['checklistnotfound'] = 'Lista de verificación no encontrada';
-$string['checklistreport'] = 'informe';
 $string['checklist:view'] = 'Ver informe de lista de verificación (Excel)';
 $string['checklist:viewall'] = 'Ver informe de lista de verificación para todos los estudiantes del curso';
 $string['checklist:viewdistrict'] = 'Ver informe de lista de verificación para  los estudiantes del mismo distrito';
+$string['checklistnotfound'] = 'Lista de verificación no encontrada';
+$string['checklistreport'] = 'informe';
 $string['choosechecklist'] = 'Lista de verificación a exportar';
 $string['choosedistrict'] = 'Distrito a incluir';
 $string['enroldate'] = 'Fecha de inscripción';

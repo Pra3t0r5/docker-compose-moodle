@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_moodlemobileapp', language 'es', branch 'MOODLE_26_STABLE'
+ * Strings for component 'local_moodlemobileapp', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   local_moodlemobileapp
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -229,7 +229,6 @@ Leer y modificar los contenidos de la tarjeta SD - El contenido se descarga en l
 Acceso a la red - Para ser capaz de conectar con su sitio Moodle y comprobar si está conectado o no para cambiar al modo fuera de línea
 Ejecutar en el arranque - Así recibirá notificaciones locales incluso cuando la aplicación se ejecuta en segundo plano
 Desactivar el modo stand - Podrá recibir las notificaciones push en cualquier momento';
-$string['core.android'] = 'Android';
 $string['core.browser'] = 'Navegador.';
 $string['core.cannotconnect'] = 'No se puede conectar: Verifique que la URL es correcta y que el sitio Moodle usa la versión {{$a}} o posterior.';
 $string['core.cannotconnecttrouble'] = 'Estamos experemintando problemas para conectar a su sitio.';
@@ -281,8 +280,11 @@ $string['core.course.insufficientavailablequota'] = 'Su dispositivo no pudo enco
 $string['core.course.insufficientavailablespace'] = 'Está intentando descargar {{size}}. Esto dejará su dispositivo con espacio insuficiente para operar normalmente. Por favor libere espacio en la memoria primero.';
 $string['core.course.manualcompletionnotsynced'] = 'Finalización manual no sincronizada.';
 $string['core.course.nocontentavailable'] = 'No hay contenido disponible en este momento.';
-$string['core.coursenogroups'] = 'Usted no es miembro de ningún grupo de este curso.';
 $string['core.course.refreshcourse'] = 'Refrescar curso';
+$string['core.course.useactivityonbrowser'] = 'Puede acceder a esta actividad mediante el navegador de su dispositivo.';
+$string['core.course.warningmanualcompletionmodified'] = 'La finalización manual de una actividad fue modificada en el sitio.';
+$string['core.course.warningofflinemanualcompletiondeleted'] = 'Una parte de la finalización manual del curso \'{{name}}\' ha sido eliminada. {{error}}';
+$string['core.coursenogroups'] = 'Usted no es miembro de ningún grupo de este curso.';
 $string['core.courses.cannotretrievemorecategories'] = 'No se pueden recuperar categorías más profundas que el nivel {{$a}}.';
 $string['core.courses.confirmselfenrol'] = '¿Está seguro que desea auto-matricularse en este curso?';
 $string['core.courses.downloadcourses'] = 'Descargar cursos';
@@ -298,9 +300,6 @@ $string['core.courses.password'] = 'Clave';
 $string['core.courses.searchcoursesadvice'] = 'Puede utilizar el botón de buscar cursos para acceder como invitado o auto-matricularse en los cursos que lo permitan.';
 $string['core.courses.selfenrolment'] = 'Auto-matriculación';
 $string['core.courses.totalcoursesearchresults'] = 'Total de cursos: {{$a}}';
-$string['core.course.useactivityonbrowser'] = 'Puede acceder a esta actividad mediante el navegador de su dispositivo.';
-$string['core.course.warningmanualcompletionmodified'] = 'La finalización manual de una actividad fue modificada en el sitio.';
-$string['core.course.warningofflinemanualcompletiondeleted'] = 'Una parte de la finalización manual del curso \'{{name}}\' ha sido eliminada. {{error}}';
 $string['core.currentdevice'] = 'Dispositivo actual';
 $string['core.datastoredoffline'] = 'Los datos se almacenaron en el dispositivo debido a que no se pudieron enviar. Serán enviados automáticamente más tarde.';
 $string['core.deletedoffline'] = 'Eliminado fuera de línea';
@@ -368,7 +367,6 @@ $string['core.hasdatatosync'] = 'Este/a {{$a}} tiene datos fuera de línea para 
 $string['core.humanreadablesize'] = '{{size}} {{unit}}';
 $string['core.image'] = 'Imagen';
 $string['core.imageviewer'] = 'Visor de imágenes';
-$string['core.ios'] = 'iOs';
 $string['core.lastdownloaded'] = 'Última descarga';
 $string['core.lastsync'] = 'Última sincronización';
 $string['core.loadmore'] = 'Cargar más';
@@ -420,7 +418,6 @@ $string['core.login.loggedoutssodescription'] = 'Tiene que autenticarse nuevamen
 $string['core.login.loginbutton'] = 'Acceder';
 $string['core.login.logininsiterequired'] = 'Para autentificarse en el sitio se ha de abrir una ventana de navegador.';
 $string['core.login.mobileservicesnotenabled'] = 'El acceso móvil no está habilitado para este sitio, por favor, contacte con su administrador si piensa que debería estar habilitado.';
-$string['core.login.newsitedescription'] = 'Introduzca la URL de su sitio Moodle. Tenga en cuenta que podría no estar configurado para trabajar con esta aplicación.';
 $string['core.login.notloggedin'] = 'Ha de entrar al sitio.';
 $string['core.login.onboardingcreatemanagecourses'] = 'Crear y gestionar sus curos';
 $string['core.login.onboardingenrolmanagestudents'] = 'Matricular y gestionar sus estudiantes';
@@ -434,8 +431,6 @@ $string['core.login.onboardingtoconnect'] = 'Para utilizar la app de Moodle nece
 $string['core.login.onboardingwelcome'] = '¡Bienvenido a la app de Moodle!';
 $string['core.login.or'] = 'O';
 $string['core.login.passwordrequired'] = 'Contraseña obligatoria';
-$string['core.login.problemconnectingerror'] = 'Estamos teniendo dificultades para conectar con su sitio';
-$string['core.login.problemconnectingerrorcontinue'] = 'Compruebe de nuevo que ha introducido correctamente la dirección del sitio.';
 $string['core.login.recaptchachallengeimage'] = 'reto reCAPTCHA';
 $string['core.login.recaptchaexpired'] = 'La verificación ha expirado. Contesta nuevamente la pregunta de seguridad.';
 $string['core.login.recaptchaincorrect'] = 'La respuesta a la pregunta de seguridad es incorrecta.';
@@ -458,7 +453,6 @@ $string['core.login.webservicesnotenabled'] = 'Los Servicios Web no están habil
 $string['core.login.youcanstillconnectwithcredentials'] = 'Todavía puede conectar al sitio introduciendo su usuario y contraseña.';
 $string['core.login.yourenteredsite'] = 'Conectar a su sitio';
 $string['core.lostconnection'] = 'Hemos perdido la conexión, necesita reconectar. Su token ya no es válido';
-$string['core.mainmenu.appsettings'] = 'Configuración de la aplicación';
 $string['core.mainmenu.changesite'] = 'Cambiar de sitio';
 $string['core.mainmenu.website'] = 'Página web';
 $string['core.needhelp'] = '¿Necesita ayuda?';
@@ -489,7 +483,6 @@ $string['core.retry'] = 'Reintentar';
 $string['core.scanqr'] = 'Escanear código QR';
 $string['core.searching'] = 'Buscando';
 $string['core.settings.about'] = 'Acerca de';
-$string['core.settings.appready'] = 'App preparada';
 $string['core.settings.appsettings'] = 'Configuración de la aplicación';
 $string['core.settings.appversion'] = 'Versión de la aplicación';
 $string['core.settings.cannotsyncoffline'] = 'No puede sincronizarse fuera de línea.';
@@ -510,7 +503,6 @@ $string['core.settings.deletesitefiles'] = '¿Está seguro de que desea borrar t
 $string['core.settings.deletesitefilestitle'] = 'Elimina los ficheros del sitio';
 $string['core.settings.deviceinfo'] = 'Información del dispositivo';
 $string['core.settings.deviceos'] = 'OS del dispositivo';
-$string['core.settings.devicewebworkers'] = 'Soporta Device Web Workers';
 $string['core.settings.displayformat'] = 'Formato de visualización';
 $string['core.settings.enabledownloadsection'] = 'Habilitar la descarga de secciones';
 $string['core.settings.enablefirebaseanalytics'] = 'Habilitar Análisis de Firebase';
@@ -544,8 +536,6 @@ $string['core.settings.synchronization'] = 'Sincronización';
 $string['core.settings.synchronizenow'] = 'Sincronizar ahora';
 $string['core.settings.synchronizenowhelp'] = 'Al sincronizar un sitio se enviarán todos los cambios y actividad que realizó fuera de línea en el dispositivo, también sincronizará información como mensajes y notificaciones.';
 $string['core.settings.syncsettings'] = 'Configuración de la sincronización';
-$string['core.settings.versioncode'] = 'Código de la versión';
-$string['core.settings.versionname'] = 'Nombre de la versión';
 $string['core.settings.wificonnection'] = 'Conexión WiFi';
 $string['core.sharedfiles.chooseaccountstorefile'] = 'Elija una cuenta en la cual almacenar el archivo.';
 $string['core.sharedfiles.chooseactionrepeatedfile'] = 'Ya existe un archivo con este nombre. ¿Desea usted remplazar el archivo existente o renombrarlo a  "{{$a}}"?';
@@ -584,7 +574,6 @@ $string['core.warningofflinedatadeleted'] = 'Los datos fuera de línea de {{comp
 $string['core.whoissiteadmin'] = '"El administrador del sitio" es el encargado de la gestión de Moodle en su escuela/Universidad/empresa. Si desconoce como contactarle, por favor, contacte con su profesor.';
 $string['core.whoops'] = 'Oops!';
 $string['core.whyisthishappening'] = '¿Porqué está pasando esto?';
-$string['core.windowsphone'] = 'Windows Phone';
 $string['core.wsfunctionnotavailable'] = 'La función de webservice no está disponible.';
 $string['core.youreoffline'] = 'Está desconectado';
 $string['core.youreonline'] = 'Conectado de nuevo';

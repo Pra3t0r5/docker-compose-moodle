@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_massaction', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'block_massaction', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   block_massaction
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -53,8 +53,8 @@ $string['noaction'] = 'Sin acción especificada';
 $string['noitemselected'] = 'Por favor seleccione al menos un ítem para aplicarle la acción masiva';
 $string['pluginname'] = 'Bloque de acción masiva';
 $string['section'] = 'Tema';
-$string['sectionnotexist'] = 'La sección destino no existe';
 $string['section_zero'] = 'General';
+$string['sectionnotexist'] = 'La sección destino no existe';
 $string['selectall'] = 'Seleccionar todo';
 $string['selectnone'] = 'Des-seleccionar todo';
 $string['selecttarget'] = 'Por favor seleccione un destino a donde mover allí los ítems';

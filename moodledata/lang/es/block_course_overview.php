@@ -46,6 +46,7 @@ $string['none'] = 'Ninguno';
 $string['numtodisplay'] = 'Número de cursos para mostrar:';
 $string['onlyparentname'] = 'Sólo la categtoría padre';
 $string['otherexpanded'] = 'Otros cursos desplegados';
+$string['pluginname'] = 'Vista general de cursos';
 $string['preservestates'] = 'Mantener estados desplegados';
 $string['shortnameprefix'] = 'Incluye {$a}';
 $string['shortnamesufixprural'] = '(y otros {$a} )';

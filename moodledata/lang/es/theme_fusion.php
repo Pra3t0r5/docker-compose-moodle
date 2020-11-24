@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_fusion', language 'es', branch 'MOODLE_27_STABLE'
+ * Strings for component 'theme_fusion', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_fusion
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['customcss'] = 'CSS personalizado';
 $string['customcssdesc'] = 'Cualquier CSS que introduzca aquí será añadido a todas las páginas permitiendole personalizar fácilmente este tema.';
-$string['linkcolor'] = 'Color de los vínculos';
+$string['linkcolor'] = 'Color de los enlaces';
 $string['linkcolordesc'] = 'Establece el color de enlace para el tema.';
 $string['pluginname'] = 'Fusion';
 $string['region-side-post'] = 'Derecha';

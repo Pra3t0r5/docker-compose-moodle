@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['competency'] = 'Competencia';
-$string['notrated'] = 'Sin calificación';
+$string['notrated'] = 'Sin calificar';
 $string['pluginname'] = 'Desglose de Competencias';
 $string['privacy:metadata'] = 'El plugin de Desglose de Competencias no almacena datos personales.';
 $string['rating'] = 'Calificación';

@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['add_comment'] = 'Añadir comentario';
 $string['approve'] = 'Aprobar';
+$string['approve_toggle'] = 'Des/Aprobar';
 $string['approved'] = '✓';
 $string['approved_column_name'] = 'Aprobado';
 $string['approveselectedscheck'] = '¿Está seguro de querer des/aprobar las preguntas siguientes?<br /><br />{$a}';
-$string['approve_toggle'] = 'Des/Aprobar';
 $string['average_column_name'] = 'Promedio';
 $string['comment_column_name'] = 'Comentarios';
 $string['comment_help'] = 'Escribir un comentario';
@@ -39,20 +39,6 @@ $string['createnewquestion'] = 'Crear pregunta nueva';
 $string['createnewquestionfirst'] = 'Crear primera pregunta';
 $string['difficulty_all_column_name'] = 'Dificultad de Comunidad';
 $string['difficulty_level_column_name'] = 'Dificultad';
-$string['emailapprovedbody'] = 'Estimado/a  {$a->recepientname},
-
-Su pregunta \'{$a->questionname}\' en el curso \'{$a->coursename}\' en la actividad ExamenEstudiante (StudentQuiz) \'{$a->modulename}\' ha sido aprobada por \'{$a->actorname}\' en \'{$a->timestamp}\'.
-
-Puede revisar esta pregunta en: {$a->questionurl}.';
-$string['emailapprovedsmall'] = 'Su pregunta \'{$a->questionname}\' ha sido aprobada por {$a->actorname}.';
-$string['emailapprovedsubject'] = 'Pregunta ha sido aprobada: {$a->questionname}';
-$string['emailchangedbody'] = 'Estimado/a  {$a->recepientname},
-
-Su pregunta \'{$a->questionname}\' en el curso \'{$a->coursename}\' en la actividad ExamenEstudiante (StudentQuiz) \'{$a->modulename}\' ha sido modificada por \'{$a->actorname}\' en \'{$a->timestamp}\'.
-
-Puede revisar esta pregunta en: {$a->questionurl}.';
-$string['emailchangedsmall'] = 'Su pregunta \'{$a->questionname}\' ha sido modificada por {$a->actorname}.';
-$string['emailchangedsubject'] = 'Pregunta ha sido modificada: {$a->questionname}';
 $string['emailcommentaddedbody'] = 'Estimado/a  {$a->recepientname},
 
 Su pregunta \'{$a->questionname}\' en la actividad ExamenEstudiante (StudentQuiz) \'{$a->modulename}\' en el curso \'{$a->coursename}\' ha sido comentada por \'{$a->actorname}\' en \'{$a->timestamp}\'.
@@ -71,11 +57,6 @@ El comentario era: \'{$a->commenttext}\'
 Puede revisar esta pregunta en: {$a->questionurl}.';
 $string['emailcommentdeletedsmall'] = 'El comentario a su pregunta \'{$a->questionname}\' ha sido eliminado por {$a->actorname}.';
 $string['emailcommentdeletedsubject'] = 'Comentario ha sido eliminado a la pregunta: {$a->questionname}';
-$string['emaildeletedbody'] = 'Estimado/a {$a->recepientname},
-
-Su pregunta \'{$a->questionname}\' en la actividad ExamenEstudiante (StudentQuiz) \'{$a->modulename}\' en el curso \'{$a->coursename}\' ha sido eliminada por \'{$a->actorname}\' en \'{$a->timestamp}\'.';
-$string['emaildeletedsmall'] = 'Su pregunta \'{$a->questionname}\' ha sido eliminada por {$a->actorname}.';
-$string['emaildeletedsubject'] = 'Pregunta ha sido eliminada: {$a->questionname}';
 $string['emailminecommentdeletedbody'] = 'Estimado/a {$a->recepientname},
 
 Su comentario con fecha \'{$a->commenttime}\' a la pregunta \'{$a->questionname}\' en la actividad ExamenEstudiante (StudentQuiz) \'{$a->modulename}\' en el curso \'{$a->coursename}\' ha sido eliminado por \'{$a->actorname}\' en \'{$a->timestamp}\'.
@@ -93,7 +74,6 @@ $string['filter_label_comment'] = 'Comentarios';
 $string['filter_label_createdate'] = 'Creación';
 $string['filter_label_difficulty_level'] = 'Dificultad';
 $string['filter_label_fast_filters'] = 'Filtro rápido para preguntas';
-$string['filter_label_firstname'] = 'Nombre';
 $string['filter_label_myattempts'] = 'Mis intentos';
 $string['filter_label_mydifficulty'] = 'Mi dificultad';
 $string['filter_label_mylastattempt'] = 'Mí último intento';
@@ -101,9 +81,9 @@ $string['filter_label_myrate'] = 'Mi Valoración';
 $string['filter_label_onlyapproved'] = 'Aprobadas';
 $string['filter_label_onlyapproved_help'] = 'Preguntas aprobadas por su profesor';
 $string['filter_label_onlydifficult'] = 'Dificultad para todos';
+$string['filter_label_onlydifficult_help'] = 'Pregunta con una dificultad promedio de más de {$a}%';
 $string['filter_label_onlydifficultforme'] = 'Dificultad para mí';
 $string['filter_label_onlydifficultforme_help'] = 'Pregunta con mi dificultad de más de {$a}%';
-$string['filter_label_onlydifficult_help'] = 'Pregunta con una dificultad promedio de más de {$a}%';
 $string['filter_label_onlygood'] = 'Bien';
 $string['filter_label_onlygood_help'] = 'Pregunta con una valoración promedio de al menos {$a} estrellas';
 $string['filter_label_onlymine'] = 'Mía';
@@ -114,17 +94,13 @@ $string['filter_label_question'] = 'Título de pregunta';
 $string['filter_label_questiontext'] = 'Contenido de pregunta';
 $string['filter_label_rates'] = 'Valoración';
 $string['filter_label_show_mine'] = 'Mis preguntas';
-$string['filter_label_surname'] = 'Apellido(s)';
 $string['filter_label_tags'] = 'Marca';
 $string['finish_button'] = 'Terminar';
 $string['lastattempt_right'] = '✓';
 $string['lastattempt_wrong'] = '✗';
 $string['latest_column_name'] = 'Más reciente';
-$string['messageprovider:approved'] = 'Notificación de pregunta aprobada';
-$string['messageprovider:changed'] = 'Notificación de pregunta cambiada';
 $string['messageprovider:commentadded'] = 'Notificación de pregunta añadida';
 $string['messageprovider:commentdeleted'] = 'Notificación de eliminación de comentario';
-$string['messageprovider:deleted'] = 'Notificación de eliminación de pregunta';
 $string['messageprovider:minecommentdeleted'] = 'Notificación de eliminación de mi comentario';
 $string['mine_column_name'] = 'Mía';
 $string['modulename'] = 'ExamenEstudiante (StudentQuiz)';
@@ -291,13 +267,12 @@ $string['studentquiz:emailnotifyapproved'] = 'Notificación de aprobación de pr
 $string['studentquiz:emailnotifychanged'] = 'Notificación de cambio de pregunta';
 $string['studentquiz:emailnotifycommentadded'] = 'Notificación de adición de comentario';
 $string['studentquiz:emailnotifycommentdeleted'] = 'Notificación de eliminación de comentario';
-$string['studentquiz:emailnotifydeleted'] = 'Notificación de eliminación de pregunta';
 $string['studentquiz:manage'] = 'Moderar preguntas en ExamenEstudiante (StudentQuiz)';
-$string['studentquizname'] = 'Nombre del ExamenEstudiante (StudentQuiz)';
-$string['studentquizname_help'] = 'Nombre de este ExamenEstudiante (StudentQuiz)';
 $string['studentquiz:previewothers'] = 'Previsualizar preguntas de otros en ExamenEstudiante (StudentQuiz)';
 $string['studentquiz:submit'] = 'Enviar preguntas en ExamenEstudiante (StudentQuiz)';
 $string['studentquiz:unhideanonymous'] = 'Puede ver nombres reales aun y cuando el anonimizador esté activo';
 $string['studentquiz:view'] = 'Ver preguntas en ExamenEstudiante (StudentQuiz)';
+$string['studentquizname'] = 'Nombre del ExamenEstudiante (StudentQuiz)';
+$string['studentquizname_help'] = 'Nombre de este ExamenEstudiante (StudentQuiz)';
 $string['tags'] = 'Marcas';
 $string['unapprove'] = 'Desaprobar';

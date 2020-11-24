@@ -37,10 +37,9 @@ $string['notenoughqsandas'] = 'Debe suministrar al menos {$a->q} preguntas y {$a
 $string['notenoughquestions'] = 'Debe suministrar al menos {$a} pares de preguntas y respuestas.';
 $string['pleaseananswerallparts'] = 'Por favor, responda a todas las partes de la pregunta.';
 $string['pluginname'] = 'Emparejamiento';
+$string['pluginname_help'] = 'Las preguntas de emparejamiento requieren para su resolución que se establezcan de forma correcta las relaciones entre una lista de nombres o enunciados (preguntas) y otra lista de nombres o enunciados (respuestas).';
 $string['pluginnameadding'] = 'Agregando una pregunta de emparejamiento';
 $string['pluginnameediting'] = 'Editando una pregunta de emparejamiento';
-$string['pluginname_help'] = 'Las preguntas de emparejamiento requieren para su resolución que se establezcan de forma correcta las relaciones entre una lista de nombres o enunciados (preguntas) y otra lista de nombres o enunciados (respuestas).';
 $string['pluginnamesummary'] = 'La respuesta a cada una de las sub-preguntas debe seleccionarse a partir de una lista de posibilidades.';
 $string['shuffle'] = 'Barajar';
-$string['shuffle_help'] = '<p>Si selecciona la opción "Sí", el orden de las sub-preguntas se elaborará al azar cada vez que el estudiante intenta contestar el cuestionario que contiene esta pregunta, suponiendo que la opcion "Ordenar al azar" en los ajustes del cuestionario sea "Sí".</p>
-';
+$string['shuffle_help'] = 'Si está habilitado, el orden de los elementos (respuestas) se elaborará al azar en cada intento, siempre que suponiendo que la opcion "Ordenar al azar" en los ajustes del cuestionario este también habilitada.';

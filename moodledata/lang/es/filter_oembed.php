@@ -25,7 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['connection_error'] = 'Se produjo un error mientras se accedía al elemento embebido. Por favor, inténtelo nuevamente actualizando la página.';
+$string['filtername'] = 'oEmbed Filter';
+$string['issuu'] = 'Issuu';
 $string['lazyload'] = 'Delay Embed Loading (Lazyload)';
+$string['officemix'] = 'Office Mix';
+$string['pollev'] = 'Poll Everywhere';
 $string['providername'] = 'Nombre del proveedor';
 $string['providersallowed'] = 'Proveedores permitidos.';
 $string['providersallowed_desc'] = 'Proveedores en la lista blanca para utilizarse con este plugin';
@@ -36,4 +41,9 @@ $string['requiredfield'] = 'El campo "{$a}" debe completarse';
 $string['saveasnew'] = 'Guardar como nuevo en local';
 $string['savefailed'] = 'Falló al guardar proveedor.';
 $string['saveok'] = 'Proveedor guardado correctamente.';
+$string['slideshare'] = 'SlideShare';
+$string['soundcloud'] = 'SoundCloud';
 $string['source'] = 'Fuente del proveedor';
+$string['ted'] = 'Ted Talks';
+$string['vimeo'] = 'Vimeo';
+$string['youtube'] = 'Youtube';

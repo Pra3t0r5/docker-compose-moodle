@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['autoattendmod:addinstance'] = 'Añadir nuevo módulo de control de asistencia';
-$string['autoattendmod_options'] = 'Opciones del módulo de Control de Asistencia';
 $string['autoattendmod:view'] = 'Ver módulo';
 $string['autoattendmod:viewreports'] = 'Ver informes';
+$string['autoattendmod_options'] = 'Opciones del módulo de Control de Asistencia';
 $string['description'] = 'Descripción';
 $string['email_enable'] = 'Habilitar notificación por correo electrónico';
 $string['email_enable_help'] = 'Si marca esta casilla, cuando la sesión finalice, los datos de asistencia serán enviados a los profesores por correo electrónico';

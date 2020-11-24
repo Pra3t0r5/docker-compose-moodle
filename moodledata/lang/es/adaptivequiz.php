@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'adaptivequiz', language 'es', branch 'MOODLE_31_STABLE'
+ * Strings for component 'adaptivequiz', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   adaptivequiz
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,10 +28,10 @@ defined('MOODLE_INTERNAL') || die();
 $string['activityreports'] = 'Reporte de intentos';
 $string['adaptivequiz:addinstance'] = 'Añadir un nuevo cuestionario adaptativo';
 $string['adaptivequiz:attempt'] = 'Complete el cuestionario adaptativo';
-$string['adaptivequizname'] = 'Nombre';
-$string['adaptivequizname_help'] = 'Introduzca el nombre del cuestionario adaptativo';
 $string['adaptivequiz:reviewattempts'] = 'Revise los envíos del cuestionario adaptativo';
 $string['adaptivequiz:viewreport'] = 'Ver los reportes del cuestionario adaptativo';
+$string['adaptivequizname'] = 'Nombre';
+$string['adaptivequizname_help'] = 'Introduzca el nombre del cuestionario adaptativo';
 $string['all_attempts_deleted'] = 'Todos los intentos del cuestionario adaptativo han sido borrados';
 $string['all_grades_removed'] = 'Todos las calificaciones de cuestionarios adaptativos han sido borradas';
 $string['answer'] = 'Respuesta';
@@ -39,6 +39,10 @@ $string['answerdistgraph_numrightwrong'] = 'Número incorrecto (-)  /   Número 
 $string['answerdistgraph_questiondifficulty'] = 'Nivel de pregunta';
 $string['answerdistgraph_title'] = 'Distribución de respuesta para  {$a->firstname} {$a->lastname}';
 $string['answers_display_name'] = 'Respuestas';
+$string['attempt_questiondetails'] = 'Detalles de la pregunta';
+$string['attempt_state'] = 'Estado del intento';
+$string['attempt_summary'] = 'Resumen del intento';
+$string['attempt_user'] = 'Usuario/a';
 $string['attemptclosed'] = 'Los intentos han sido cerrados manualmente.';
 $string['attemptclosedstatus'] = 'Cerrados manualmente por {$a->current_user_name} (user-id: {$a->current_user_id}) en {$a->now}.';
 $string['attemptdeleted'] = 'Intento eliminado para {$a->name} submitted on {$a->timecompleted}';
@@ -49,7 +53,6 @@ $string['attemptfirst'] = 'Primer intento';
 $string['attemptlast'] = 'Último intento';
 $string['attemptquestion_ability'] = 'Medida de capacidad';
 $string['attemptquestion_abilitylogits'] = 'Capacidad medida (logits)';
-$string['attempt_questiondetails'] = 'Detalles de la pregunta';
 $string['attemptquestion_difficulty'] = 'Dificultad de la pregunta (logits)';
 $string['attemptquestion_error'] = 'Error estándar (&plusmn;&nbsp;x%)';
 $string['attemptquestion_rightwrong'] = 'Correcto/Incorrecto';
@@ -57,11 +60,8 @@ $string['attemptquestion_stderr'] = 'Error estándar (&plusmn;&nbsp;logits)';
 $string['attemptsallowed'] = 'Intentos permitidos';
 $string['attemptsallowed_help'] = 'Número de veces que un estudiante puede intentar esta actividad';
 $string['attemptstarttime'] = 'Hora de inicio del intento';
-$string['attempt_state'] = 'Estado del intento';
 $string['attemptstopcriteria'] = 'Razón para detener el intento';
-$string['attempt_summary'] = 'Resumen del intento';
 $string['attempttotaltime'] = 'Tiempo total (hh:mm:ss)';
-$string['attempt_user'] = 'Usuario/a';
 $string['backtomainreport'] = 'Volver a los informes principales';
 $string['backtoviewreport'] = 'Volver a los informes principales';
 $string['bestscore'] = 'Mejor puntuación';

@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['enrolenddate'] = 'Fecha de fin';
-$string['enrolenddateerror'] = 'La fecha de inicio de la matriculación no puede ser previa a la fecha de fin de la matriculación.';
 $string['enrolenddate_help'] = 'Si está activado, los usuarios pueden acceder únicamente hasta ese día.';
+$string['enrolenddateerror'] = 'La fecha de inicio de la matriculación no puede ser previa a la fecha de fin de la matriculación.';
 $string['enrolmentfinished'] = 'Matriculación finalizada.';
 $string['enrolmentnotstarted'] = 'La matriculación no ha comenzado.';
 $string['enrolperiod'] = 'Duración de la matrícula';

@@ -38,8 +38,8 @@ $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la pr
 $string['indicator:socialbreadth'] = 'Etiqueta social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en un recurso Etiqueta.';
 $string['label:addinstance'] = 'Añadir una nueva etiqueta';
-$string['labeltext'] = 'Texto de la etiqueta';
 $string['label:view'] = 'Ver etiqueta';
+$string['labeltext'] = 'Texto de la etiqueta';
 $string['modulename'] = 'Etiqueta';
 $string['modulename_help'] = 'El módulo etiqueta permite insertar texto y elementos multimedia en las páginas del curso entre los enlaces a otros recursos y actividades. Las etiquetas son muy versátiles y pueden ayudar a mejorar la apariencia de un curso si se usan cuidadosamente.
 

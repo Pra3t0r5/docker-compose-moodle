@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_socialwall', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'format_socialwall', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   format_socialwall
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,20 +57,20 @@ $string['countlikes'] = '{$a} Me Gusta';
 $string['counttotalpost'] = '{$a->count}/{$a->total} publicaciones';
 $string['currentsection'] = 'Este tema';
 $string['deleteafterunenrol'] = 'Borrar items luego de desmatricular usuario';
-$string['deleteafterunenroldesc'] = 'Cuando un usuario es desmatriculado de un curso todas sus publicaciones y comentarios serán borrados';
 $string['deleteafterunenrol_help'] = 'Cuando un usuario es desmatriculado de un curso todas sus publicaciones y comentarios serán borrados';
+$string['deleteafterunenroldesc'] = 'Cuando un usuario es desmatriculado de un curso todas sus publicaciones y comentarios serán borrados';
 $string['deletemodspermanently'] = 'Borrar automáticamente actividades';
 $string['edited'] = 'editado';
 $string['editnotification'] = 'Editar las opciones de notificación';
 $string['enablelikes'] = 'Activar Me Gusta';
-$string['enablelikesdesc'] = 'Opciones por defecto para los Me Gusta activados';
 $string['enablelikes_help'] = 'Se permite al usuario dar Me gusta y Ya no me gusta en este curso.';
+$string['enablelikesdesc'] = 'Opciones por defecto para los Me Gusta activados';
 $string['enablenotification'] = 'Activar notificación';
-$string['enablenotificationdesc'] = 'Configuración por defecto para las opciones de formato de curso.';
 $string['enablenotification_help'] = 'Las notificaciones pueden ser configuradas por los usuarios.';
+$string['enablenotificationdesc'] = 'Configuración por defecto para las opciones de formato de curso.';
 $string['enablestudentupload'] = 'Permitir a los usuarios subir archivos y enlaces';
-$string['enablestudentuploaddesc'] = 'Configuración por defecto para subir archivos.';
 $string['enablestudentupload_help'] = 'Permitir a estudiantes agregar un archivo o url a una publicación';
+$string['enablestudentuploaddesc'] = 'Configuración por defecto para subir archivos.';
 $string['errorsavestateedit'] = 'Error guardando publicación. La publicación no se ha guardado.';
 $string['filtersheader'] = 'Filtros';
 $string['filtertimeline'] = 'Filtro';

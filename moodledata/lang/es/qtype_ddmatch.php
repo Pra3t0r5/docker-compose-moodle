@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['draganswerhere'] = 'Arrastre la respuesta aquí';
 $string['editingddmatch'] = 'Editando la pregunta de emparejamiento mediante arrastrar y soltar';
 $string['pluginname'] = 'Emparejamiento mediante arrastrar y soltar';
+$string['pluginname_help'] = 'Las preguntas de emparejamiento mediante arrastrar y soltar requieren que el estudiante relacione correctamente una lista de nombres o de oraciones (preguntas) contra otra lista de nombres o de oraciones (respuestas).';
 $string['pluginnameadding'] = 'Añadiendo la pregunta de emparejamiento mediante arrastrar y soltar';
 $string['pluginnameediting'] = 'Editando la pregunta de emparejamiento mediante arrastrar y soltar';
-$string['pluginname_help'] = 'Las preguntas de emparejamiento mediante arrastrar y soltar requieren que el estudiante relacione correctamente una lista de nombres o de oraciones (preguntas) contra otra lista de nombres o de oraciones (respuestas).';
 $string['pluginnamesummary'] = 'Una extensión de la pregunta de emparejamiento, que le permite al usuario arrastrar y colocar elementos para que coincidan las respuestas con las subpreguntas.';

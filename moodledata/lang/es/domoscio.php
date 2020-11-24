@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'domoscio', language 'es', branch 'MOODLE_31_STABLE'
+ * Strings for component 'domoscio', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   domoscio
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -45,10 +45,10 @@ $string['desk'] = 'Mi organizador';
 $string['domoscio'] = 'domoscio';
 $string['domoscio:addinstance'] = 'Añadir un nuevo examen';
 $string['domoscio:manage'] = 'Gestionar una actividad de tipo lección';
-$string['domoscioname'] = 'nombre domoscio';
-$string['domoscioresourceset'] = 'Enlace a un recurso';
 $string['domoscio:savetrack'] = 'Almacenar los resultados de las actividades SCORM en el plugin Domoscio';
 $string['domoscio:view'] = 'Ver la información del examen';
+$string['domoscioname'] = 'nombre domoscio';
+$string['domoscioresourceset'] = 'Enlace a un recurso';
 $string['enrol_students'] = 'Alumnos matriculados';
 $string['global_view'] = 'Vista general';
 $string['import_activities'] = 'Importar actividades';

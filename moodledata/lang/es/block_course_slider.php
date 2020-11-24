@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_slider', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'block_course_slider', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   block_course_slider
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -42,14 +42,14 @@ $string['centermodeflag'] = 'Modo centrado:';
 $string['centermodeflagdesc'] = 'Seleccionar ON para habilitar el modo centrado del deslizado de curso y OFF para deshabilitarlo.';
 $string['color'] = 'Color';
 $string['colordesc'] = 'El color de cada uno de los cursos en el deslizador. Usa CSS personalizado para cambiar el color de cada curso.';
+$string['course_slider'] = 'Deslizador de cursos';
 $string['courseconfiguration'] = 'Configuración del curso';
 $string['coursenameflag'] = 'Nombre:';
 $string['coursenameflagdesc'] = 'Selecciona Visible para mostrar el nombre del curso. Seleciona Ocultar para ocultarlo.';
 $string['courses'] = 'Cursos:';
-$string['coursesdesc'] = 'La lista de cursos a mostrar en el deslizador.';
 $string['courses_help'] = 'La lista de cursos a mostrar en el deslizador. Introducir los identificadores de los cursos separados por comas. Por ejemplo: <br><br>1,2,3,4';
+$string['coursesdesc'] = 'La lista de cursos a mostrar en el deslizador.';
 $string['courseslider'] = 'Deslizador de cursos';
-$string['course_slider'] = 'Deslizador de cursos';
 $string['coursesliderheading'] = 'Configuración del deslizador de cursos';
 $string['coursesliderheadingdesc'] = 'Personaliza la apariencia del bloque Deslizador de Cursos (si está activado en el sitio).';
 $string['coursesummaryflag'] = 'Resumen:';

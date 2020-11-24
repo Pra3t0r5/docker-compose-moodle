@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'klassenbuch', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'klassenbuch', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   klassenbuch
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -67,9 +67,9 @@ $string['klassenbuch:edit'] = 'Editar capítulos del libro';
 $string['klassenbuch:initialsubscriptions'] = 'Inicialmente suscrito al libro';
 $string['klassenbuch:managesubscriptions'] = 'Suscribir / Cancelar suscripción de otros usuarios';
 $string['klassenbuch:read'] = 'Leer libro';
-$string['klassenbuchs'] = 'klassenbuch';
 $string['klassenbuch:viewhiddenchapters'] = 'Ver los capítulos del libro ocultos';
 $string['klassenbuch:viewsubscribers'] = 'Ver qué usuarios están suscritos';
+$string['klassenbuchs'] = 'klassenbuch';
 $string['mailsent'] = '{$a->count} participantes enviaron el capítulo {$a->chapter}';
 $string['manageglobalfields'] = 'Administrar campos globales';
 $string['missingfilemanagement'] = 'Queridos usuarios del módulo Libro, me imagino que ya se habrán dado cuenta de que no es posible borrar o administrar ficheros utilizados en los capítulos del Libro. Por favor voten en {$a} para arreglar esto, gracias. Petr Škoda';

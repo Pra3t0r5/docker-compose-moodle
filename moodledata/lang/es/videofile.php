@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'videofile', language 'es', branch 'MOODLE_27_STABLE'
+ * Strings for component 'videofile', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   videofile
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -46,11 +46,11 @@ $string['responsive_help'] = 'Marque esta opción para adaptar el tamaño del vi
 
 Utilice los campos de ancho y altura para definir las proporciones del video (por ejemplo, 16/9 o 800/450).';
 $string['video_fieldset'] = 'Video';
+$string['video_not_playing'] = '¿No se reproduce el video? Pruebe {$a}.';
 $string['videofile:addinstance'] = 'Añadir un nuevo Videofile';
+$string['videofile:view'] = 'Ver Videofile';
 $string['videofile_defaults_heading'] = 'Valores predeterminados para los ajustes de videofile';
 $string['videofile_defaults_text'] = 'Los valores que se establecen aquí definen los valores predeterminados que se utilizan en el formulario de ajustes de videofile al crear un nuevo Videofile.';
-$string['videofile:view'] = 'Ver Videofile';
-$string['video_not_playing'] = '¿No se reproduce el video? Pruebe {$a}.';
 $string['videos'] = 'Videos';
 $string['videos_help'] = 'Añada aquí el archivo de video.
 

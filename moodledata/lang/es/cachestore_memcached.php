@@ -48,7 +48,6 @@ $string['prefixinvalid'] = 'Prefijo no válido. Sólo puede usar a-z A-Z 0-9-_.'
 $string['serialiser_json'] = 'Serializador de JSON.';
 $string['serialiser_php'] = 'Serializador PHP predeterminado.';
 $string['servers'] = 'Servidores';
-$string['serversclusterinvalid'] = 'Se requiere un servidor cuando la agrupación está activada.';
 $string['servers_help'] = 'Este ajuste configura los servidores utilizados por el adaptador memcache.
 Los servidores deben definirse uno por línea, indicando la dirección de servidor y, opcionalmente, un puerto y peso.
 Si no se proporciona ningún puerto se utilizará el puerto predeterminado (11211).
@@ -61,6 +60,7 @@ nombre_servidor:puerto:peso
 </pre>
 
 Si *habilitar servidores agrupados* está habilitado, sólo puede haber un servidor en esta lista. Normalmente será un nombre que siempre determina el equipo local, como 127.0.0.1 o localhost.';
+$string['serversclusterinvalid'] = 'Se requiere un servidor cuando la agrupación está activada.';
 $string['sessionhandlerconflict'] = 'Advertencia: Un caso memcached ({$a}) se ha configurado para utilizar el mismo servidor memcached como sesiones. Eliminar toda la caché redirigirá a sesiones que estén siendo eliminadas.';
 $string['setservers'] = 'Configurar Servidores';
 $string['setservers_help'] = 'Esta es la lista de servidores que se actualizarán cuando los datos se modifican en la caché. Normalmente el nombre completo de cada servidor en el inventario. **Debe** incluir el servidor especificado en *servidores* encima, incluso si es con un nombre de equipo diferente.
@@ -73,7 +73,8 @@ server.url.com
 ipaddress:port
 </pre>';
 $string['testservers'] = 'Servidores de prueba';
-$string['testservers_desc'] = 'Los servidores de prueba se utilizan para las pruebas unitarias y las pruebas de rendimiento. Es totalmente opcional utilizar servidores de prueba. Cada servidor se define en una por línea mediante una dirección de servidor y opcionalmente un puerto y su relevancia. Si no se especifica un puerto se usa el puerto por defecto (11211).';
+$string['testservers_desc'] = 'Una o más conexiones para servidores memcached a comprobar. Si se ha especificado un servidor de prueba, entonces memcached se puede comprobar usando la página caché en el bloque de administración.
+Por ejemplo: 127.0.0.1:11211';
 $string['upgrade200recommended'] = 'Te recomendamos que actualices tu extensión Memcached PHP a la versión 2.0.0 o superior.
 La versión de la extensión Memcached PHP que estás utilizando no proporciona la funcionalidad que Moodle usa para asegurar una caché de espacio aislado. Hasta que no la actualices te recomendamos que no configures ninguna otra aplicación para que use los mismos servidores Memcached que utiliza Moodle.';
 $string['usecompression'] = 'Usar compresión';

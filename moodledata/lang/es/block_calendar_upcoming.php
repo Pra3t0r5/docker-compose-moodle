@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['calendar_upcoming:addinstance'] = 'Añadir un nuevo bloque de eventos próximos';
-$string['calendar_upcoming:myaddinstance'] = 'Añadir un nuevo bloque de eventos próximos al Área personal';
+$string['calendar_upcoming:myaddinstance'] = 'Añadir un nuevo bloque de eventos próximos al Área Personal';
 $string['gotocalendar'] = 'Ir al calendario...';
 $string['pluginname'] = 'Eventos próximos';

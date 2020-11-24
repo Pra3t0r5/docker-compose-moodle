@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_usertours', language 'es', branch 'MOODLE_31_STABLE'
+ * Strings for component 'local_usertours', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   local_usertours
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -95,8 +95,6 @@ $string['resettouronpage'] = 'Resetear el tour de usuario en esta página';
 $string['resumetour'] = 'Reanudar';
 $string['right'] = 'Derecha';
 $string['select_block'] = 'Seleccione un bloque';
-$string['selector_defaulttitle'] = 'Introduzca un titulo descriptivo';
-$string['selectordisplayname'] = 'Un selector CSS  que coincida con \'{$a}\\';
 $string['select_targettype'] = 'Cualquier paso está asociado con una parte de la página que debe escoger. Para hacerlo más fácil hay muchos tipos de objetivo para diferentes tipos de contenido de página.
 <dl>
     <dt>Bloque</dt>
@@ -106,6 +104,8 @@ $string['select_targettype'] = 'Cualquier paso está asociado con una parte de l
     <dt>Mostrar en la mitad de la página</dt>
     <dd>En lugar de asociar el paso con una parte específica de la página, puede hacer que se muestre en el centro de la página.</dd>
 </dl>';
+$string['selector_defaulttitle'] = 'Introduzca un titulo descriptivo';
+$string['selectordisplayname'] = 'Un selector CSS  que coincida con \'{$a}\\';
 $string['selecttype'] = 'Seleccionar el tipo de paso';
 $string['sharedtourslink'] = 'Repositorio de tour';
 $string['skip'] = 'Saltar';
@@ -114,8 +114,8 @@ $string['target_block'] = 'Bloque';
 $string['target_selector'] = 'Selector';
 $string['target_selector_targetvalue'] = 'Selectores CSS';
 $string['target_selector_targetvalue_help'] = 'a';
-$string['targettype'] = 'Tipo de objetivo';
 $string['target_unattached'] = 'Mostrar en el centro de la página';
+$string['targettype'] = 'Tipo de objetivo';
 $string['title'] = 'Título';
 $string['title_help'] = 'Este es el título que se mostrará en la parte superior de este paso.
 Podrá introducir un título en los siguientes formatos:

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'icontent', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'icontent', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   icontent
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -64,6 +64,9 @@ $string['copyright_help'] = 'Espacio reservado para añadir los créditos relaci
 $string['coverpage'] = 'Portada';
 $string['coverpage_help'] = 'Habilitar para crear una portada para mostrar el contenido. Si elige esta opción, agregue una breve descripción en el campo de contenido. Esta descripción aparecerá en la portada. Si la descripción contiene más de 500 caracteres, se agregará un botón de [leer más].';
 $string['description'] = 'Descripción';
+$string['doubtandnotes'] = 'Escriba sus notas y envíe sus dudas';
+$string['doubtstotutor'] = 'Preguntas enviadas al responsable';
+$string['doubttutor'] = 'Preguntar solamente al responsable';
 $string['evaluative'] = 'Elemento evaluativo';
 $string['evaluative_help'] = 'Si activa esta característica, se vuelve un elemento de evaluación.';
 $string['eventnotelikecreated'] = 'Like de nota creado';
@@ -81,17 +84,18 @@ $string['highcontrast'] = 'Alto contraste';
 $string['highlights'] = 'Resaltados';
 $string['icontent'] = 'Contenido';
 $string['icontent:answerquestionstryagain'] = 'Permitir respuestas ilimitadas a las preguntas en páginas';
+$string['icontent:checkboxdoubttutornotes'] = 'Duda para el responsable';
 $string['icontent:checkboxfeaturednotes'] = 'Marcar notas como destacadas';
 $string['icontent:checkboxprivatenotes'] = 'Marcar notas como privadas';
 $string['icontent:edit'] = 'Editar páginas de contenido';
-$string['icontentfieldset'] = 'Ejemplo de campo personalizado';
 $string['icontent:likenotes'] = 'Dar me gusta a notas';
 $string['icontent:manage'] = 'Gestionar icontent interactivo';
+$string['icontent:replynotes'] = 'Responder nota';
+$string['icontent:view'] = 'Ver icontent interactivo';
+$string['icontentfieldset'] = 'Ejemplo de campo personalizado';
 $string['icontentmenu'] = 'Menú de la página de contenido';
 $string['icontentname'] = 'Nombre de la página de contenido';
 $string['icontentname_help'] = 'Este es el contenido de ayuda asociado con el complemento Páginas de contenido. Compatible con Markdown.';
-$string['icontent:replynotes'] = 'Responder nota';
-$string['icontent:view'] = 'Ver icontent interactivo';
 $string['labelprogressbar'] = '{$a}% completado';
 $string['layouthelp_help'] = 'Elegir un diseño.';
 $string['like'] = 'Me gusta ({$a})';

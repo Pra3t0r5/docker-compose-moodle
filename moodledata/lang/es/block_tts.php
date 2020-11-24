@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tts', language 'es', branch 'MOODLE_26_STABLE'
+ * Strings for component 'block_tts', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   block_tts
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,23 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['am'] = 'am';
 $string['AM1'] = 'AM';
 $string['AND'] = 'todo';
 $string['Apr'] = 'Abr';
 $string['April'] = 'Abril';
 $string['Aug'] = 'Ago';
 $string['August'] = 'Agosto';
-$string['col_bCancel'] = 'Cancelar';
-$string['col_bSubmit'] = 'Ok';
 $string['Dec'] = 'Dic';
 $string['December'] = 'Diciembre';
-$string['delete_bCancel'] = 'Cancelar';
-$string['delete_bSubmit'] = 'Eliminar';
-$string['delete_caption'] = 'Eliminar';
-$string['edit_bNo'] = 'No';
-$string['edit_bYes'] = 'Sí';
-$string['errcap'] = 'Error';
 $string['Feb'] = 'Feb';
 $string['February'] = 'Febrero';
 $string['Fri'] = 'Vie';
@@ -52,7 +43,6 @@ $string['Jul'] = 'Jul';
 $string['July'] = 'Julio';
 $string['Jun'] = 'Jun';
 $string['June'] = 'Junio';
-$string['loadtext'] = 'Cargando...';
 $string['Mar'] = 'Mar';
 $string['March'] = 'Marzo';
 $string['May'] = 'May';
@@ -62,11 +52,9 @@ $string['Nov'] = 'Nov';
 $string['November'] = 'Noviembre';
 $string['Oct'] = 'Oct';
 $string['October'] = 'Octubre';
-$string['pm'] = 'pm';
 $string['PM1'] = 'PM';
 $string['Sat'] = 'Sáb';
 $string['Saturday'] = 'Sábado';
-$string['search_caption'] = 'Buscar...';
 $string['Sep'] = 'Sep';
 $string['September'] = 'Septiembre';
 $string['Sun'] = 'Dom';
@@ -77,3 +65,15 @@ $string['Tue'] = 'Mar';
 $string['Tuesday'] = 'Martes';
 $string['Wed'] = 'Mié';
 $string['Wednesday'] = 'Miércoles';
+$string['am'] = 'am';
+$string['col_bCancel'] = 'Cancelar';
+$string['col_bSubmit'] = 'Ok';
+$string['delete_bCancel'] = 'Cancelar';
+$string['delete_bSubmit'] = 'Eliminar';
+$string['delete_caption'] = 'Eliminar';
+$string['edit_bNo'] = 'No';
+$string['edit_bYes'] = 'Sí';
+$string['errcap'] = 'Error';
+$string['loadtext'] = 'Cargando...';
+$string['pm'] = 'pm';
+$string['search_caption'] = 'Buscar...';

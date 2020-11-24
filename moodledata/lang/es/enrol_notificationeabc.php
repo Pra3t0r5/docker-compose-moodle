@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_notificationeabc', language 'es', branch 'MOODLE_31_STABLE'
+ * Strings for component 'enrol_notificationeabc', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   enrol_notificationeabc
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -26,13 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activar'] = 'Activar verificación inicial';
+$string['activar_help'] = 'Al activarse se verificará, mediante la ejecucion del cron inmediatamente posterior, a los usuarios que fueron matriculados en el periodo establecido arriba';
 $string['activarglobal'] = 'Activar para todo el sitio';
+$string['activarglobal_help'] = 'Activa la notificación de matriculación para todo los cursos';
 $string['activarglobalenrolupdated'] = 'Activar para todo el sitio';
 $string['activarglobalenrolupdated_help'] = 'Activar la notificación de actualización de matriculación para todo el sitio';
-$string['activarglobal_help'] = 'Activa la notificación de matriculación para todo los cursos';
 $string['activarglobalunenrolalert'] = 'Activar para todo el sitio';
 $string['activarglobalunenrolalert_help'] = 'Activar la notificación de desmatriculación para todo el sitio';
-$string['activar_help'] = 'Al activarse se verificará, mediante la ejecucion del cron inmediatamente posterior, a los usuarios que fueron matriculados en el periodo establecido arriba';
 $string['activeenrolalert'] = 'Activar aviso de matriculación';
 $string['activeenrolalert_help'] = 'Activar aviso de matriculación';
 $string['activeenrolupdatedalert'] = 'Activar aviso de actualización de matriculación';
@@ -61,7 +61,6 @@ $string['pluginname_desc'] = 'Notificación de matriculaciones a cursos vía mai
 $string['status'] = 'Activar notificación de matriculación';
 $string['subject'] = 'Notificación de Matriculación';
 $string['unenrolmessage'] = 'Mensaje personalizado';
-$string['unenrolmessagedefault'] = 'Usted ha sido desmatriculado del curso {$a->fullname} ({$a->url})';
 $string['unenrolmessage_help'] = 'Personalice el mensaje que le llegará a los usuarios al ser desmatriculados. Este campo acepta los siguientes marcadores que luego seran reemplazados dinámicamente por los valores correspondientes
 <pre>
 {COURSENAME} = Nombre completo del curso
@@ -70,8 +69,8 @@ $string['unenrolmessage_help'] = 'Personalice el mensaje que le llegará a los u
 {APELLIDO} = Apellido
 {URL} = Url del curso
 </pre>';
+$string['unenrolmessagedefault'] = 'Usted ha sido desmatriculado del curso {$a->fullname} ({$a->url})';
 $string['updatedenrolmessage'] = 'Mensaje personalizado';
-$string['updatedenrolmessagedefault'] = 'Su matriculación en el curso {$a->fullname} ha sido actualizada ({$a->url})';
 $string['updatedenrolmessage_help'] = 'Personalice el mensaje que le llegará a los usuarios al realizar alguna actualizacion en su matriculacion. Este campo acepta los siguientes marcadores que luego seran reemplazados dinámicamente por los valores correspondientes
 <pre>
 {COURSENAME} = Nombre completo del curso
@@ -80,3 +79,4 @@ $string['updatedenrolmessage_help'] = 'Personalice el mensaje que le llegará a 
 {APELLIDO} = Apellido
 {URL} = Url del curso
 </pre>';
+$string['updatedenrolmessagedefault'] = 'Su matriculación en el curso {$a->fullname} ha sido actualizada ({$a->url})';

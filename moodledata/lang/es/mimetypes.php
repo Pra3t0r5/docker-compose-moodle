@@ -42,13 +42,13 @@ $string['application/vnd.openxmlformats-officedocument.presentationml.slideshow'
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'] = 'Hoja de cálculo Excel';
 $string['application/vnd.openxmlformats-officedocument.spreadsheetml.template'] = 'Plantilla Excel 2007';
 $string['application/vnd.openxmlformats-officedocument.wordprocessingml.document'] = 'Documento Word 2007';
-$string['application/xhtml_xml'] = 'Documento XHTML';
 $string['application/x-iwork-keynote-sffkey'] = 'Presentación de iWork Keynote';
 $string['application/x-iwork-numbers-sffnumbers'] = 'Hoja de cálculo de iWork Numbers';
 $string['application/x-iwork-pages-sffpages'] = 'Documento iWork Pages';
 $string['application/x-javascript'] = 'Código JavaScript';
 $string['application/x-mspublisher'] = 'Documento Publisher';
 $string['application/x-shockwave-flash'] = 'Animación Flash';
+$string['application/xhtml_xml'] = 'Documento XHTML';
 $string['archive'] = 'Archivo ({$a->EXT})';
 $string['audio'] = 'Archivo de audio ({$a->EXT})';
 $string['default'] = '{$a->mimetype}';

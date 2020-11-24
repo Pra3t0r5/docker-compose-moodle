@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'adobeconnect', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'adobeconnect', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   adobeconnect
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -27,20 +27,20 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addparticipant'] = 'Añadir';
 $string['addpresenter'] = 'Añadir';
-$string['adminemptyxml'] = 'Imposible conectarse al servidor de Adobe Connect Pro. Haga clic en continuar para proceder a la página de configuración de la actividad y probar la conexión.';
 $string['admin_httpauth'] = 'Cabecera de autenticación HTTP';
 $string['admin_httpauth_desc'] = 'El valor de  HTTP_AUTH_HEADER usado en su custom.ini';
 $string['admin_login'] = 'Admin Login';
 $string['admin_login_desc'] = 'Login para la cuenta de administrador principal';
 $string['admin_password'] = 'Contraseña de administración';
 $string['admin_password_desc'] = 'Contraseña para la cuenta del administrador principal';
+$string['adminemptyxml'] = 'Imposible conectarse al servidor de Adobe Connect Pro. Haga clic en continuar para proceder a la página de configuración de la actividad y probar la conexión.';
 $string['adobeconnect'] = 'Adobe Connect';
-$string['adobeconnectfieldset'] = 'Configuración de Adobe Connect';
-$string['adobeconnecthost'] = 'Adobe Connect Host';
-$string['adobeconnectintro'] = 'Intro';
 $string['adobeconnect:meetinghost'] = 'Anfitrión de la reunión';
 $string['adobeconnect:meetingparticipant'] = 'Participante de la reunión';
 $string['adobeconnect:meetingpresenter'] = 'Presentador de la reunión';
+$string['adobeconnectfieldset'] = 'Configuración de Adobe Connect';
+$string['adobeconnecthost'] = 'Adobe Connect Host';
+$string['adobeconnectintro'] = 'Intro';
 $string['adobeconnectname'] = 'Titulo de la reunión';
 $string['adobeconnectparticipant'] = 'Participante de Adobe Connect';
 $string['adobeconnectpresenter'] = 'Presentador de Adobe Connect';

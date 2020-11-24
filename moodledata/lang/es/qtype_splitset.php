@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_splitset', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'qtype_splitset', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   qtype_splitset
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -47,9 +47,9 @@ $string['numericnum'] = '1,2,3...';
 $string['partiallycorrectfeedback'] = 'Retroalimentación (parcialmente exitosa)';
 $string['partiallycorrectfeedback_help'] = 'Retroalimentación cuando algunas respuestas son correctas';
 $string['pluginname'] = 'Establecer jerarquización.';
+$string['pluginname_help'] = 'Le permite crear y editar una serie de preguntas que distribuye puntuación sobre una serie de posibles respuestas.';
 $string['pluginnameadding'] = 'Agregar marcadores de jerarquización';
 $string['pluginnameediting'] = 'Editar marcadores de jerarquización';
-$string['pluginname_help'] = 'Le permite crear y editar una serie de preguntas que distribuye puntuación sobre una serie de posibles respuestas.';
 $string['pluginnamesummary'] = 'Muestra una lista de preguntas que tienen el mismo conjunto de respuestas posibles. El alumno puede responder a todas las preguntas en una sola página.';
 $string['set'] = 'Respuesta correcta {no}';
 $string['sets'] = 'Cantidad de niveles';

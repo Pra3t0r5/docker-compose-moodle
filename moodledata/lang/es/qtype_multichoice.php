@@ -28,10 +28,10 @@ defined('MOODLE_INTERNAL') || die();
 $string['answerhowmany'] = '¿Una o varias respuestas?';
 $string['answernumbering'] = '¿Numerar las elecciones?';
 $string['answernumbering123'] = '1., 2., 3., ...';
-$string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
-$string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingiii'] = 'i., ii., iii., ...';
 $string['answernumberingnone'] = 'Sin numeración';
 $string['answersingleno'] = 'Se permiten varias respuestas';
 $string['answersingleyes'] = 'Sólo una respuesta';
@@ -58,10 +58,10 @@ $string['partiallycorrectfeedback'] = 'Para cualquier respuesta parcialmente cor
 $string['pleaseselectananswer'] = 'Por favor, selecciona una respuesta.';
 $string['pleaseselectatleastoneanswer'] = 'Por favor, selecciona al menos una respuesta.';
 $string['pluginname'] = 'Opción múltiple';
-$string['pluginnameadding'] = 'Agregando pregunta de opción múltiple';
-$string['pluginnameediting'] = 'Editando una pregunta de opción múltiple';
 $string['pluginname_help'] = 'En respuesta a una pregunta (puede incluir una imagen) el alumno escoje la respuesta entre varias respuestas posibles.
 Hay dos tipos de preguntas con respuesta múltiple: con una y con más de una respuesta válida.';
+$string['pluginnameadding'] = 'Agregando pregunta de opción múltiple';
+$string['pluginnameediting'] = 'Editando una pregunta de opción múltiple';
 $string['pluginnamesummary'] = 'Permite la selección de una o varias respuestas a partir de una lista predefinida.';
 $string['selectmulti'] = 'Seleccione una o más de una:';
 $string['selectone'] = 'Seleccione una:';

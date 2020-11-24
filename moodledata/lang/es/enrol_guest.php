@@ -26,15 +26,15 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowguests'] = 'Este curso permite la entrada de invitados';
+$string['guest:config'] = 'Configurar las instancias de acceso de invitados';
 $string['guestaccess_withoutpassword'] = 'Acceso de invitados';
 $string['guestaccess_withpassword'] = 'Acceso de invitados';
-$string['guest:config'] = 'Configurar las instancias de acceso de invitados';
 $string['password'] = 'Contraseña';
 $string['password_help'] = 'Una contraseña permite el acceso de invitados al curso que queda restringido solo a aquellos que conocen la contraseña. Los invitados tendrán que proporcionar la contraseña cada vez que accedan al curso.';
 $string['passwordinvalid'] = 'Contraseña incorrecta, pruebe de nuevo';
 $string['passwordinvalidhint'] = 'La contraseña de acceso es incorrecta, pruebe de nuevo<br/>';
 $string['pluginname'] = 'Acceso de invitados';
-$string['pluginname_desc'] = 'El plugin de acceso de invitados sólo permite el acceso temporal a los cursos, no es realmente una inscripción de usuarios.';
+$string['pluginname_desc'] = 'La extensión de acceso de invitados sólo permite el acceso temporal a los cursos, no es realmente una matriculación de usuarios.';
 $string['requirepassword'] = 'Se requiere la contraseña de acceso de invitados';
 $string['requirepassword_desc'] = 'Solicitar contraseña de acceso en los nuevos cursos y evitar la eliminación de la contraseña de acceso de los cursos existentes.';
 $string['showhint'] = 'Mostrar pista';

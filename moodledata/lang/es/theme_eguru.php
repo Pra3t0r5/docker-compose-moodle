@@ -29,12 +29,28 @@ $string['about'] = 'Acerca de';
 $string['aboutus'] = 'Acerca de nosotros';
 $string['address'] = 'Dirección';
 $string['blue'] = 'Azul';
+$string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
+<img class=img-polaroid src="eguru/pix/screenshot.jpg" />
+<h3>Créditos del Tema</h3>
+<p>
+<h3>Moodle Eguru theme</h3>
+<p>
+Este tema es basado en Bootstrapbase Moodle theme.
+</p>
+<p>
+<a href="http://getbootstrap.com">http://getbootstrap.com</a>
+</p>
+<p>
+Autores: LMSACE Dev Team<br>
+Contacto: info@lmsace.com<br>
+Website: <a href="http://www.lmsace.com">www.lmsace.com</a><br>
+</p>';
 $string['color_1'] = 'Color 1';
 $string['color_2'] = 'Color 2';
 $string['color_3'] = 'Color 3';
 $string['color_4'] = 'Color 4';
-$string['colorscheme'] = 'Esquema de color';
 $string['color_schemes_heading'] = 'Esquemas de color';
+$string['colorscheme'] = 'Esquema de color';
 $string['configtitle'] = 'Eguru';
 $string['connectus'] = 'Contáctenos';
 $string['contact'] = 'Contacto';
@@ -45,8 +61,8 @@ $string['customcss'] = 'CSS Personalizado';
 $string['customcssdesc'] = 'Las reglas CSS que agregue a esta área de texto se reflejarán en cada página, lo que facilitará la personalización de este tema.';
 $string['dark_cyan'] = 'Cian Oscuro';
 $string['default'] = 'Por defecto';
-$string['defaultaddress'] = '308 Negra Narrow Lane, Albeeze, New york, 87104';
 $string['default_color'] = 'Esquema de color por defecto';
+$string['defaultaddress'] = '308 Negra Narrow Lane, Albeeze, New york, 87104';
 $string['defaultemailid'] = 'info@ejemplo.com';
 $string['defaultphoneno'] = '(000) 123-456';
 $string['emailid'] = 'Email';
@@ -156,6 +172,10 @@ $string['slidenodesc'] = 'Introduzca los ajustes para la diapositiva {$a->slide}
 $string['slideshowdesc'] = 'Esto crea una presentación de diapositivas de hasta doce diapositivas para que usted pueda promover elementos importantes de su sitio. La presentación es adaptable cuando la altura de la imagen se establece de acuerdo con el tamaño de la pantalla. Si no se selecciona ninguna imagen para una diapositiva, se usan las imágenes de default_slide en la carpeta pix.';
 $string['slideshowheading'] = 'Carrusel de la página principal';
 $string['slideshowheadingsub'] = 'Presentación de diapositivas para la página principal';
+$string['slideurl'] = 'Enlace de la diapositiva';
+$string['slideurldesc'] = 'Introduzca el destino del enlace de imagen de la diapositiva';
+$string['slideurltext'] = 'Enlace del texto de la diapositiva';
+$string['slideurltextdesc'] = 'Introduzca el destino del enlace del texto de la diapositiva, agreguela clave o el texto del idioma. Por ej: lang:display o Display';
 $string['support'] = 'Soporte';
 $string['termsofuse'] = 'Términos de uso';
 $string['text'] = 'Texto';

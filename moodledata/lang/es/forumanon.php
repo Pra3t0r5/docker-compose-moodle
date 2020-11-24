@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forumanon', language 'es', branch 'MOODLE_21_STABLE'
+ * Strings for component 'forumanon', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   forumanon
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -49,8 +49,8 @@ $string['attachments'] = 'Adjuntos';
 $string['blockafter'] = 'Umbral de publicación para el bloqueo';
 $string['blockafter_help'] = 'Este parámetro especifica el número máximo de mensajes que un usuario puede publicar en un período de tiempo determinado. Los usuarios con la capacidad mod/forumanon:postwithoutthrottling están exentos de los límites de publicación.';
 $string['blockperiod'] = 'Periodo de tiempo para el bloqueo';
-$string['blockperioddisabled'] = 'No bloquear';
 $string['blockperiod_help'] = 'Se puede bloquear a los estudiantes la publicación de más de un número determinado de mensajes en un período de tiempo determinado. Los usuarios con la capacidad mod/forumanon:postwithoutthrottling están exentos de los límites de publicación.';
+$string['blockperioddisabled'] = 'No bloquear';
 $string['blogforum'] = 'Foro estándar visto en formato blog';
 $string['bynameondate'] = 'por {$a->name} - {$a->date}';
 $string['cannotadd'] = 'No se pudo añadir el debate a este foro';

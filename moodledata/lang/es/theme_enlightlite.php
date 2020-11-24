@@ -47,18 +47,18 @@ $string['bgnone'] = 'Fondo blanco';
 $string['blog'] = 'Blog';
 $string['blue'] = 'Azul';
 $string['button'] = 'Botón';
+$string['cat-placeholder'] = 'Escriba el nombre del curso aquí...';
 $string['categories'] = 'Categorías';
+$string['categories_displaytype'] = 'Estilo de visualización para categorías de cursos.';
+$string['categories_displaytypedesc'] = 'Seleccione un estilo de visualización para categorías de cursos.';
 $string['categoriesbg_desc'] = 'Subir una imagen de fondo para el bloque de categorías de cursos.<br> Tamaño recomendado de imagen: ancho = 1350px y alto = 450px';
 $string['categoriesbg_type'] = 'Color de fondo para bloque de categorías de cursos.';
 $string['categoriesbg_typedesc'] = 'Escoge una opción de fondo para el bloque de categorías de cursos.';
 $string['categoriescoursesbg'] = 'Imagen de fondo para el bloque de categorías de cursos.';
-$string['categories_displaytype'] = 'Estilo de visualización para categorías de cursos.';
-$string['categories_displaytypedesc'] = 'Seleccione un estilo de visualización para categorías de cursos.';
 $string['categoryimgcategory'] = 'Imagen de la categoría: {$a->category}.';
 $string['categoryimgdesc'] = 'Esta sección le permitirá establecer imágenes para cada nivel de categoría de cursos. Tamaño recomendado de imagen: ancho= 360px y alto = 360px';
 $string['categoryimgheading'] = 'Imágenes de categoría';
 $string['categoryimgheadingsub'] = 'UTILICE IMÁGENES PARA REPRESENTAR SUS CATEGORÍAS DE NIVEL SUPERIOR';
-$string['cat-placeholder'] = 'Escriba el nombre del curso aquí...';
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
 <img class=img-polaroid src="enlightlite/pix/screenshot.jpg" />
 <h3>Créditos</h3>
@@ -95,15 +95,15 @@ $string['courselayout'] = 'Diseño de la categoría del curso';
 $string['courselayoutdesc'] = 'Para cambiar el formato de visualización de la lista de Categorías del curso elija cualquiera de los diseños personalizados listados aquí, esto anulará el diseño de course/index.php(es decir, coursecategory).
 Ahora se usará el archivo de diseño personalizado en lugar del diseño predeterminado de moodle.';
 $string['courses'] = 'Cursos';
-$string['customcssdesc'] = 'Use este campo para inyectar código SCSS o CSS al final de la hoja de estilos.';
 $string['custom_layout'] = 'Diseño personalizado';
+$string['customcssdesc'] = 'Use este campo para inyectar código SCSS o CSS al final de la hoja de estilos.';
 $string['default'] = 'Predeterminado';
-$string['defaultemailid'] = 'tucorreo@ejemplo.com';
 $string['default_layout'] = 'Diseño predeterminado de Moodle';
 $string['default_type'] = 'Predeterminado de Moodle';
+$string['defaultemailid'] = 'tucorreo@ejemplo.com';
 $string['disable'] = 'Desactivado';
-$string['dots'] = 'Puntos';
 $string['dotThumb'] = 'Puntos & Miniaturas';
+$string['dots'] = 'Puntos';
 $string['doubleHeading'] = 'Doble título';
 $string['email_desc'] = 'Debe introducir su correo.';
 $string['emailid'] = 'Email';

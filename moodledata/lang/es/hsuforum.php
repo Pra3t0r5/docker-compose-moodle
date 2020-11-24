@@ -58,6 +58,8 @@ $string['digestmailpost'] = 'Cambie sus preferencias de resumen de correo de for
 $string['digestmailsubject'] = '{$a}: Resumen de correo de foros';
 $string['digestmailtime'] = 'Hora de envío de resúmenes de correo';
 $string['digestsentusers'] = 'Resumen de correo enviado con éxito a  {$a} usuarios.';
+$string['emaildigest_1'] = 'Recibirá un resumen de correo diario con el asunto de cada mensaje del foro.';
+$string['emaildigest_2'] = 'Recibirá un resumen de correo diario con el asunto de cada mensaje del foro.';
 $string['emaildigestoffshort'] = 'Sin resumen';
 $string['emaildigesttype'] = 'Opciones de resumen de correo';
 $string['emaildigesttype_help'] = 'Tipo de notificación que recibirá de cada foro:
@@ -66,6 +68,9 @@ $string['emaildigesttype_help'] = 'Tipo de notificación que recibirá de cada f
 * Sin resumen - Recibirá un correo por cada mensaje del foro;
 * Resumen - mensajes completos- Recibirá un resumen de correo diario con el contenido completo de cada mensaje del foro;
 * Resumen - sólo asunto- Recibirá un resumen de correo diario sólo con el asunto de cada mensaje del foro.';
+$string['emaildigestupdated'] = 'El tipo de resumen de correo ha sido cambiado a  \'{$a->maildigesttitle}\' para el foro \'{$a->forum}\'. {$a->maildigestdescription}';
+$string['emaildigestupdated_default'] = 'Sus ajustes de perfil por defecto para \'{$a->maildigesttitle}\' han sido usados para el foro \'{$a->forum}\'. {$a->maildigestdescription}.';
 $string['invaliddigestsetting'] = 'Se ha proporcionado un ajuste de resumen de correo no válido';
+$string['messageprovider:digests'] = 'Suscripciones avanzadas a resúmens de foros';
 $string['processingdigest'] = 'Procesando resumen de correo para el usuario {$a}';
 $string['resetdigests'] = 'Borrar todas las preferencias de resumen de correo de usuarios';

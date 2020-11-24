@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['allowallsupportedfiles'] = 'Permitir todos los tipo de archivo soportados';
 $string['allowallsupportedfiles_help'] = 'Permite que el profesor restrinja qué tipos de archivo serán enviados a URKUND para su procesamiento. No impide que los estudiantes realicen entregas de otros tipos de archivo.';
-$string['cronwarning'] = 'El script de mantenimiento <a href="../../admin/cron.php">cron.php</a> no ha sido ejecutado desde al menos  30 minutos - Debe configurar cron para permitir que URKUND funcione correctamente.';
 $string['defaultsdesc'] = 'Los siguientes parámetros se establecen por defecto al habilitar URKUND en un Módulo de Actividad.';
 $string['defaultupdated'] = 'Valores por defecto actualizados';
 $string['deletedwarning'] = 'Este archivo no ha sido encontrado - pudo haber sido borrado por el usuario';

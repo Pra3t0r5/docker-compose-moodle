@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['add_turnitintool'] = 'Añadir tarea de Turnitin';
 $string['addcomment'] = 'Añadir comentario';
 $string['addeditcomment'] = 'Añadir/Editar comentario';
 $string['addsubmission'] = 'Añadir envío';
-$string['add_turnitintool'] = 'Añadir tarea de Turnitin';
 $string['advancedoptions'] = 'Opciones avanzadas de Turnitin';
 $string['allowlate'] = 'Permitir envíos tardíos';
 $string['allstudents'] = 'Todos los estudiantes';

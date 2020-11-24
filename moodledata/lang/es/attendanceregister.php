@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'attendanceregister', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'attendanceregister', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   attendanceregister
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -90,10 +90,10 @@ $string['no_refcourse'] = '(Curso no especificado)';
 $string['no_session'] = 'Sin Sesión';
 $string['not_specified'] = '(no especificado)';
 $string['offline'] = 'Fuera de línea';
-$string['offlinecomments'] = 'Comentarios del Usuario';
 $string['offline_session_comments'] = 'Comentarios';
 $string['offline_session_deleted'] = 'Sesión Fuera de línea borrada';
 $string['offline_session_end'] = 'Fin';
+$string['offlinecomments'] = 'Comentarios del Usuario';
 $string['online'] = 'En línea';
 $string['online_offline'] = 'En Línea/Fuera de línea';
 $string['prev_site_login'] = 'Inicio de sesión anterior en el Sitio';

@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clicktomarkusercomplete'] = 'Clic para marcar la finalización del usuario';
-$string['completiondate'] = 'Fecha de finalización';
 $string['completion:view'] = 'Ver informe de finalización del curso';
+$string['completiondate'] = 'Fecha de finalización';
 $string['eventreportviewed'] = 'Reporte de finalización visualizado';
 $string['eventuserreportviewed'] = 'Reporte de usuario de finalización visualizado';
 $string['id'] = 'ID';

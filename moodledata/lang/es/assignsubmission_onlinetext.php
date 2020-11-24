@@ -41,5 +41,5 @@ $string['pluginname'] = 'Entregas de texto en línea';
 $string['privacy:metadata:assignmentid'] = 'Identificador de tarea';
 $string['privacy:metadata:filepurpose'] = 'Archivos incrustados en el texto de entrega.';
 $string['wordlimit'] = 'Límite de palabras';
-$string['wordlimitexceeded'] = 'El límite de palabras para esta entrada es de {$a->limit} palabras y estas intentando de enviar {$a->count} palabras. Por favor, revisa el contenido e inténtalo de nuevo.';
 $string['wordlimit_help'] = 'Si se habilitan las entregas de texto en línea, este es el número máximo de palabras que a cada estudiante se le permitirá entregar.';
+$string['wordlimitexceeded'] = 'El límite de palabras para esta entrada es de {$a->limit} palabras y estas intentando de enviar {$a->count} palabras. Por favor, revisa el contenido e inténtalo de nuevo.';

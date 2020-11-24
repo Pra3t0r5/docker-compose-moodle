@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_datacleaner', language 'es', branch 'MOODLE_32_STABLE'
+ * Strings for component 'local_datacleaner', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   local_datacleaner
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -32,8 +32,8 @@ $string['cleaning'] = 'Limpiando';
 $string['disable'] = 'Desactivar';
 $string['enable'] = 'Activar';
 $string['enabledisable'] = 'Activado';
-$string['errordeletingdir'] = '-- ERROR -- Ha ocurrido un error mientras se estaba borrando el directorio: {$a}';
 $string['error:explicitconfigphp'] = 'Por favor establece el valor local_datacleaner_allow_execution en config.php';
+$string['errordeletingdir'] = '-- ERROR -- Ha ocurrido un error mientras se estaba borrando el directorio: {$a}';
 $string['manage'] = 'Administrar tareas de limpieza';
 $string['notes'] = 'Notas';
 $string['pluginname'] = 'Data cleaner';

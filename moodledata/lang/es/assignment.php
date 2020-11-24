@@ -26,13 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['assignment:addinstance'] = 'Añadir una nueva tarea';
-$string['assignmentdisabled'] = 'La actividad "Tarea 2.2" es obsoleta y ha sido desactivada.';
 $string['assignment:exportownsubmission'] = 'Exportar entrega propio';
 $string['assignment:exportsubmission'] = 'Exportar enrega';
 $string['assignment:grade'] = 'Calificar tarea';
-$string['assignmentneedsupgrade'] = 'La actividad "Tarea 2.2" está obsoleta y ha sido desactivada. Por favor, contacte con el administrador y pídale que ejecute la herramienta de actualización de tareas para todas las tareas obsoletas de la plataforma.';
 $string['assignment:submit'] = 'Enviar tarea';
 $string['assignment:view'] = 'Ver tarea';
+$string['assignmentdisabled'] = 'La actividad "Tarea 2.2" es obsoleta y ha sido desactivada.';
+$string['assignmentneedsupgrade'] = 'La actividad "Tarea 2.2" está obsoleta y ha sido desactivada. Por favor, contacte con el administrador y pídale que ejecute la herramienta de actualización de tareas para todas las tareas obsoletas de la plataforma.';
 $string['messageprovider:assignment_updates'] = 'Notificación de tareas (2.2)';
 $string['modulename'] = 'Tarea 2.2 (Deshabilitado)';
 $string['modulename_help'] = 'Módulo de tarea obsoleto que ha sido eliminado de Moodle.';
@@ -43,10 +43,6 @@ $string['page-mod-assignment-x'] = 'Cualquier página del módulo tarea';
 $string['pluginadministration'] = 'Administración de Tarea 2.2 (Desactivada)';
 $string['pluginname'] = 'Tarea 2.2 (Desactivada)';
 $string['privacy:markedsubmissionspath'] = 'markedsubmissions';
-$string['privacy:metadata:assignmentfilter'] = 'Preferencias de filtro de envíos de tarea.';
-$string['privacy:metadata:assignmentmailinfo'] = 'Preferencias de información de Correo para envíos de tarea.';
-$string['privacy:metadata:assignmentperpage'] = 'Preferencia del número de envíos de tarea mostrados por página.';
-$string['privacy:metadata:assignmentquickgrade'] = 'Preferencia de calificación rápida para envíos de tarea.';
 $string['privacy:metadata:assignment_submissions'] = 'Envíos de Tarea asociados con una tarea.';
 $string['privacy:metadata:assignment_submissions:data1'] = 'El texto en línea enviado para el envío de tarea.';
 $string['privacy:metadata:assignment_submissions:data2'] = 'El estado de seguimiento para el envío de la tarea.';
@@ -59,6 +55,10 @@ $string['privacy:metadata:assignment_submissions:timecreated'] = 'La fecha/hora 
 $string['privacy:metadata:assignment_submissions:timemarked'] = 'La fecha/hora de calificación del envío de la tarea.';
 $string['privacy:metadata:assignment_submissions:timemodified'] = 'La fecha/hora de modificación del envío de la tarea.';
 $string['privacy:metadata:assignment_submissions:userid'] = 'El ID de usuario que realizó el envío de la la tarea.';
+$string['privacy:metadata:assignmentfilter'] = 'Preferencias de filtro de envíos de tarea.';
+$string['privacy:metadata:assignmentmailinfo'] = 'Preferencias de información de Correo para envíos de tarea.';
+$string['privacy:metadata:assignmentperpage'] = 'Preferencia del número de envíos de tarea mostrados por página.';
+$string['privacy:metadata:assignmentquickgrade'] = 'Preferencia de calificación rápida para envíos de tarea.';
 $string['privacy:submissionpath'] = 'envío';
 $string['upgradenotification'] = 'Esta actividad se basa en un módulo de tareas antiguo';
 $string['viewassignmentupgradetool'] = 'Ver la utilidad de actualización de tareas';

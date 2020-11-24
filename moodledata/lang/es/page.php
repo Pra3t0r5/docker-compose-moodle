@@ -50,8 +50,8 @@ Una página puede ser utilizada para
 * Para incrustar varios vídeos o archivos de sonido, junto con un texto explicativo';
 $string['modulenameplural'] = 'Páginas';
 $string['optionsheader'] = 'Mostrar opciones';
-$string['page:addinstance'] = 'Añadir un nuevo recurso de página';
 $string['page-mod-page-x'] = 'Cualquier página del recurso Página';
+$string['page:addinstance'] = 'Añadir un nuevo recurso de página';
 $string['page:view'] = 'Mostrar contenido de la página';
 $string['pluginadministration'] = 'Administración del recurso página';
 $string['pluginname'] = 'Página';

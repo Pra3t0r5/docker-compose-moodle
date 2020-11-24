@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_linkedin', language 'es', branch 'MOODLE_29_STABLE'
+ * Strings for component 'auth_linkedin', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   auth_linkedin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,9 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['auth_linkedin'] = 'Configuración de autenticación de LinkedIn';
 $string['auth_linkedin_access_details'] = 'Introduzca sus detalles de acceso LinkedIn';
 $string['auth_linkedin_access_key'] = 'clave';
-$string['auth_linkedindescription'] = 'Antes que pueda identificarse con los plugins de LinkedIn necesita registrar su instalación de Moodle en el sitio de desarrolladores de LinkedIn.';
 $string['auth_linkedin_secret_details'] = 'Introduzca su clave secreta de LinkedIn';
 $string['auth_linkedin_secret_key'] = 'secreto';
+$string['auth_linkedindescription'] = 'Antes que pueda identificarse con los plugins de LinkedIn necesita registrar su instalación de Moodle en el sitio de desarrolladores de LinkedIn.';
 $string['companyname'] = 'Nombre de empresa';
 $string['forminfo'] = 'Si ha llegado a esta página su acceso a LinkedIn fué correcto. Utilice este formulario para completar su perfil<br>';
 $string['linkedindetails'] = 'Detalles de LinkedIn';

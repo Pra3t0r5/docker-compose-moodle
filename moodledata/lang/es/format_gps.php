@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_gps', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'format_gps', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   format_gps
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -33,10 +33,10 @@ $string['editsection_geo_heading'] = 'Configuración de ubicación GPS';
 $string['errorhelp'] = 'Error de validación de formulario';
 $string['errorhelp_help'] = 'Los campos de latitud y longitud son necesarios si limitas la restricción a una ubicación.';
 $string['gps:editsection_geo'] = 'Editar configuración de ubicación GPS';
+$string['gps_restricted'] = 'Este tema ha sido restringido a una ubicación GPS específica';
 $string['gpshelp'] = 'Configuración GPS para el tema';
 $string['gpshelp_help'] = 'Con la configuración de GPS puedes limitar la visibilidad de un tema para que sólo se muestre si un aprendiz tiene activado un dispositivo GPS, ha permitido que su posición GPS sea compartida con Moodle y si él/ella está en la ubicación que indiques aquí. Nota: La configuración de GPS se borrará si se cambia el formato del curso.';
 $string['gpsrestricted'] = 'Sólo disponible en la ubicación GPS correcta';
-$string['gps_restricted'] = 'Este tema ha sido restringido a una ubicación GPS específica';
 $string['hidefromothers'] = 'Ocultar sección';
 $string['latitude'] = 'Latitud de posición';
 $string['loadinggps'] = 'Cargando GPS';

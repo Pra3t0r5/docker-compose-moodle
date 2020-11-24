@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_metabulk', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'enrol_metabulk', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   enrol_metabulk
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

@@ -112,8 +112,8 @@ $string['authorofsubmission'] = 'Autor del envío';
 $string['by'] = 'por';
 $string['bynameondate'] = 'de {$a->name} - {$a->date}';
 $string['calification'] = 'Puntuación';
-$string['calificationautor'] = 'Puntuación del Autor del Desafío';
 $string['calification_provisional_msg'] = 'La calificación mostrada puede ser provisional';
+$string['calificationautor'] = 'Puntuación del Autor del Desafío';
 $string['cantRespond_WARN'] = 'No puede responder.';
 $string['cantRespond_WARN_notingroup_or_challengeended'] = 'No puede responder. O no pertenece a este grupo o el desafío ha terminado.';
 $string['challengeend'] = 'Fin del desafío.';
@@ -157,19 +157,19 @@ $string['currentphasesubmission'] = 'Fase actual';
 $string['dateanswer'] = 'Fecha';
 $string['dateassess'] = 'Fecha de Evaluación';
 $string['dateend'] = 'Fecha de Cierre';
-$string['dateendevent'] = 'Finalización del QUESTOURnament "{$a}"';
 $string['dateend_help'] = '<P align="justify">Este par&aacute;metro establece la fecha de cierre de este m&oacute;dulo QUESTOURnament. A partir de esta fecha los alumnos del curso que accedan a este m&oacute;dulo no podr&aacute;n realizar ninguna de las acciones asociadas al mismo. En este momento se tendr&aacute;n las calificaciones finales del concurso. </P>
 <P align="justify">Una vez cerrado el concurso, su contenido permanecer&aacute; visible para los alumnos y profesores del curso, siempre que así se hubiera definido al crear el módulo QUESTOURnament, de manera que se podr&aacute; acceder a los desaf&iacute;os y respuestas realizadas por todos los participantes, así como a las calificaciones por ellos obtenidas. </P>';
+$string['dateendevent'] = 'Finalización del QUESTOURnament "{$a}"';
 $string['dateendsubmissionevent'] = 'Finalización del Desafío: "{$a}"';
 $string['dateofend'] = 'Fecha de cierre';
 $string['dateofend_help'] = '<P align="justify">This paramenter sets the closing date of this QUESTOURnament. After this closing date, the students that access the QUESTOURnament will not be able to do any of the usual actions. At this point, the classifications of the QUESTOURnament will be definitive.</P>
 <P align="justify">Once the contest is over, its content will still be accesible for the students and teachers of the course, whenever this was defined when the QUESTOURnament was created, this means that it will still be possible to access challenges and answers submitted by each and every participant, as well as their classifications.</P>';
 $string['dateofstart'] = 'Fecha de Comienzo';
 $string['datestart'] = 'Fecha de Comienzo';
-$string['datestartevent'] = 'Inicio del QUESTOURnament "{$a}"';
 $string['datestart_help'] = '<P align="justify">Este par&aacute;metro establece la fecha de comienzo de este m&oacute;dulo QUESTOURnament. A partir de esta fecha los alumnos del curso que accedan al m&oacute;dulo podr&aacute;n a&ntilde;adir desaf&iacute;os, responder a los ya plantedos o realizar cualquier otra actividad contemplada en este módulo QUESTOURnament. </P>
 <P align="justify">Esta fecha se comprobar&aacute; al crear el m&oacute;dulo, de manera que si fuese posterior a la <a href="help.php?component=quest&identifier=dateend"">
 Fecha de Cierre</a> establecida se mostrar&iacute;a un mensaje de error y no se a&ntilde;adir&iacute;a el m&oacute;dulo QUESTOURnament que se est&aacute; intentando crear. </P>';
+$string['datestartevent'] = 'Inicio del QUESTOURnament "{$a}"';
 $string['datestartsubmissionevent'] = 'Inicio del Desafío: "{$a}"';
 $string['datestr'] = '%d/%m/%y<br />%H:%M';
 $string['datestrmodel'] = '%%d/%%m/%%y &nbsp;&nbsp;%%H:%%M';
@@ -196,17 +196,6 @@ $string['editingassessmentelements'] = 'Editando elementos de valoración';
 $string['editingassessmentelementsofautors'] = 'Editando Elementos de Valoración de Autores';
 $string['element'] = 'Elemento';
 $string['elements'] = 'Elementos de Calificaci&oacute;n';
-$string['elementsautor'] = 'Elementos de evaluación para autores';
-$string['elementsautor_help'] = '<P align="justify">Para evaluar un desafío se usa un número de &quot;Elementos de calificación&quot;. Cada uno debe cubrir un aspecto particular y su número depende del tamaño y complejidad de la tarea encomendada. Los elementos tienen los siguientes componenetes:
-<div align="justify">
-  <OL>
-      <li>La DESCRIPCIÓN del elemento de evaluación. Debería establecer claramente qué aspecto de la tarea se está evaluando. Si la evaluación es cualitativa, será útil dar detalles de qué se considera excelente, promedio, etc.
-      y pobre. </li>
-      <li>La ESCALA del elemento de evaluación. Existen una serie de escalas predefinidas, que van desde una escala simple SÍ/NO, hasta una escala de porcentaje total. Cada elemento de evaluación tiene su propia escala, la cuál debería elegirse para que pudiera ajustarse a todas las variaciones posibles de ese elemento. No obstante, debe tenerse en cuenta que la escala NO determina la importancia del elemento cuando se calcula la calificación final: por ejemplo, un elemento con una escala de dos puntos tiene la misma &quot;influencia&quot; en la calificación final que otro elemento que use una escala de 100 puntos, siempre que los respectivos elementos tengan el mismo <i>peso</i> o factor de ponderación.</li>
-      <li>El PESO del elemento de evaluación. Por defecto, todos los elementos tienen la misma importancia cuando se calcula la calificación final de la tarea. No obstante, este hecho puede alterarse dando a los elementos más importantes un peso superior a uno, y a los menos importantes un peso inferior a uno. Debe tenerse en cuenta que, modificar el peso NO afecta a la posible calificación máxima de un desafío, puesto que ese valor queda determinado por la <a href="help.php?component=quest&identifier=maxcalification"">M&aacute;xima Puntuaci&oacute;n</a> establecida para el desafío para el cuál se envía la respuesta y por el instante en el que se envía dicha respuesta.
-      </li>
-  </OL>
-</div>';
 $string['elements_help'] = '<P align="justify">Para calificar una respuesta enviada a un desafío se utilizarán una serie de &quot;Elementos de evaluación&quot;. Cada elemento debe cubrir un aspecto particular a evaluar en las respuestas enviadas y su número dependerá del tamaño y complejidad del desafío propuesto. Los elementos tendrán las siguientes características:
 <div align="justify">
   <OL>
@@ -217,6 +206,17 @@ $string['elements_help'] = '<P align="justify">Para calificar una respuesta envi
       </li>
   </OL>
 <P align="justify">El sistema proporciona la posibilidad de que el conjunto de elementos de evaluación se personalice para cada desafío añadido en un mismo QUESTOURnament.
+</div>';
+$string['elementsautor'] = 'Elementos de evaluación para autores';
+$string['elementsautor_help'] = '<P align="justify">Para evaluar un desafío se usa un número de &quot;Elementos de calificación&quot;. Cada uno debe cubrir un aspecto particular y su número depende del tamaño y complejidad de la tarea encomendada. Los elementos tienen los siguientes componenetes:
+<div align="justify">
+  <OL>
+      <li>La DESCRIPCIÓN del elemento de evaluación. Debería establecer claramente qué aspecto de la tarea se está evaluando. Si la evaluación es cualitativa, será útil dar detalles de qué se considera excelente, promedio, etc.
+      y pobre. </li>
+      <li>La ESCALA del elemento de evaluación. Existen una serie de escalas predefinidas, que van desde una escala simple SÍ/NO, hasta una escala de porcentaje total. Cada elemento de evaluación tiene su propia escala, la cuál debería elegirse para que pudiera ajustarse a todas las variaciones posibles de ese elemento. No obstante, debe tenerse en cuenta que la escala NO determina la importancia del elemento cuando se calcula la calificación final: por ejemplo, un elemento con una escala de dos puntos tiene la misma &quot;influencia&quot; en la calificación final que otro elemento que use una escala de 100 puntos, siempre que los respectivos elementos tengan el mismo <i>peso</i> o factor de ponderación.</li>
+      <li>El PESO del elemento de evaluación. Por defecto, todos los elementos tienen la misma importancia cuando se calcula la calificación final de la tarea. No obstante, este hecho puede alterarse dando a los elementos más importantes un peso superior a uno, y a los menos importantes un peso inferior a uno. Debe tenerse en cuenta que, modificar el peso NO afecta a la posible calificación máxima de un desafío, puesto que ese valor queda determinado por la <a href="help.php?component=quest&identifier=maxcalification"">M&aacute;xima Puntuaci&oacute;n</a> establecida para el desafío para el cuál se envía la respuesta y por el instante en el que se envía dicha respuesta.
+      </li>
+  </OL>
 </div>';
 $string['elementweight'] = 'Peso del elemento';
 $string['emailaddsubmission'] = 'Hola, {$a->firstname}.
@@ -309,7 +309,6 @@ $string['gradedbyteacher'] = 'Calificada por {$a}';
 $string['gradeforassessments'] = 'Calificación por valoraciones';
 $string['gradeofsubmission'] = 'Calificación del envío: {$a}';
 $string['grading'] = 'Evaluar Respuesta';
-$string['gradingcharacteristics'] = 'Características de calificación';
 $string['grading_help'] = '<P align="justify">Esta página permite a los profesores evaluar una respuesta enviada. La calificaci&oacute;n asignada deberá depender de c&oacute;mo se ajuste la respuesta a lo exigido en el desaf&iacute;o correspondiente.</P>
 
 <P align="justify">Para facilitar la valoración de la respuesta se utilizarán una serie de elementos de evaluación de forma que cada uno cubra un aspecto particular a valorar en la respuesta. Para cada elemento de evaluación será preciso:
@@ -324,9 +323,9 @@ $string['grading_help'] = '<P align="justify">Esta página permite a los profeso
 
 <P align="justify">El profesor o el autor del desafío podrá modificar manualmente la calificación global, en caso de que desee hacer ajustes sobre la calculada de forma automática.
 <P align="justify">La m&aacute;xima calificaci&oacute;n posible para el autor de la respuesta correcta ser&aacute; la puntuaci&oacute;n alcanzada por el desaf&iacute;o en el instante en el que se envío dicha respuesta.';
+$string['gradingcharacteristics'] = 'Características de calificación';
 $string['gradingstrategy'] = 'Estrategia de Calificación';
-$string['gradingstrategyautor'] = 'Estrategia de Calificación para Autores';
-$string['gradingstrategyautor_help'] = '<P align="justify">La estrategia de evaluación utilizada para evaluar los desafíos planteados en un módulo QUESTOURnament es acumulativa.
+$string['gradingstrategy_help'] = '<P align="justify">La estrategia de evaluación utilizada para evaluar las respuestas enviadas a los desafíos planteados en un módulo QUESTOURnament es acumulativa.
 
 <P align="justify">Esto significa que en la calificación de cada evaluación se utiliza un número de &quot;elementos de evaluación&quot;, debiendo cada uno de ellos cubrir un aspecto particular de la tarea a evaluar. El número de elementos de evaluación dependerá del tamaño y complejidad de la tarea. Los elementos de evaluación tienen las siguientes características:
 
@@ -338,7 +337,8 @@ $string['gradingstrategyautor_help'] = '<P align="justify">La estrategia de eval
       </li>
       </OL>
     </div>';
-$string['gradingstrategy_help'] = '<P align="justify">La estrategia de evaluación utilizada para evaluar las respuestas enviadas a los desafíos planteados en un módulo QUESTOURnament es acumulativa.
+$string['gradingstrategyautor'] = 'Estrategia de Calificación para Autores';
+$string['gradingstrategyautor_help'] = '<P align="justify">La estrategia de evaluación utilizada para evaluar los desafíos planteados en un módulo QUESTOURnament es acumulativa.
 
 <P align="justify">Esto significa que en la calificación de cada evaluación se utiliza un número de &quot;elementos de evaluación&quot;, debiendo cada uno de ellos cubrir un aspecto particular de la tarea a evaluar. El número de elementos de evaluación dependerá del tamaño y complejidad de la tarea. Los elementos de evaluación tienen las siguientes características:
 
@@ -463,9 +463,9 @@ $string['ncomponents_help'] = '<P align="justify">Este par&aacute;metro fija el 
 $string['ncomponentsteam'] = 'Nº Máximo de Componentes por Equipo';
 $string['need_to_be_editor'] = '(Necesita ser un editor para añadir desafíos. Solicite los permisos al profesor.)';
 $string['nelements'] = 'Número de Elementos de Evaluación';
+$string['nelements_help'] = '<P align="justify">Este número indica la cantidad de elementos de evaluación que se utilizarán para evaluar las respuestas enviadas a los desafíos planteados. Dicho número dependerá del tamaño y complejidad del desafío. Existe además un campo para realizar comentarios generales sobre la evaluación realizada. </P>';
 $string['nelementsautor'] = 'Número de Elementos de Evaluación para Autores';
 $string['nelementsautor_help'] = '<P align="justify">Este número indica la cantidad de elementos de evaluación que se utilizarán para evaluar la tarea realizada por los autores de desafíos. Dicho número dependerá del tamaño y complejidad de la tarea. Existe además un campo para realizar comentarios generales sobre la evaluación realizada. </P>';
-$string['nelements_help'] = '<P align="justify">Este número indica la cantidad de elementos de evaluación que se utilizarán para evaluar las respuestas enviadas a los desafíos planteados. Dicho número dependerá del tamaño y complejidad del desafío. Existe además un campo para realizar comentarios generales sobre la evaluación realizada. </P>';
 $string['newattachment'] = 'Nuevo Anexo';
 $string['newcalification'] = 'Nueva Calificación';
 $string['newteam'] = 'Nuevo Equipo';
@@ -500,10 +500,10 @@ $string['oldteam'] = 'Equipo Actual';
 $string['password'] = 'Contraseña';
 $string['password_help'] = '<p align="justify">Este campo permite introducir la contraseña de acceso para este m&oacute;dulo QUESTOURnament. La contraseña puede tener una longitud máxima de 10 caracteres, y puede modificarse en cualquier momento a lo largo del tiempo de vida de este QUESTOURnament. Seleccionando la opción &quot; <a href="help.php?component=quest&identifier=usepassword"">Usar contraseña</a>&quot; se puede garantizar que los estudiantes deban escribir esta contraseña para acceder a este	m&oacute;dulo QUESTOURnament.</p>';
 $string['passwordprotectedquest'] = 'Módulo QUESTOURnament Protegido con Contraseña';
-$string['perceiveddifficultyLevel'] = 'Dificultad';
-$string['perceiveddifficultyLevelQuestion'] = '¿Qué dificultad le ha supuesto este desafío?';
 $string['perceivedTeacherDifficultyLevel'] = 'Estimación del profesor de la dificultad';
 $string['perceivedTeacherDifficultyLevel_help'] = 'Estimación del profesor de la dificultad del desafío. Se usa para clasificar el desafío. Es un parámetro opcional con fines de investigación docente.';
+$string['perceiveddifficultyLevel'] = 'Dificultad';
+$string['perceiveddifficultyLevelQuestion'] = '¿Qué dificultad le ha supuesto este desafío?';
 $string['permitsubmit'] = 'Permitir Reenvio';
 $string['permitviewautors'] = 'Mostrar a los Alumnos los Autores de los Desaf&iacute;os una vez cerrados';
 $string['permitviewautors_help'] = '<P align="justify">Si se habilita esta opci&oacute;n, deshabilitada por defecto, se mostrar&aacute;n los autores de los desaf&iacute;os de un m&oacute;dulo QUESTOURnament cuando dichos desaf&iacute;os se hayan cerrado y ya no sea posible enviar más respuestas. </P>
@@ -561,8 +561,8 @@ $string['processingquest'] = 'Procesando {$a}';
 $string['questapprovesubmission'] = 'Desafíos Aprobados en QUESTOURnament';
 $string['questassessments'] = 'Evaluaciones en QUESTOURnament';
 $string['questcomments'] = 'Comentarios del módulo QUESTOURnament';
-$string['questgraphtitle'] = 'Puntuación Potencial';
 $string['questgraphYlegend'] = 'Puntuación';
+$string['questgraphtitle'] = 'Puntuación Potencial';
 $string['quests'] = 'QUESTOURnament';
 $string['questsubmitanswer'] = 'Respuestas Enviadas en QUESTOURnament';
 $string['questsubmitsubmission'] = 'Desafíos Enviados en QUESTOURnament';
@@ -597,13 +597,13 @@ $string['scalepresent'] = 'Escala de 2 puntos Presente/Ausente';
 $string['scaleyes'] = 'Escala de 2 puntos Si/No';
 $string['see'] = 'Ver';
 $string['seeassessment'] = 'Ver Evaluaci&oacute;n de la Respuesta';
+$string['seeassessment_help'] = '<P align="justify">Esta página muestra la evaluaci&oacute;n de una respuesta enviada, de esta forma, si no se est&aacute; de acuerdo con la misma se podr&aacute; reclamar al profesor o al autor del desaf&iacute;o para que la revise, siendo posible indicar el motivo del desacuerdo con la evaluación realizada.
+<P align="justify">Además de la calificaci&oacute;n obtenida por el autor de la respuesta, tambi&eacute;n se muestra la m&aacute;xima puntuaci&oacute;n posible por dicha respuesta, que ser&aacute; la puntuaci&oacute;n del desaf&iacute;o en el instante en que se envi&oacute; la repuesta sobre la que se efectúa la reclamación. </P>
+<P align="justify">Los profesores y autores de los desaf&iacute;os podr&aacute;n realizar una correcci&oacute;n manual de la calificaci&oacute;n otorgada para considerar aquellos aspectos que haya podido no tener en cuenta el formulario de evaluaci&oacute;n autom&aacute;tica. </P>';
 $string['seeassessmentautor'] = 'Ver Evaluaci&oacute;n del Desaf&iacute;o';
 $string['seeassessmentautor_help'] = '<P align="justify">Esta página muestra la evaluaci&oacute;n de un desafío propuesto, de esta forma, si no se est&aacute; de acuerdo con la misma se podr&aacute; reclamar al profesor para que la revise, siendo posible indicar el motivo del desacuerdo con la evaluación realizada.
 Además de la calificaci&oacute;n asignada por el autor del desaf&iacute;o, tambi&eacute;n se muestra, entre par&eacute;ntesis, la m&aacute;xima puntuaci&oacute;n posible, siendo &eacute;sta la puntuaci&oacute;n que se alcanz&oacute; con la primera respuesta correcta, o en caso de no haberse respondido aún correctamente, la puntuaci&oacute;n inicial. </P>
 <P align="justify">Los profesores podr&aacute;n realizar una correcci&oacute;n manual de la calificaci&oacute;n asignada para cubrir aquellos aspectos que haya podido no tener en cuenta el formulario de evaluaci&oacute;n autom&aacute;tica. </P>';
-$string['seeassessment_help'] = '<P align="justify">Esta página muestra la evaluaci&oacute;n de una respuesta enviada, de esta forma, si no se est&aacute; de acuerdo con la misma se podr&aacute; reclamar al profesor o al autor del desaf&iacute;o para que la revise, siendo posible indicar el motivo del desacuerdo con la evaluación realizada.
-<P align="justify">Además de la calificaci&oacute;n obtenida por el autor de la respuesta, tambi&eacute;n se muestra la m&aacute;xima puntuaci&oacute;n posible por dicha respuesta, que ser&aacute; la puntuaci&oacute;n del desaf&iacute;o en el instante en que se envi&oacute; la repuesta sobre la que se efectúa la reclamación. </P>
-<P align="justify">Los profesores y autores de los desaf&iacute;os podr&aacute;n realizar una correcci&oacute;n manual de la calificaci&oacute;n otorgada para considerar aquellos aspectos que haya podido no tener en cuenta el formulario de evaluaci&oacute;n autom&aacute;tica. </P>';
 $string['seevaluate'] = 'Ver Evaluación';
 $string['select'] = 'Elegir';
 $string['selfassessment'] = 'Auto evaluación';

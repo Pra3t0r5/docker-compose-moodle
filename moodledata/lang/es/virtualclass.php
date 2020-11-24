@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'virtualclass', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'virtualclass', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   virtualclass
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -55,8 +55,8 @@ $string['overallprogress'] = 'Progreso total';
 $string['play'] = 'Reproducir';
 $string['pluginadministration'] = 'Administración de clase virtual';
 $string['pluginname'] = 'Clase Virtual';
-$string['pressalways'] = 'Presione siempre para hablar';
 $string['pressAlwaysToSpeak'] = 'Presione siempre para hablar.';
+$string['pressalways'] = 'Presione siempre para hablar';
 $string['pressonce'] = 'Presione una vez para hablar';
 $string['pushtotalk'] = 'Presione para hablar';
 $string['pushtotalk_help'] = 'Si se activa, se muestra una opción extra para probar de audio.';
@@ -79,12 +79,12 @@ $string['uploadsession'] = 'Por favor espere hasta que se finalice el  proceso.'
 $string['virtualclass'] = 'Clase Virtual';
 $string['virtualclass:addinstance'] = 'Añadir una nueva clase virtual';
 $string['virtualclass:dorecording'] = 'Guardar grabación';
+$string['virtualclass:recordingdelete'] = 'Borrar grabación';
+$string['virtualclass:recordingupload'] = 'Subir fichero grabado';
+$string['virtualclass:view'] = 'Visualizar clase virtual';
 $string['virtualclassfieldset'] = 'Campo de ejemplo personalizado';
 $string['virtualclassname'] = 'Nombre de clase virtual';
 $string['virtualclassname_help'] = 'Esto es una clase online en tiempo real, la cual permite a los participantes interactuar con otros y proporciona herramientas de comunicación asíncrona tales como una pizarra, chat y compartir la pantalla.';
-$string['virtualclass:recordingdelete'] = 'Borrar grabación';
-$string['virtualclass:recordingupload'] = 'Subir fichero grabado';
 $string['virtualclasstiming'] = 'Horario de la clase virtual: {$a->open} a {$a->close}';
-$string['virtualclass:view'] = 'Visualizar clase virtual';
 $string['waitmsgconnect'] = 'Por favor espere un momento. La aplicación está intentando conectar.';
 $string['wheretorunvirtualclass'] = 'Desde donde servir la aplicación de clase virtual';

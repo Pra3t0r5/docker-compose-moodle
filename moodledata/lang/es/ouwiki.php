@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ouwiki', language 'es', branch 'MOODLE_34_STABLE'
+ * Strings for component 'ouwiki', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   ouwiki
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,9 +68,6 @@ $string['collapseallannotations'] = 'Colapsar anotaciones';
 $string['collapseannotation'] = 'Colapsar anotación';
 $string['compare'] = 'Comparar';
 $string['compareselected'] = 'Comparar seleccionadas';
-$string['completionedits'] = 'El usuario debe hacer ediciones:';
-$string['completioneditsgroup'] = 'Ediciones requeridas';
-$string['completioneditshelp'] = 'requiere ediciones para completar';
 $string['completion_help'] = '<ul>
 <li>
 Si elige "Requerir páginas nuevas" entonces el wiki será marcado como completo para un usuario una vez que haya creado el número de páginas especificado. Con esta opción, los usuarios tienen que crear páginas desde cero; si alguien más crea la página y el usuario la edita, no cuenta </li>
@@ -82,6 +79,9 @@ Si elige "Requerir ediciones", entonces el wiki será marcado como completo para
 
 <p>
 Observe que escribir la primera versión de una página también cuenta como una edición, por lo que si Usted quiere que alguien haga una página  <i>y</i> que realice al menos una edición diferente, configure páginas a 1 y ediciones a 2. </p>';
+$string['completionedits'] = 'El usuario debe hacer ediciones:';
+$string['completioneditsgroup'] = 'Ediciones requeridas';
+$string['completioneditshelp'] = 'requiere ediciones para completar';
 $string['completionpages'] = 'El usuario debe crear páginas nuevas:';
 $string['completionpagesgroup'] = 'Requiere páginas nuevas';
 $string['completionpageshelp'] = 'requiriendo páginas nuevas para completar';
@@ -126,8 +126,8 @@ $string['emptypagetitle'] = 'El título de la página nueva no puede estar vací
 $string['emptysectiontitle'] = 'El nombre de la nueva sección no puede estar vacío';
 $string['endannotation'] = 'Fin de anotación';
 $string['entirewiki'] = 'El wiki completo';
-$string['errorcoursesubwiki'] = 'Debe ser &lsquo;No grupos&rsquo; a menos que la opción de subgrupos sea &lsquo;Un wiki por grupo&rsquo;';
 $string['error_export'] = 'Ocurrió un error al exportar datos del wiki.';
+$string['errorcoursesubwiki'] = 'Debe ser &lsquo;No grupos&rsquo; a menos que la opción de subgrupos sea &lsquo;Un wiki por grupo&rsquo;';
 $string['errorgroupssubwiki'] = 'Debe estar habilitada cuando la opción de sub-wikis es &lsquo;Un wiki por grupo&rsquo;';
 $string['excelcsvdownload'] = 'Descargar en formato compatible con Excel (.csv)';
 $string['expandallannotations'] = 'Expandir anotaciones';
@@ -183,9 +183,11 @@ $string['nochanges'] = 'Usuarios que no hicieron contribuciones';
 $string['nojsbrowser'] = 'Nuestras disculpas, pero está usando un  navegador que no es completamente soportado.';
 $string['nojsdisabled'] = 'Ha deshabilitado Javascript en la configuración de su navegador.';
 $string['nojswarning'] = 'Como resultado, solamente podemos mantenerle en esta página por  {$a->minutes} minutos. Por favor asegúrese de guardar sus cambios antes de {$a->deadline} (ahora mismo estamos a {$a->now}). De otra manera, alguien más podría editar la página y sus cambios se perderían';
+$string['non_format_template'] = 'Nota: Este wiki no puede descargarse como un archivo de plantilla wiki debido a que contiene imágenes y/o anexos.';
 $string['noparticipation'] = 'No hay participación que mostrar';
 $string['nousersingroup'] = 'El grupo elegido no contiene usuarios.';
 $string['nowikipages'] = 'Este wiki no tiene páginas.';
+$string['numedits'] = '{$a} edición(es)';
 $string['numwords'] = 'Palabras: {$a}';
 $string['olderversion'] = 'Versión más antigua';
 $string['oldversion'] = 'Versión antigua';

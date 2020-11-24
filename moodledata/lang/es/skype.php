@@ -25,11 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['modulename'] = 'skype';
+$string['modulenameplural'] = 'skypes';
+$string['nobody'] = 'No hay nadie inscrito para este tipo de skype';
 $string['noskypeid'] = 'Sin ID skype';
 $string['options'] = 'Contacto';
 $string['photo'] = 'Fotografía';
+$string['pluginadministration'] = 'administración de skype';
+$string['pluginname'] = 'skype';
+$string['skype'] = 'skype';
 $string['skypefieldset'] = 'Datos personalizables';
 $string['skypeid'] = 'ID skype';
+$string['skypename'] = 'nombre Skype';
+$string['skypename_help'] = 'Este es el contenido de la herramienta de ayuda asociada con el campo skype. La sintaxis Markdown es compatible.';
+$string['timetoskype'] = 'Hora de skype: {$a}';
 $string['type'] = 'Tipo';
 $string['updateskypeid'] = 'Actualizar su ID skype a partir de la página de su perfil';
 $string['updateskypeidnote'] = 'Para participar en la actividad skype necesita actualizar en el sistema su ID skype. {$a}';

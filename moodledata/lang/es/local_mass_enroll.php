@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mass_enroll', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'local_mass_enroll', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   local_mass_enroll
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,9 +40,9 @@ $string['im:already_in_g'] = 'ya se encuentra en el grupo {$a}';
 $string['im:and_added_g'] = 'y agregado al grupo de Moodle {$a}';
 $string['im:enrolled_ok'] = '{$a} matriculado/a';
 $string['im:err_opening_file'] = 'error el abrir el archivo {$a}';
-$string['im:error_addg'] = 'error al agregar el grupo {$a->groupe} al curso {$a->courseid}';
 $string['im:error_add_g_grp'] = 'error al agregar el grupo {$a->groupe} al agrupamiento {$a->groupe}';
 $string['im:error_add_grp'] = 'error al agregar el agrupamiento {$a->groupe} al curso {$a->courseid}';
+$string['im:error_addg'] = 'error al agregar el grupo {$a->groupe} al curso {$a->courseid}';
 $string['im:error_adding_u_g'] = 'error al agregar el grupo {$a}';
 $string['im:error_g_unknown'] = 'error desconocido en el grupo {$a}';
 $string['im:error_in'] = 'error al matricular {$a}';
@@ -64,17 +64,18 @@ Aquí está el reporte de operaciones:
 {$a->report}
 Atentamente.';
 $string['mail_enrolment_subject'] = 'Matriculaciones masivas en {$a}';
-$string['mailreport'] = 'Enviarme un reporte por e-mail';
-$string['mailreportdefault'] = 'Enviar los reportes por defecto';
-$string['mailreportdefault_help'] = 'Configurar las opciones por defecto para enviar reportes para los formularios de (des)matriculación masiva';
 $string['mail_unenrolment'] = 'Hola,
 Ha desmatriculado la siguiente lista de usuarios de su curso \'{$a->course}\'.
 Aquí está el reporte de operaciones:
 {$a->report}
 Atentamente.';
 $string['mail_unenrolment_subject'] = 'Desmatriculación masiva en {$a}';
+$string['mailreport'] = 'Enviarme un reporte por e-mail';
+$string['mailreportdefault'] = 'Enviar los reportes por defecto';
+$string['mailreportdefault_help'] = 'Configurar las opciones por defecto para enviar reportes para los formularios de (des)matriculación masiva';
 $string['mass_enroll'] = 'Matriculaciones masivas';
 $string['mass_enroll:enrol'] = 'Matricular usuarios a un curso con un archivo CSV';
+$string['mass_enroll:unenrol'] = 'Desmatricular usuarios de un curso con un archivo CSV';
 $string['mass_enroll_help'] = '<h1>Matriculaciones masivas</h1>
 
 <p>
@@ -188,8 +189,6 @@ La segunda columna <b>si exsiste,</b> deberá contener el nombre del grupo al cu
 
 Puede repetir esta operación tantas veces como lo necesite sin correr riesgos, por ejemplo si olvida o escribe incorrectamente el grupo.
 </p>';
-$string['massenrollsettings'] = 'Configuración de matriculación masiva';
-$string['mass_enroll:unenrol'] = 'Desmatricular usuarios de un curso con un archivo CSV';
 $string['mass_unenroll'] = 'Desmatriculación masiva';
 $string['mass_unenroll_help'] = '<h1>Desmatriculaciones masivas</h1>
 
@@ -242,7 +241,8 @@ Otras columnas, si están presentes, serán ignoradas. Por lo tanto el archivo p
 
 Puede repetir esta operación tantas veces como lo necesite sin correr riesgos, por ejemplo si se olvida de desmatricular a algunos estudiantes.
 </p>';
+$string['massenrollsettings'] = 'Configuración de matriculación masiva';
 $string['pluginname'] = 'Matriculaciones masivas';
 $string['roleassign'] = 'Rol a asignar';
 $string['unenroll'] = 'Desmatricularlos de mi curso';
-$string['username'] = 'Nombre de usuario';
+$string['username'] = 'Iniciar sesión';

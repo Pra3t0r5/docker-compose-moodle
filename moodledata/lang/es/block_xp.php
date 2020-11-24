@@ -83,10 +83,10 @@ $string['errornotalllevelsbadgesprovided'] = 'No se han proporcionado todas las 
 $string['errorunknownevent'] = 'Error: evento desconocido';
 $string['errorunknownmodule'] = 'Error: módulo desconocido';
 $string['errorxprequiredlowerthanpreviouslevel'] = 'La experiencia requerida es menor o igual al nivel anterior.';
+$string['event_user_leveledup'] = 'Usuario elevado de nivel';
 $string['eventname'] = 'Nombre del evento';
 $string['eventproperty'] = 'Propiedad del evento';
 $string['eventtime'] = 'Hora del evento';
-$string['event_user_leveledup'] = 'Usuario elevado de nivel';
 $string['for1day'] = 'Por 1 día';
 $string['for1month'] = 'Por 1 mes';
 $string['for1week'] = 'Por 1 semana';
@@ -134,7 +134,6 @@ $string['rank'] = 'Ranking';
 $string['reallyresetdata'] = '¿Realmente desea reiniciar los niveles y puntos de experiencia de todos en este curso?';
 $string['resetcoursedata'] = 'Reiniciar datos del curso';
 $string['rule'] = 'Regla';
-$string['rulecm'] = 'Actividad o recurso';
 $string['rule:contains'] = 'contiene';
 $string['rule:eq'] = 'es igual a';
 $string['rule:eqs'] = 'es estrictamente igual a';
@@ -143,6 +142,7 @@ $string['rule:gte'] = 'es mayor o igual a';
 $string['rule:lt'] = 'es menor que';
 $string['rule:lte'] = 'es menor o igual a';
 $string['rule:regex'] = 'coincide con el regex';
+$string['rulecm'] = 'Actividad o recurso';
 $string['rulesformhelp'] = '<p>Este plugin hace uso de EVENTOS para otorgar punto de experiencia en acciones llevadas a cabo por los estudiantes. Puede utilizar la forma sigueinte para agregar sus propias reglas y ver las que vienen por defecto.</p>
 <p>Se aconseja que cheque el <a href="{$a->log}">log</a> del plugin para identificar que eventos se gatillan cuando se llevan a cabo ciertas acciones en el curso y también para leer más sobre eventos: <a href="{$a->list}">lista de todos los eventos</a>, <a href="{$a->doc}">Documentos del desarrollador</a>.</p>
 <p>Finalmente, queremos hacer notar que el plugin ignora:

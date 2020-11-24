@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_amos', language 'es', branch 'MOODLE_27_STABLE'
+ * Strings for component 'local_amos', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   local_amos
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['about'] = '<p>AMOS significa Manipulación Automatizada de Cadenas (Automated Manipulation Of Strings). AMOS es un repositorio central de las cadenas de Moodle y de su historia. Lleva un registro de la incorporación de cadenas en inglés al código Moodle, agrupa las traducciones, gestiona tareas comunes de traducción y genera paquetes de idioma para ser desplegados en servidores Moodle.</p>
+<p>Véase <a href="http://docs.moodle.org/en/AMOS">documentación AMOS</a> para más información.</p>';
+$string['amos'] = 'AMOS (Herramienta de traducción de Moodle)';
 $string['amos:commit'] = 'Confirmar las cadenas en espera en el repositorio principal';
 $string['amos:execute'] = 'Ejecutar el AMOScript dado';
 $string['amos:importfile'] = 'Importar cadenas desde archivo subido';
@@ -80,8 +83,8 @@ $string['filtersid'] = 'Identificador de cadena';
 $string['filtersid_desc'] = 'La clave en la matriz de cadenas';
 $string['filtersidpartial'] = 'coincidencia parcial';
 $string['filtertxt'] = 'Sub-cadena';
-$string['filtertxtcasesensitive'] = 'sensible a mayúsculas';
 $string['filtertxt_desc'] = 'La cadena debe contener un texto dado';
+$string['filtertxtcasesensitive'] = 'sensible a mayúsculas';
 $string['filtertxtregex'] = 'regex';
 $string['filterver'] = 'Versiones';
 $string['filterver_desc'] = 'Mostrar cadenas de estas versiones de Moodle';
@@ -90,6 +93,7 @@ $string['foundinfo_help'] = 'Muestra el número total de filas en la tabla de tr
 $string['gotofirst'] = 'ir a la primera página';
 $string['gotoprevious'] = 'ir a la página anterior';
 $string['greylisted'] = 'Cadenas en gris';
+$string['greylistedwarning'] = 'la cadena está en gris';
 $string['importfile'] = 'Importar cadenas traducidas de un archivo';
 $string['language'] = 'Idioma';
 $string['languages'] = 'Idiomas';
@@ -117,6 +121,7 @@ $string['nostringsfound'] = 'No se han encontrado cadenas';
 $string['nostringsfoundonpage'] = 'No se han encontrado cadenas en la página {$a}';
 $string['nostringtoimport'] = 'No hay cadena válida en el archivo. Asegúrese de que el archivo tiene un nombre y se ha formateado correctamente.';
 $string['outdatednotcommitted_help'] = 'AMOS ha detectado que la cadena puede estar obsoleta, puesto que la versión inglesa fue modificada después de haber sido traducida. Por favor, revise la traducción.';
+$string['permalink'] = 'Enlace permanente';
 $string['pluginclassnonstandard'] = 'Extensiones (plugins) no estándar';
 $string['pluginclassstandard'] = 'Extensiones (plugins) estándar';
 $string['pluginname'] = 'AMOS';
@@ -127,6 +132,9 @@ $string['stashapply'] = 'Aplicar';
 $string['stringhistory'] = 'Historia';
 $string['strings'] = 'Cadenas';
 $string['submitting'] = 'Enviando una contribución';
+$string['translatororiginal'] = 'Original';
+$string['translatorstring'] = 'Cadena';
+$string['translatorstring_help'] = 'Muestra la versión de Moodle, el identificador de la cadena de texto y el componente al que pertenece esta cadena.';
 $string['translatortool'] = 'Traductor';
 $string['translatortranslation'] = 'Traducción';
 $string['typecontrib'] = 'Conectores no estándar';

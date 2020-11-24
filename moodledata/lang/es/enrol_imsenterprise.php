@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['aftersaving...'] = 'Una vez que haya guardado sus ajustes, quizás quiera';
-$string['allowunenrol'] = 'Permitir a los datos IMS <strong>desmatricular</strong> a estudiantes/profesores';
+$string['allowunenrol'] = 'Permitir a los datos IMS <strong>dar de baja</strong> a estudiantes/profesores';
 $string['allowunenrol_desc'] = 'Si está activado, las matriculaciones en cursos serán eliminadas cuando así se especifique en los datos de empresa.';
 $string['basicsettings'] = 'Ajustes básicos';
 $string['coursesettings'] = 'Opciones de datos del curso';

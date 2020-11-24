@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'unedtrivial', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'unedtrivial', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   unedtrivial
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -126,11 +126,11 @@ $string['multipleanswer'] = 'RESPUESTA MÚLTIPLE';
 $string['multipleanswer2'] = 'Pregunta de respuesta múltiple';
 $string['newmodule'] = 'Nuevo UNEDTrivial';
 $string['newmodule:addinstance'] = 'Añadir nuevo UNEDTrivial';
+$string['newmodule:submit'] = 'Enviar UNEDTrivial';
+$string['newmodule:view'] = 'Vista nuevo módulol';
 $string['newmodulefieldset'] = 'Ejemplo de campo personalizado';
 $string['newmodulename'] = 'Nueva actividad UNEDTrivial';
 $string['newmodulename_help'] = '';
-$string['newmodule:submit'] = 'Enviar UNEDTrivial';
-$string['newmodule:view'] = 'Vista nuevo módulol';
 $string['nextattempt'] = 'Esta pregunta será mostrada de nuevo el';
 $string['none'] = 'Una vez que el participante haya conseguido retirar todas las preguntas';
 $string['notableresults'] = 'El tablero de puntuaciones está vacío por ahora...';

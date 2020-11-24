@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'richmedia', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'richmedia', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   richmedia
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -113,9 +113,9 @@ $string['report'] = 'Informe';
 $string['return'] = 'Volver';
 $string['richmedia'] = 'Medio enriquecido';
 $string['richmedia:addinstance'] = 'Añadir instancia';
-$string['richmediaarchive'] = 'Archivo del medio enriquecido';
 $string['richmedia:view'] = 'Ver medio enriquecido';
 $string['richmedia:viewreport'] = 'Ver informes';
+$string['richmediaarchive'] = 'Archivo del medio enriquecido';
 $string['save'] = 'Guardar';
 $string['saveandreturn'] = 'Guardar y volver a los parámetros';
 $string['savedone'] = 'Guardar finalizado';

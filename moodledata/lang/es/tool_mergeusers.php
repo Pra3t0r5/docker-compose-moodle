@@ -59,18 +59,18 @@ $string['logko'] = 'Se han producido los siguientes errores:';
 $string['loglist'] = 'Este es el listado de fusiones, indicando si se llevaron a cabo satisfactoriamente:';
 $string['logok'] = 'Estas son las operaciones realizadas en la base de datos:';
 $string['mergeusers'] = 'Fusiona cuentas de usuario';
+$string['mergeusers:view'] = 'Fusión de cuentas de usuario';
+$string['mergeusers_confirm'] = 'La fusión se iniciará después de confirmar la fusión de los usuarios. <br /><strong>¡Esta acción es irreversible!</strong><br />
+¿Estás seguro de querer continuar?';
 $string['mergeusersadvanced'] = '<strong>Introducir usuarios directamente</strong>';
 $string['mergeusersadvanced_help'] = 'Puedes rellenar los campos a continuación si sabes exactamente qué usuarios va a fusionar.<br /><br />
 Haz clic sobre el botón de búsqueda para verificar/confirmar los usuarios a fusionar.';
-$string['mergeusers_confirm'] = 'La fusión se iniciará después de confirmar la fusión de los usuarios. <br /><strong>¡Esta acción es irreversible!</strong><br />
-¿Estás seguro de querer continuar?';
-$string['mergeusers:view'] = 'Fusión de cuentas de usuario';
 $string['merging'] = 'Fusionado';
 $string['newuser'] = 'Usuario a mantener';
 $string['newuserid'] = 'ID de usuario a mantener';
 $string['newuseridonlog'] = 'Usuario mantenido';
-$string['nologs'] = 'No hay registros de fusión de usuarios. ¡Bien por ti!';
 $string['no_saveselection'] = 'No has seleccionado ningún usuario.';
+$string['nologs'] = 'No hay registros de fusión de usuarios. ¡Bien por ti!';
 $string['olduser'] = 'Usuario a eliminar';
 $string['olduserid'] = 'ID de usuario a eliminar';
 $string['olduseridonlog'] = 'Usuario eliminado';

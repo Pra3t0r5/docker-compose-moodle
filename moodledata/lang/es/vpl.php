@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['VPL_COMPILATIONFAILED'] = 'La compilación o preparación de la ejecución ha fallado';
 $string['about'] = 'Acerca de';
 $string['acceptcertificates'] = 'Aceptar certificados auto firmados';
 $string['acceptcertificates_description'] = 'Si sus servidores de ejecución NO están usando certificados auto firmados desmarque esta opción';
@@ -79,9 +80,9 @@ $string['defaultexetime'] = 'Máximo tiempo de ejecución por defecto';
 $string['defaultfilesize'] = 'Tamaño máximo por defecto de cada fichero de subida';
 $string['defaultresourcelimits'] = 'Límites por defecto de recursos de ejecución';
 $string['delete'] = 'Borrar';
-$string['deleteallsubmissions'] = 'Elimina todas las entregas';
 $string['delete_file_fq'] = '¿Confirma el borrado del fichero \'{\\$a}\'?';
 $string['delete_file_q'] = '¿Borrar el fichero?';
+$string['deleteallsubmissions'] = 'Elimina todas las entregas';
 $string['depends_on_https'] = 'Usar wss o ws dependiendo de si se usa http o https';
 $string['description'] = 'Descripción';
 $string['diff'] = 'diff';
@@ -238,12 +239,12 @@ $string['executionoptions_help'] = '<p>En esta página se establecen diferentes 
 <li><b>Calificación automática</b>: si el resultado de la evaluación contiene códigos de nota automática estos se toman como nota definitiva.</li>
 </ul>';
 $string['file'] = 'Fichero';
+$string['fileNotChanged'] = 'El fichero no ha cambiado';
+$string['file_name'] = 'Nombre del fichero';
 $string['fileadded'] = 'El fichero \'{\\$a}\' ha sido añadido';
 $string['filedeleted'] = 'El fichero \'{\\$a}\' ha sido borrado';
 $string['filelist'] = 'Lista de ficheros';
-$string['file_name'] = 'Nombre del fichero';
 $string['filenotadded'] = 'Fichero no añadido';
-$string['fileNotChanged'] = 'El fichero no ha cambiado';
 $string['filenotdeleted'] = 'El fichero \'{$a}\' NO ha sido borrado';
 $string['filenotrenamed'] = 'El fichero \'{$a}\' NO ha sido renombrado';
 $string['filerenamed'] = 'El fichero \'{\\$a->from}\' ha sido renombrado a \'{\\$a->to}\'';
@@ -474,17 +475,16 @@ $string['varidentification'] = 'Identificación';
 $string['visiblegrade'] = 'Mostrar evaluación';
 $string['vpl'] = 'Laboratorio virtual de programación';
 $string['vpl:addinstance'] = 'Añade nuevas actividades VPL';
-$string['VPL_COMPILATIONFAILED'] = 'La compilación o preparación de la ejecución ha fallado';
-$string['vpl_debug.sh'] = 'Prepara la depuración del programa';
-$string['vpl_evaluate.cases'] = 'Escriba aquí los casos de prueba para evaluar automáticamente el programa';
-$string['vpl_evaluate.sh'] = 'Evalúa el programa';
 $string['vpl:grade'] = 'Evaluar una entrega';
 $string['vpl:manage'] = 'Gestionar un vpl';
-$string['vpl_run.sh'] = 'Prepara la ejecución del programa';
 $string['vpl:setjails'] = 'Establece servidores de ejecución para instancias concretas de VPL';
 $string['vpl:similarity'] = 'Buscar similiudes entre entregas';
 $string['vpl:submit'] = 'Hacer entregas';
 $string['vpl:view'] = 'Ver la descripción completa de un vpl';
+$string['vpl_debug.sh'] = 'Prepara la depuración del programa';
+$string['vpl_evaluate.cases'] = 'Escriba aquí los casos de prueba para evaluar automáticamente el programa';
+$string['vpl_evaluate.sh'] = 'Evalúa el programa';
+$string['vpl_run.sh'] = 'Prepara la ejecución del programa';
 $string['websocket_protocol'] = 'Protocolo WebSocket';
 $string['websocket_protocol_description'] = 'Tipo protocolo WebSocket (ws:// or wss://) a usar por el navegador al conectarse al servidor de ejecución.';
 $string['workingperiods'] = 'Periodos de trabajo';

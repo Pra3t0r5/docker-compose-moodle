@@ -109,7 +109,7 @@ $string['csvimport_help'] = '<p align="center"><strong>Importar de un archivo CS
 <p>ADVERTENCIA: es posible que no se admitan todos los tipos de campo.</p>';
 $string['csvwithselecteddelimiter'] = '<acronym title="Comma Separated Values">texto</acronym> CSV con el delimitador seleccionado:';
 $string['data:addinstance'] = 'Añadir una nueva base de datos';
-$string['data:approve'] = 'Aprobar entradas pendientes';
+$string['data:approve'] = 'Aprobar y deshacer entradas aceptadas';
 $string['data:comment'] = 'Escribir comentarios';
 $string['data:exportallentries'] = 'Exportar todas las entradas de la base de datos';
 $string['data:exportentry'] = 'Exportar una entrada de la base de datos';
@@ -154,7 +154,7 @@ $string['editorenable'] = 'Activar editor';
 $string['emptyadd'] = 'La plantilla Añadir está vacía, generando un formulario por defecto...';
 $string['emptyaddform'] = '¡No ha rellenado ningún campo!';
 $string['entries'] = 'Entradas';
-$string['entrieslefttoadd'] = 'Debe agregar {$a->entriesleft} entrada(s) más para poder finalizar esta actividad';
+$string['entrieslefttoadd'] = 'Debe añadir {$a->entriesleft} entrada(s) más antes de poder ver las entradas de otro participante.';
 $string['entrieslefttoaddtoview'] = 'Debe añadir {$a->entrieslefttoview} entrada(s) antes de poder ver las entradas de otros participantes.';
 $string['entry'] = 'Entrada';
 $string['entrysaved'] = 'Su entrada se ha guardado';

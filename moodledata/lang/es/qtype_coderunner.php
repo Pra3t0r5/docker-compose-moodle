@@ -25,6 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['HIDE'] = 'Ocultar';
+$string['HIDE_IF_FAIL'] = 'Ocultar si falla';
+$string['HIDE_IF_SUCCEED'] = 'Ocultar si pasa';
+$string['SHOW'] = 'Mostrar';
 $string['aborted'] = 'Prueba cancelada debido a un error.';
 $string['ace_ui_notready'] = 'El editor Ace no está listo. Tal vez funcione si vuelve a cargar la página.';
 $string['addingcoderunner'] = 'Agregar una nueva pregunta de CodeRunner';
@@ -63,10 +67,7 @@ $string['forexample'] = 'Por ejemplo';
 $string['goodemptyprecheck'] = 'Superado';
 $string['gotcolhdr'] = 'Se obtuvo';
 $string['hidden'] = 'Oculto';
-$string['HIDE'] = 'Ocultar';
 $string['hidedifferences'] = 'Ocultar diferencias';
-$string['HIDE_IF_FAIL'] = 'Ocultar si falla';
-$string['HIDE_IF_SUCCEED'] = 'Ocultar si pasa';
 $string['hiderestiffail'] = 'Ocultar el resto si falla';
 $string['inputcolhdr'] = 'Entrada';
 $string['is_prototype'] = 'Usar como prototipo';
@@ -85,7 +86,6 @@ $string['resultcolumnheader'] = 'Resultado';
 $string['resultstring-compilationerror'] = 'Error de compilación';
 $string['resultstring-runtimeerror'] = 'Error';
 $string['resultstring-success'] = 'Ok';
-$string['SHOW'] = 'Mostrar';
 $string['showcolumns'] = 'Mostrar columnas:';
 $string['showdifferences'] = 'Mostrar diferencias';
 $string['student_answer'] = 'Respuesta del estudiante';

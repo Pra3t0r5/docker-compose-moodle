@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_elegance', language 'es', branch 'MOODLE_31_STABLE'
+ * Strings for component 'theme_elegance', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_elegance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -31,6 +31,7 @@ $string['bannercolor'] = 'Color de Diapositiva';
 $string['bannercolordesc'] = 'No quieres usar una imagen? Especifica un color de fondo en su lugar';
 $string['bannerimage'] = 'Imagen de Diapositiva';
 $string['bannerimagedesc'] = 'Imagen grande que ir&aacute; detr&aacute;s del texto de la diapositiva.';
+$string['bannerindicator'] = 'N&uacute;mero de Diapositiva';
 $string['bannerindicatordesc'] = 'Establece esta diapositiva.';
 $string['bannerlinktext'] = 'Nombre de URL';
 $string['bannerlinktextdesc'] = 'Texto a mostrar cuando se visualice el enlace.';

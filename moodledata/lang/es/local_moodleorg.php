@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_moodleorg', language 'es', branch 'MOODLE_26_STABLE'
+ * Strings for component 'local_moodleorg', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   local_moodleorg
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -25,6 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['aboutdemosite'] = 'Nuestro sitio de demostración es un sitio Moodle con todas sus características y algunos cursos de ejemplo donde puede acceder como profesor, estudiante o incluso como administrador. No se preocupe por estropear algo, el sitio al completo se vacía y reinicia cada hora.';
+$string['aboutdemositetitle'] = 'Sitio de demostración';
+$string['aboutintro'] = 'Moodle es un Sistema de Gestión de Cursos de Código Abierto (<i>Open Source Course Management System, CMS</i>), conocido también como Sistema de Gestión del Aprendizaje (<i>Learning Management System, LMS</i>) o como Entorno de Aprendizaje Virtual (<i>Virtual Learning Environment, VLE</i>).  Es muy popular entre los educadores de todo el mundo como una herramienta para crear sitios web dinámicos en línea para sus estudiantes. Para utilizarlo, necesita ser instalado en un servidor web, puede ser instalado tanto en un ordenador personal como en un servidor proporcionado por una compañía de hospedaje de páginas web.';
+$string['aboutoverview'] = '<p>El objetivo del proyecto Moodle es siempre facilitar a los educadores las mejores herramientas para gestionar y promover el aprendizaje, pero hay muchas formas de utilizar Moodle:</p>
+<ul>
+<li>Moodle dispone de características que le permiten escalar a grandes despliegues con cientos de miles de estudiantes, pero también puede ser utilizado en escuelas de educación infantil y primaria.</li>
+<li>Muchas instituciones lo utilizan como su plataforma para formación en línea mientras que otras lo utilizan como apoyo a la formación presencial (conocida como blended learning en inglés).</li>
+<li>A muchos de nuestros usuarios les encanta utilizar los módulos de actividad (como los foros, bases de datos o wikis) para construir ricas comunidades colaborativas de aprendizaje alrededor de una materia (en la tradición del constructivismo social), mientras que otros prefieren utilizar Moodle como una forma de ofrecer contenidos a sus estudiantes (utilizando por ejemplo paquetes SCORM) y realizar evaluaciones utilizando tareas o cuestionarios.</li>
+</ul>';
+$string['aboutoverviewtitle'] = '¿Qué es Moodle?';
 $string['aboutstatistics'] = 'La descarga de Moodle es gratuita y el registro volutario por lo que no tenemos información de todo el mundo que lo usa. De todas formas, utilizando lo que sabemos, automáticamente generamos gráficos e información estadística en nuestra página de estadísticas.';
 $string['aboutstatisticsheading'] = 'Estadísticas de Moodle';
 $string['aboutstatisticstitle'] = 'Moodle.org: Estadísticas de Moodle';
@@ -49,6 +59,29 @@ $string['communitysomeallowguest'] = 'Algunas comunidades pueden permitir el acc
 $string['communityunenrolme'] = 'Abandonar la comunidad {$a}';
 $string['conferencecenter'] = 'Centro de conferencias de Moodle';
 $string['connectedsites'] = 'Algunos sitios Moodle se han conectado a moodle.org usando la red de Moodle, por lo que puede acceder directamente a ellas una vez se haya autenticado aquí.';
+$string['contactbugs'] = 'Puede informar de problemas en el programa Moodle o en cualquier sitio de moodle.org creando una nueva entrada en el Moodle Tracker.';
+$string['contactbugstitle'] = 'Informar de errores';
+$string['contactintro'] = 'Por favor, escoja entre las siguientes opciones de contacto:';
+$string['contactlogin'] = 'Para otras consultas, acceda a este sitio y use el formulario de contacto que aparecerá en esta página.';
+$string['contactmoodlecom'] = 'Para cualquier consulta relativa a la licencia, marca comercial o asuntos comerciales, así como grandes desarrollos sobre Moodle, por favor contactar con el servicio de ayuda en <a href="http://moodle.com/">Moodle.com</a>';
+$string['contactmoodlecomhelpdesk'] = 'Servicio de ayuda de Moodle.com';
+$string['contactmoodlecomtitle'] = 'Moodle.com';
+$string['contactmoodleorgemail'] = 'Si tiene problemas con la confirmación de su cuenta en moodle.org, enviar un correo electrónico a esta dirección:';
+$string['contactmoodleorglogin'] = 'Entrar a este sitio ahora';
+$string['contactmoodleorgother'] = 'Para otro tipo de consultas, utilice el formulario de contacto situado en la parte inferior de la página.';
+$string['contactmoodleorgtitle'] = 'Moodle.org';
+$string['contactsecurity'] = 'También puede informar de cuestiones de seguridad mediante el Tracker, siempre que el nivel de seguridad configurado sea adecuado.';
+$string['contactsent'] = 'Su mensaje se envió por correo electrónico al Gestor de la Comunidad Moodle.';
+$string['contactsupport'] = 'Si desea obtener soporte para utilizar Moodle, por favor visite la página de Soporte donde encontrará disponibles muchos recursos de ayuda.';
+$string['contactsupporttitle'] = 'Soporte';
+$string['developerlist'] = 'Listado completo de desarrolladores con acceso de escritura';
+$string['developermeetings'] = 'Encuentros de desarrolladores';
+$string['developers'] = 'El desarrollo principal de Moodle lo lidera el equipo de Moodle.com, ayudado por cientos de desarrolladores en todo el mundo.  Muchos de esos desarrolladores son también responsables directos de diferentes módulos y extensiones.';
+$string['developerstitle'] = 'Desarrolladores';
+$string['developmentdocs'] = 'La mayor parte de nuestra documentación está en Moodle Docs - incluyendo especificaciones, lluvia de ideas, procedimientos,  estándares y guías de usuario.';
+$string['developmentdocstitle'] = 'Documentación de desarrolladores';
+$string['developmentintro'] = 'Moodle se plantea como un proceso de desarrollo abierto y transparente que invita a toda la comunidad de usuarios a participar. Naturalmente damos la bienvenida a desarrolladores en PHP pero también puede contribuir mediante los debates en los foros, probando la aplicación, dándonos su opinión y documentando.';
+$string['developmenttracker'] = 'Todos los temas sobre desarrollo, fallos, mejoras y nuevas funcionalidades las registramos en el Trakcer de Moodle. Puede ver quién está trabajando y contribuir a las conversaciones. Si está buscando algo sobre un tema específico, debería mirar en primer lugar en el tracker y, por favor, no olvide <strong>votar</strong> en los temas que le gustaría ver resueltos lo antes posible: su voto determina las prioridades a la hora de resolver los temas.';
 $string['donations'] = 'Moodle está completamente libre de obligaciones económicas, no obstante muchos miembros de la comunidad han realizado donaciones para ayudar a los desarrolladores que hacen Moodle posible.';
 $string['donationsmoney'] = 'Puede contribuir con dinero directamente al fondo a través de una donación en efectivo. Todo este dinero se utiliza para convertir en realidad  los deseos de nuestra hoja de ruta y que todos podamos disfrutarlos. Para hacer una donación con tarjeta de crédito en la mayoría de las principales monedas, por favor haga clic en el botón inferior de Paypal. <br /> <br /> Los donantes de más de $10 añadirán su nombre a esta página durante un año. Por favor, recuerde pulsar el botón "Continuar" después de pagar para ver el formulario donde podrá editar la manera en que  referencia aparecerá,';
 $string['donationsservices'] = 'Si usted tiene necesidad de servicios de Moodle, tales como como hosting, soporte, instalación, programación personalizada, desarrollo de cursos o asesoría, por favor contacte con su distribuidor autorizado <a href="http://moodle.com/"> Moodle Partner de moodle.com </ a> (puede encontrar sus anuncios publicitarios en este sitio). Los socios aportan un porcentaje fijo de todos sus ingresos para el fondo fiduciario de desarrollo de Moodle, por lo que todo el mundo gana.';
@@ -59,6 +92,7 @@ $string['downloadcoretitle'] = 'Paquetes estándar de Moodle';
 $string['downloadintro'] = 'Moodle es código abierto bajo <a href="http://docs.moodle.org/dev/License">GPL licence</a>.  Todo lo que creamos se puede descargar y utilizar gratuita y libremente.';
 $string['downloadlang'] = 'En las versiones actuales de Moodle se ha automatizado la adición de paquetes de idiomas desde el menú de administración del sitio. De todas formas, para versiones antiguas de Moodle, los paquetes de idioma se pueden descargar de forma manual.';
 $string['downloadlangtitle'] = 'Paquetes de idioma';
+$string['downloadlogotitle'] = 'Logos de Moodle';
 $string['downloadmac'] = 'Si aún no dispone de un servidor web, estos paquetes con todo incluido le ayudarán a instalar de forma fácil Moodle en cualquier ordenador con Mac OS X.';
 $string['downloadmactitle'] = 'Moodle para Mac OS X';
 $string['downloadmodules'] = 'Navegue por nuestra base de datos de módulos extra y extensiones que pueden ser instalados en su sitio Moodle para dotarlo de funcionalidades extras más allá de las incluidas en la distribución base de Moodle.';
@@ -115,6 +149,9 @@ $string['focusbox_uptodate_planet'] = 'Planeta Moodle';
 $string['focusbox_uptodate_security'] = 'Avisos de seguridad';
 $string['focusbox_uptodate_social'] = 'Redes sociales';
 $string['focusbox_uptodate_text'] = 'Últimas noticias sobre Moodle, actualizaciones y destacados en el mundo.';
+$string['frontpagewelcome1'] = 'Moodle es un Sistema de Gestión de Cursos de Código Abierto (<i>Open Source Course Management System, CMS</i>), conocido también como Sistema de Gestión del Aprendizaje (<i>Learning Management System, LMS</i>) o como Entorno de Aprendizaje Virtual (<i>Virtual Learning Environment, VLE</i>).  Es una aplicación web gratuita que los educadores pueden utilizar para crear sitios de aprendizaje efectivo en línea.';
+$string['frontpagewelcome2'] = 'Moodle.org es el sitio de nuestra comunidad donde se crea y discute Moodle. Por favor, utilice los menús para explorarla y unirse a ella.';
+$string['frontpagewelcometitle'] = '¡Bienvenido a la comunidad Moodle!';
 $string['generaldeveloperforum'] = 'Foro general de desarrolladores';
 $string['graphpopulation'] = 'Gráfico de la población de Moodle';
 $string['graphregistrationmap'] = 'Mapa de registros de Moodle';
@@ -138,11 +175,29 @@ $string['heroslide_story_headline'] = 'Mejorando la enseñanza y el aprendizaje 
 $string['heroslide_story_slidecontrol'] = 'Historias sobre Moodle alrededor del mundo';
 $string['jobs'] = 'Visite nuestra base de datos de ofertas de trabajo para información sobre puestos de trabajo en todo el mundo';
 $string['logotitle'] = 'Logo de Moodle';
+$string['moodledocs'] = 'Documentación de Moodle';
 $string['moodlepartner_corporate'] = 'Entrenamiento corporativo';
 $string['moodlepartner_other'] = 'Otros sectores';
 $string['moodlepartner_school'] = 'Escuela';
 $string['moodlepartner_university'] = 'Universidad';
+$string['mycoursesintro'] = 'Actualmente está matriculado en los siguientes "cursos" en este sitio de la comunidad, cada uno de ellos podría disponer de uno o más foros.';
+$string['nameabout'] = 'Acerca de';
+$string['nameaboutmoodle'] = 'Acerca de Moodle';
+$string['namecommercial'] = 'Servicios comerciales';
+$string['namecommunity'] = 'Comunidad';
+$string['namecontact'] = 'Contacto';
+$string['namedevelopment'] = 'Desarrollo';
+$string['namedocumentation'] = 'Documentación';
+$string['namedownloads'] = 'Descargas';
+$string['nameevents'] = 'Eventos';
+$string['nameforums'] = 'Foros';
+$string['namemycourses'] = 'Mis cursos';
+$string['namenetwork'] = 'Sitios conectados';
+$string['namenews'] = 'Noticias';
+$string['namesecurity'] = 'Avisos de seguridad';
+$string['namesupport'] = 'Soporte';
 $string['networkinfo'] = 'Los siguientes sitios Moodle han sido conectados a moodle.org empleando la red Moodle, por lo que puede ingresar a ellos directamente desde aquí.';
+$string['networkintro'] = 'Los sitios Moodle que figuran a continuación han sido conectados con moodle.org utilizando la Red Moodle, de manera que puede entrar a ellos directamente desde aquí.';
 $string['networktitle'] = 'Sitios conectados';
 $string['newregistrations'] = 'Registros nuevos';
 $string['newstitle'] = 'Noticias';
@@ -169,13 +224,13 @@ $string['social-facebook-moodle'] = 'Página oficial de Moodle en Facebook';
 $string['social-googleplus-community'] = 'Página oficial de comunidad Moodle en Google+';
 $string['social-googleplus-moodle'] = 'Página oficial de Moodle en Google+';
 $string['social-linkedin-moodle'] = 'Página oficial de Moodle en Linkedln';
-$string['socialtitle'] = 'Medios sociales';
 $string['social-twitter-moodledev'] = 'Actualizaciones y noticias sobre el desarrollo de Moodle';
 $string['social-twitter-moodlehq'] = 'Tweets de Moodle HQ';
 $string['social-twitter-moodlenet'] = 'Contenido y cursos compartidos de Moodle';
 $string['social-twitter-moodleplugins'] = 'Extensiones de Moodle publicadas recientemente';
 $string['social-twitter-moodlesecurity'] = 'Avisos de seguridad de Moodle';
 $string['social-youtube-moodle'] = 'Canal oficial de Moodle en YouTube';
+$string['socialtitle'] = 'Medios sociales';
 $string['statscountries'] = 'Países';
 $string['statscourses'] = 'Cursos';
 $string['statsenrolments'] = 'Matriculaciones';

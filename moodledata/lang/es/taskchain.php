@@ -61,7 +61,6 @@ $string['answersshort'] = 'R';
 $string['anyattempts'] = 'Cualquier intento';
 $string['anygroup'] = 'Cualquier grupo';
 $string['applydefaults'] = 'Aplicar los valores por defecto seleccionados';
-$string['assessmenthdr'] = 'Evaluación';
 $string['assessment_help'] = 'Los ajustes de evaluación para las cadenas y tareas de Tarea en Cadena definen lo siguiente:
 
 <ul>
@@ -123,6 +122,7 @@ Por último, la calificación se pondera de acuerdo a los siguientes cálculos:
 <tt>100</tt>
 </td>
 </tr></tbody></table>';
+$string['assessmenthdr'] = 'Evaluación';
 $string['attemptcount'] = 'Cuenta de intentos';
 $string['attemptcount_help'] = 'Se está habilitado, este ajuste indica el máximo o el mínimo número de intentos que deben satisfacer las condiciones de puntuación y duración.
 
@@ -255,10 +255,10 @@ Esta condición se refiere a la tarea previa en esta cadena de acuerdo con el or
 El profesor puede seleccionar una tarea específica a la que se refiera esta condición previa.
 Para evitar confusiones creadas por tareas con nombres idénticos, se adjuntan los números de ordenación de las tareas a sus nombres.';
 $string['configenableobfuscate'] = 'Ofuscar el código javascript para que al insertar reproductores multimedia dificulte el determinar el nombre del archivo multimedia y su contenido.';
+$string['d_index'] = 'Índice de diferenciación';
 $string['deleteprecondition'] = 'Eliminar una condición previa';
 $string['deletetasks'] = 'Eliminar las tareas seleccionadas';
 $string['detailsrecords'] = 'Registros detallados de la Tarea en Cadena';
-$string['d_index'] = 'Índice de diferenciación';
 $string['discarddetails'] = 'Descartar detalles';
 $string['discarddetails_help'] = 'Si el ajuste está configurado como "Sí", los detalles XML de cada intento en esta tarea serán descartados, de lo contrario los detalles XML serán almacenados en la base de datos para su consulta.';
 $string['duration'] = 'Duración';
@@ -274,8 +274,10 @@ $string['enableobfuscate'] = 'Habilitar ofuscación de texto y de reproductores 
 $string['enableswf'] = 'Habilitar la incrustación de ficheros SWF en las actividades de Tareas en Cadena';
 $string['endofchain'] = 'Fin de la cadena';
 $string['entry_attempts'] = 'Intentos';
+$string['entry_dates'] = 'Fechas';
+$string['entry_grading'] = 'Calificar';
+$string['entry_title'] = 'Nombre de la cadena como título';
 $string['entrycm'] = 'Actividad previa';
-$string['entrycmcourse'] = 'Actividad previa en este curso';
 $string['entrycm_help'] = 'Este ajuste determina una actividad Moodle y una puntuación mínima para esa actividad que debe alcanzarse antes de intentar esta actividad de Tarea en Cadena.
 
 El profesor puede seleccionar una actividad específica o una de las siguientes opciones generales de ajuste:
@@ -286,14 +288,13 @@ El profesor puede seleccionar una actividad específica o una de las siguientes 
 * Actividad previa calificada en esta sección
 * Tarea en Cadena previa en este curso
 * Tarea en Cadena previa en esta sección';
+$string['entrycmcourse'] = 'Actividad previa en este curso';
 $string['entrycmsection'] = 'Actividad previa en esta sección del curso';
 $string['entrycompletionwarning'] = 'Antes de empezar esta actividad debes revisar {$a}.';
-$string['entry_dates'] = 'Fechas';
 $string['entrygrade'] = 'Calificación de la actividad previa';
 $string['entrygradedcourse'] = 'Actividad previa calificada en este curso';
 $string['entrygradedsection'] = 'Actividad previa calificada en esta sección del curso';
 $string['entrygradewarning'] = 'No puede empezar esta actividad hasta que obtenga una puntuación del {$a->entrygrade}% en {$a->entryactivity}. Actualmente su puntuación para esa actividad es {$a->usergrade}%.';
-$string['entry_grading'] = 'Calificar';
 $string['entryoptions'] = 'Opciones de la página de entrada';
 $string['entryoptions_help'] = 'Estas casillas de verificación habilitan y deshabilitan la visualización de elementos en la página de entrada de Tarea en Cadena.
 
@@ -309,7 +310,6 @@ $string['entryoptions_help'] = 'Estas casillas de verificación habilitan y desh
 **Intentos**
 : si está seleccionada se mostrará una tabla en la página de entrada con los detalles de intentos previos del usuario en esta Tarea en Cadena. Los intentos que puedan reanudarse tendrán un botón de reanudación en la columna más a la derecha.';
 $string['entrypage'] = 'Mostrar página de entrada';
-$string['entrypagehdr'] = 'Página de entrada';
 $string['entrypage_help'] = '¿Se debería mostrar a los estudiantes una página inicial antes de empezar una actividad de Tarea en Cadena?
 
 **Sí**
@@ -319,10 +319,10 @@ $string['entrypage_help'] = '¿Se debería mostrar a los estudiantes una página
 : no se mostrará a los estudiantes una página de entrada y empezarán de forma inmediata la Tarea en Cadena.
 
 Al profesor siempre se le mostrará una página de entrada para proporcionarle acceso a los informes y poder editar la página de tareas';
+$string['entrypagehdr'] = 'Página de entrada';
 $string['entrytaskchaincourse'] = 'Tarea en Cadena previa en este curso';
 $string['entrytaskchainsection'] = 'Tarea en Cadena previa en esta sección del curso';
 $string['entrytext'] = 'Texto de la página de entrada';
-$string['entry_title'] = 'Nombre de la cadena como título';
 $string['error_formhelperclassnotfound'] = 'La clase: {$a} del formulario de ayuda de Tarea en Cadena no se encontró.';
 $string['error_formhelperfilenotfound'] = 'El fichero: {$a} del formulario de ayuda de Tarea en Cadena no se encontró.';
 $string['error_getprivateproperty'] = 'No se puede acceder a la propiedad privada, {$a->property}, del objeto {$a->class} directamente. Utilice {$a->method} en su lugar.';
@@ -369,21 +369,6 @@ $string['event_tasks_edited_description'] = 'El usuario con identificador "{$a->
 $string['event_tasks_edited_explanation'] = 'Un usuario acaba de editar todas las tareas en una actividad de Tarea en Cadena';
 $string['exit_areyouok'] = 'Hola, ¿aún estás ahí?';
 $string['exit_attemptscore'] = 'Tu puntuación para ese intentó fue {$a}';
-$string['exitcm'] = 'Siguiente actividad';
-$string['exitcmcourse'] = 'Siguiente actividad en este curso';
-$string['exitcm_help'] = 'Este ajuste especifica una actividad Moodle para hacer después de que esta actividad de Tarea en Cadena sea completada. La calificación opcional es la calificación mínima para esta Tarea en Cadena que es necesaria para que se muestre la siguiente actividad.
-
-El profesor puede seleccionar una actividad específica o una de las siguientes opciones generales de ajuste:
-
-* Siguiente actividad en este curso
-* Siguiente actividad en esta sección
-* Siguiente actividad calificada en este curso
-* Siguiente actividad calificada en esta sección
-* Siguiente Tarea en Cadena en este curso
-* Siguiente Tarea en Cadena en esta sección
-
-Si otras opciones para salir de la página están deshabilitadas y el alumno ha obtenido la calificación requerida en esta actividad de Tarea en Cadena, la siguiente actividad se mostrará inmediatamente. En caso contrario se mostrará al alumno un enlace a la siguiente actividad, que podrá pulsar cuando esté listo.';
-$string['exitcmsection'] = 'Siguiente actividad en esta sección del curso';
 $string['exit_course'] = 'Curso';
 $string['exit_course_text'] = 'Volver a la página principal del curso';
 $string['exit_encouragement'] = 'Estímulo';
@@ -409,10 +394,25 @@ $string['exit_feedback_help'] = 'Estas opciones habilitan y deshabilitan la visu
 
 Además, si el método de evaluación de la cadena es "el más alto", se mostrará un mensaje para indicar al usuario si el intento más reciente fue igual o mejor que los intentos previos.';
 $string['exit_goodtry'] = '¡Buen intento!';
+$string['exit_grades'] = 'Calificaciones';
+$string['exitcm'] = 'Siguiente actividad';
+$string['exitcm_help'] = 'Este ajuste especifica una actividad Moodle para hacer después de que esta actividad de Tarea en Cadena sea completada. La calificación opcional es la calificación mínima para esta Tarea en Cadena que es necesaria para que se muestre la siguiente actividad.
+
+El profesor puede seleccionar una actividad específica o una de las siguientes opciones generales de ajuste:
+
+* Siguiente actividad en este curso
+* Siguiente actividad en esta sección
+* Siguiente actividad calificada en este curso
+* Siguiente actividad calificada en esta sección
+* Siguiente Tarea en Cadena en este curso
+* Siguiente Tarea en Cadena en esta sección
+
+Si otras opciones para salir de la página están deshabilitadas y el alumno ha obtenido la calificación requerida en esta actividad de Tarea en Cadena, la siguiente actividad se mostrará inmediatamente. En caso contrario se mostrará al alumno un enlace a la siguiente actividad, que podrá pulsar cuando esté listo.';
+$string['exitcmcourse'] = 'Siguiente actividad en este curso';
+$string['exitcmsection'] = 'Siguiente actividad en esta sección del curso';
 $string['exitgrade'] = 'Calificación de la siguiente actividad';
 $string['exitgradedcourse'] = 'Siguiente actividad calificada en este curso';
 $string['exitgradedsection'] = 'Siguiente actividad calificada en esta sección del curso';
-$string['exit_grades'] = 'Calificaciones';
 $string['hints'] = 'Pistas';
 $string['next2task'] = 'Pasar por alto la siguiente tarea';
 $string['next3task'] = 'Pasar por alto 2 tareas';

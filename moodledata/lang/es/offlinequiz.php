@@ -316,22 +316,22 @@ $string['numquestionsx'] = 'Preguntas: {$a}';
 $string['numusersadded'] = '{$a} participantes añadidos';
 $string['odsformat'] = 'Hoja de cálculo OpenDocument (ODS)';
 $string['offlinequiz:addinstance'] = 'Añadir un cuestionario offline';
-$string['offlinequizcloses'] = 'El cuestionario offline se cierra';
-$string['offlinequizcloseson'] = 'La revisión para este cuestionario offline se cierra {$a}';
 $string['offlinequiz:createofflinequiz'] = 'Crear formularios de cuestionario offline';
 $string['offlinequiz:deleteattempts'] = 'Borrar resultados del cuestionario offline';
 $string['offlinequiz:grade'] = 'Calificar cuestionarios offline (sin conexión) manualmente';
-$string['offlinequizisclosed'] = 'Cuestionario offline cerrado)';
-$string['offlinequizisclosedwillopen'] = 'Cuestionario offline cerrado (se abre el {$a})';
-$string['offlinequizisopen'] = 'Este cuestionario offline esta abierto';
-$string['offlinequizisopenwillclose'] = 'Cuestionario offline (sin conexión) abierto (se cierra el {$a})';
 $string['offlinequiz:manage'] = 'Gestionar cuestionarios offline';
-$string['offlinequizopenedon'] = 'Este cuestionario offline se abrió el {$a}';
-$string['offlinequizopens'] = 'El cuestionario offline se abre';
 $string['offlinequiz:preview'] = 'Vista previa de cuestionarios offline';
-$string['offlinequizsettings'] = 'Ajustes sin conexión';
 $string['offlinequiz:view'] = 'Ver información del cuestionario offline';
 $string['offlinequiz:viewreports'] = 'Ver registros del cuestionario offline';
+$string['offlinequizcloses'] = 'El cuestionario offline se cierra';
+$string['offlinequizcloseson'] = 'La revisión para este cuestionario offline se cierra {$a}';
+$string['offlinequizisclosed'] = 'Cuestionario offline cerrado)';
+$string['offlinequizisclosedwillopen'] = 'Cuestionario offline cerrado (abre el {$a})';
+$string['offlinequizisopen'] = 'Este cuestionario offline esta abierto';
+$string['offlinequizisopenwillclose'] = 'Cuestionario offline (sin conexión) abierto (se cierra el {$a})';
+$string['offlinequizopenedon'] = 'Este cuestionario offline se abrió el {$a}';
+$string['offlinequizopens'] = 'El cuestionario offline se abre';
+$string['offlinequizsettings'] = 'Ajustes sin conexión';
 $string['offlinequizwillopen'] = 'El cuestionario offline se abre el {$a}';
 $string['oneclickenroldesc'] = 'Si se activa esta opción los profesores tienen la posibilidad de matricular usuarios con un clic mientras están corrigiendo los formularios de respuestas (error "El usuario no está en el curso").';
 $string['oneclickroledesc'] = 'Elija el rol usado para matriculación en un clic. Sólo pueden seleccionarse roles con el arquetipo "Estudiante".';
@@ -347,9 +347,9 @@ $string['otherresultexists'] = '¡Ya existe un resultado diferente para {$a}, im
 $string['outof'] = '{$a->grade} fuera del máximo de {$a->maxgrade}';
 $string['overallfeedback'] = 'Realimentación general';
 $string['overview'] = 'Resumen';
+$string['page-mod-offlinequiz-edit'] = 'Editar página del cuestionario offline';
 $string['pagecorrected'] = 'Hoja corregida con lista de participantes importada';
 $string['pageimported'] = 'Hoja con lista de participantes importada';
-$string['page-mod-offlinequiz-edit'] = 'Editar página del cuestionario offline';
 $string['pagenotdetected'] = '¡No se puede detectar el código de barras de la página!';
 $string['pagenumberimported'] = 'Hoja {$a} con lista de participantes importada';
 $string['pagenumberupdate'] = 'Número de página actualizado';
@@ -405,6 +405,60 @@ $string['questioninfonone'] = 'Nada';
 $string['questioninfoqtype'] = 'Tipo de pregunta';
 $string['questionname'] = 'Nombre de la pregunta';
 $string['questionsheet'] = 'Hoja de preguntas';
+$string['questionsheetlatextemplate'] = '\\documentclass[12pt,a4paper]{article}
+\\textwidth 16truecm
+\\textheight 23truecm
+\\setlength{\\oddsidemargin}{0cm}
+\\setlength{\\evensidemargin}{0cm}
+\\setlength{\\topmargin}{-1cm}
+\\usepackage{amsmath} % for \\implies etc
+\\usepackage{amsfonts} % for \\mathbb etc
+\\usepackage{graphicx} % for including pictures
+\\renewcommand{\\familydefault}{\\sfdefault} % Font
+\\newcommand{\\lsim}{\\mbox{\\raisebox{-.3em}{$\\stackrel{<}{\\sim}$}}} % less or approximately equal
+\\newcommand{\\subs}{\\mbox{\\raisebox{-.5em}{$\\stackrel{\\subset}{\\neq}$}}}
+\\newcommand{\\sei}{\\mbox{\\raisebox{.0em}{$\\stackrel{!}{=}$}}}
+\\parindent 0pt % no indent on the beginning of a section
+\\usepackage{esvect} % long vector arrows, e.g. \\vv{AB}
+\\usepackage[colorlinks=true,urlcolor=dunkelrot,linkcolor=black]{hyperref} % For using of Hyperlinks
+\\renewcommand\\UrlFont{\\sf}
+\\usepackage{ulem} %  \\sout{horizontal cross out} \\xout{diagonal strike out}
+\\newcommand{\\abs}[1]{\\left\\lvert#1\\right\\rvert}
+\\usepackage{scrpage2} % For Header and Footer
+\\pagestyle{scrheadings}
+\\clearscrheadfoot
+\\ifoot{[Gruppe \\Group]}
+\\makeatletter %%% disable pagebreaks between answers
+\\@beginparpenalty=10000
+\\@itempenalty=10000
+\\makeatother
+%
+\\newcommand{\\answerIs}[1]{} %%%Disable showing the right answer
+% \\newcommand{\\answerIs}[1]{[#1]} %%%Enable showing the right answer
+%%%
+
+\\begin{document}
+
+
+% ===========================================================================================================
+%%% Data of the Course
+\\begin{center}{\\LARGE {$a->coursename}}\\end{center}
+\\begin{center}{Written Exam {$a->date}}\\end{center}
+%%%
+\\def\\Group{{$a->groupname}}
+\\begin{center}{\\Large Group \\Group}\\end{center}
+
+{\\bf Name:}\\\\
+{\\bf Matriculation number:}\\\\
+{\\bf Signature:}\\
+
+% ===========================================================================================================
+\\bigskip
+
+{$a->latexforquestions}
+
+
+\\end{document}';
 $string['questionsin'] = 'Preguntas en';
 $string['questionsingroup'] = 'Preguntas en grupo';
 $string['questionsinthisofflinequiz'] = 'Preguntas en este cuestionario offline (fuera de línea)';
@@ -501,11 +555,11 @@ Puede seleccioner una de estas:
 </ul>';
 $string['showstudentview'] = 'Mostrar vista del estudiante';
 $string['showtutorial'] = 'Mostrar un tutorial del cuestionario offline a los estudiantes.';
-$string['showtutorialdescription'] = 'Puede añadir un enlace al tutorial en la página del curso utilizando esta URL:';
 $string['showtutorial_help'] = 'Esta opción determina si los estudiantes pueden ver un tutorial básico sobre los cuestionarios offline.
 El tutorial proporciona información sobre cómo manejar los diferentes tipos de documentos en los cuestionarios offline. En una parte interactiva aprender cómo marcar su identificación de forma correcta.
 <b>Nota:</b><br />
 Si usted deja esta opción en "Sí" pero oculta el cuestionario offline, el enlace al tutorial no será visible. En este caso, puede añadir un enlace al tutorial en la página del curso.';
+$string['showtutorialdescription'] = 'Puede añadir un enlace al tutorial en la página del curso utilizando esta URL:';
 $string['shuffleanswers'] = 'Barajar respuestas';
 $string['shufflequestions'] = 'Barajar preguntas';
 $string['shufflequestionsanswers'] = 'Barajar preguntas y respuestas';

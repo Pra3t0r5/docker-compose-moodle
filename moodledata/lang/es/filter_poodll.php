@@ -43,7 +43,6 @@ $string['extensions'] = 'Extensiones de ficheros';
 $string['extensions_desc'] = 'Una lista CSV (Valores Separados por Coma) de extensiones de ficheros que este filtro puede analizar.';
 $string['extensionsettings'] = 'Ajustes de extensión de fichero';
 $string['ffmpeg'] = 'Convertir medios subidos con FFMPEG';
-$string['filtername'] = 'Filtro PoodLL';
 $string['filter_poodll_audioplayer_heading'] = 'Ajustes del reproductor de audio';
 $string['filter_poodll_camera_heading'] = 'Ajustes de la cámara web';
 $string['filter_poodll_flashcards_heading'] = 'Ajustes de la tarjeta flash';
@@ -55,6 +54,7 @@ $string['filter_poodll_registration_explanation'] = 'PoodLL 3 requiere una clave
 $string['filter_poodll_registration_heading'] = 'Registre su PoodLL';
 $string['filter_poodll_videogallery_heading'] = 'Ajustes de la galería de vídeo';
 $string['filter_poodll_videoplayer_heading'] = 'Ajustes del reproductor de vídeo';
+$string['filtername'] = 'Filtro PoodLL';
 $string['flashcardstype'] = 'Tipo de tarjeta flash';
 $string['generalsettings'] = 'Ajustes generales';
 $string['handle'] = 'Manejar {$a}';
@@ -64,12 +64,12 @@ $string['lowquality'] = 'baja';
 $string['mediumquality'] = 'media';
 $string['miccanpause'] = 'Permitir pausa (sólo para el grabador MP3)';
 $string['mobile_audio_quality'] = 'Calidad de sonido';
-$string['mobileonly'] = 'Sólo dispositivos móviles';
 $string['mobile_os_version_warning'] = '<p>Su versión de SO es demasiado baja</p>
 <p>Android requiere la versión 4 o superior.</p>
 <p>iOS requiere la versión 6 o superior.</p>';
-$string['mobilesettings'] = 'Ajustes de la APP iOS';
 $string['mobile_show'] = 'Mostrar móvil';
 $string['mobile_show_desc'] = 'Cuando el usuario está en un dispositivo iOS, en lugar de un grabador verá un botón de "subir/grabar" y un botón "utilice la app PoodLL". Desmarque esta opción para ocultar el botón de la app de PoodLL.';
 $string['mobile_video_quality'] = 'Calidad de vídeo';
+$string['mobileonly'] = 'Sólo dispositivos móviles';
+$string['mobilesettings'] = 'Ajustes de la APP iOS';
 $string['registrationkey_explanation'] = 'Escriba aquí su clave de registro de PoodLL. Puede obtener una clave de pago para Poodll 3.x desde <a href=\'https://poodll.com/poodll-3-2\'>https://poodll.com/poodll-3-2</a> y una clave gratuita para Poodll 2.x desde <a href=\'https://poodll.com/registration/\'>https://poodll.com/registration/</a>';

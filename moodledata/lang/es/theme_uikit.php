@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_uikit', language 'es', branch 'MOODLE_30_STABLE'
+ * Strings for component 'theme_uikit', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   theme_uikit
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -57,9 +57,9 @@ $string['analyticsiddesc'] = 'Introduce el Tracking ID proporcionado. Normalment
 $string['android'] = 'Android (Google Play)';
 $string['androiddesc'] = 'URL de su aplicación móvil en Google Play Store. Si usted no posee una propia, tal vez podría considerar enlazar la aplicación oficial gratuita que Moodle proporciona.';
 $string['auto'] = 'Auto';
+$string['auto_refresh'] = 'Auto refrescar';
 $string['autohide'] = 'Incluir funcionalidad de ocultamiento automático';
 $string['autohidedesc'] = 'La funcionalidad de ocultamiento automático está diseñada para hacer menos confusa la interface de la plataforma. Al estar activo el modo de edición, los iconos de modificación solo aparecerán al ubicarse sobre cada bloque.';
-$string['auto_refresh'] = 'Auto refrescar';
 $string['backtotop'] = 'Volver arriba';
 $string['base-body-background'] = 'Color de fondo';
 $string['base-body-color'] = 'Color del texto';
@@ -368,6 +368,16 @@ $string['mydashboardinfodesc'] = 'Muestra una lista de funciones comunes utiliza
 $string['mymodules'] = 'Mis Módulos';
 $string['mysubjects'] = 'Mis Asignaturas';
 $string['myunits'] = 'Mis Unidades';
+$string['nav-dropdown-color'] = 'Menú desplegable - Texto';
+$string['nav-dropdown-hover-background'] = 'Menú desplegable - Fondo (hover)';
+$string['nav-dropdown-hover-color'] = 'Menú desplegable - Texto (hover)';
+$string['nav-dropdown-nested-color'] = 'Menú desplegable - Enlaces anidados';
+$string['nav-dropdown-nested-hover-color'] = 'Menú desplegable - Enlaces anidados (hover)';
+$string['nav-navbar-color'] = 'Menú desplegable - Texto';
+$string['nav-navbar-hover-background'] = 'Menú desplegable - Fondo (hover)';
+$string['nav-navbar-hover-color'] = 'Menú desplegable - Texto (hover)';
+$string['nav-navbar-nested-color'] = 'Menú desplegable - Enlaces anidados';
+$string['nav-navbar-nested-hover-color'] = 'Menú desplegable - Enlaces anidados (hover)';
 $string['navbar-background'] = 'Color de fondo';
 $string['navbar-border'] = 'Borde';
 $string['navbar-border-bottom'] = 'Borde (inferior)';
@@ -391,11 +401,6 @@ $string['navbar-nav-onclick-color'] = 'Elementos - Texto (click)';
 $string['navbar-text-shadow'] = 'Sombra';
 $string['navbar-toggle-color'] = 'Botón menú lateral - Color';
 $string['navbar-toggle-hover-color'] = 'Botón menú lateral - Color (hover)';
-$string['nav-dropdown-color'] = 'Menú desplegable - Texto';
-$string['nav-dropdown-hover-background'] = 'Menú desplegable - Fondo (hover)';
-$string['nav-dropdown-hover-color'] = 'Menú desplegable - Texto (hover)';
-$string['nav-dropdown-nested-color'] = 'Menú desplegable - Enlaces anidados';
-$string['nav-dropdown-nested-hover-color'] = 'Menú desplegable - Enlaces anidados (hover)';
 $string['navigationbuttonsclass'] = 'Clase de los botones de navegación';
 $string['navigationbuttonsclass-danger'] = 'Peligro';
 $string['navigationbuttonsclass-link'] = 'Enlace';
@@ -408,18 +413,13 @@ $string['navigationbuttonssize-mini'] = 'Mini';
 $string['navigationbuttonssize-normal'] = 'Normal';
 $string['navigationbuttonssize-small'] = 'Pequeño';
 $string['navigationtoggletext'] = 'Navegación';
-$string['nav-navbar-color'] = 'Menú desplegable - Texto';
-$string['nav-navbar-hover-background'] = 'Menú desplegable - Fondo (hover)';
-$string['nav-navbar-hover-color'] = 'Menú desplegable - Texto (hover)';
-$string['nav-navbar-nested-color'] = 'Menú desplegable - Enlaces anidados';
-$string['nav-navbar-nested-hover-color'] = 'Menú desplegable - Enlaces anidados (hover)';
 $string['nextsection'] = 'Siguiente Sección';
 $string['noenrolments'] = 'No estás matriculado';
 $string['onlytoplevelhierarchy'] = 'Mostrar listas de cursos bajo su categoría de mayor nivel';
-$string['pagebackground'] = 'Imagen de fondo de página';
-$string['pagebackgrounddesc'] = 'Sube tu propia imagen de fondo para la página. Será repetida en el fondo de todas las páginas.';
 $string['page_description'] = 'Esta página permite personalizar el estilo y comportamiento de tu sitio.';
 $string['page_description_sub'] = 'Puedes configurar el logo, favicon y otras muchas opciones aquí.';
+$string['pagebackground'] = 'Imagen de fondo de página';
+$string['pagebackgrounddesc'] = 'Sube tu propia imagen de fondo para la página. Será repetida en el fondo de todas las páginas.';
 $string['pagenavbarcontent'] = 'Contenido de la barra de navegación superior';
 $string['pagenavbarcontent-custom'] = 'Personalizado';
 $string['pagenavbarcontent-dontshow'] = 'No mostrar';

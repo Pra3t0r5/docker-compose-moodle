@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'aspirelist', language 'es', branch 'MOODLE_33_STABLE'
+ * Strings for component 'aspirelist', language 'es', branch 'MOODLE_35_STABLE'
  *
  * @package   aspirelist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -28,12 +28,13 @@ defined('MOODLE_INTERNAL') || die();
 $string['aspirecodesettings'] = 'Configuración del código Talis Aspire';
 $string['aspirelist'] = 'Lista de recursos: {$a}';
 $string['aspirelist:addinstance'] = 'Añadir nueva lista de recursos';
-$string['aspirelistname'] = 'Nombre de la lista de recursos';
 $string['aspirelist:view'] = 'Ver el contenido de la lista de recursos';
+$string['aspirelistname'] = 'Nombre de la lista de recursos';
 $string['aspiresitesettings'] = 'Configuración del sitio de Tails Aspire';
 $string['aspireurl'] = 'URL de Aspire';
 $string['aspireurl_desc'] = 'Inserte la URL base de su sitio Tails Aspire (no como un alias de HTTPS)';
 $string['aspireurlhttpsalias'] = 'URL del alias de Aspire';
+$string['configrequiremodintro'] = 'Activa esta opción si quieres obligar a los usuarios a introducir una descripción para cada lista de recursos.';
 $string['contentheader'] = 'Selección de lista de recursos';
 $string['course'] = 'Curso';
 $string['courseattribute'] = 'Atributo del curso';

@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['connction_error'] = 'No se puede abrir la página de OneNote debido a un error de conexión. Por favor, inténtelo nuevamente tras unos minutos.';
-$string['errorfeedbackinstudentcontext'] = 'Se intentó crear retroalimentación en el contexto del envío del estudiante.';
 $string['error_noapiavailable'] = 'No está disponible la API de OneNote. Si está usando la extensión de Office 365, no podemos contactar con OneNote. De lo contrario, por favor instale local_msaccount.';
+$string['errorfeedbackinstudentcontext'] = 'Se intentó crear retroalimentación en el contexto del envío del estudiante.';
 $string['errornopostdata'] = 'No se pudieron crear datos de página para enviar a OneNote.';
 $string['erroronenoteapibadcall'] = 'Error en la llamada de la API.';
 $string['erroronenoteapibadcall_message'] = 'Error en la llamada de la API: {$a}';
