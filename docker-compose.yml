@@ -52,6 +52,8 @@ services:
       - MOODLE_DATA
       - WWWROOT
       - WWW_PORT
+      - MERCADOPAGO_SANDBOX
+      - MERCADOPAGO_SANDBOX_EMAIL
       # Uncomment following lines and modify variable content for CUSTOM_CA
       # - |-
       #   CA_CERT=-----BEGIN CERTIFICATE-----

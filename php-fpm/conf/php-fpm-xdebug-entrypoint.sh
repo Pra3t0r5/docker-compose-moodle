@@ -15,6 +15,8 @@ if ! [ -z ${POSTGRES_DB+x} ] && ! [ -z ${POSTGRES_USER+x} ] && ! [ -z ${POSTGRES
         -e  "s@^\$CFG->dbpass.*@\$CFG->dbpass    = '${POSTGRES_PASSWORD}';@" \
         -e  "s@^\$CFG->wwwroot.*@\$CFG->wwwroot    = 'http://${host_port}';@" \
         -e  "s@^\$CFG->dataroot.*@\$CFG->dataroot    = '${MOODLE_DATA}';@" \
+        -e  "s@^\$CFG->usemercadopagosandbox.*@\$CFG->usemercadopagosandbox    = '${MERCADOPAGO_SANDBOX}';@" \
+        -e  "s@^\$CFG->mercadopagosandbox_email.*@\$CFG->mercadopagosandbox_email    = '${MERCADOPAGO_SANDBOX_EMAIL}';@" \
         ${DOCUMENT_ROOT}/config.php
 fi
 # Remote xdebug host
