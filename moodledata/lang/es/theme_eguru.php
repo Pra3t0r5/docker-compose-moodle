@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_eguru', language 'es', branch 'MOODLE_35_STABLE'
+ * Strings for component 'theme_eguru', language 'es', version '3.5'.
  *
- * @package   theme_eguru
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     theme_eguru
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -172,10 +172,6 @@ $string['slidenodesc'] = 'Introduzca los ajustes para la diapositiva {$a->slide}
 $string['slideshowdesc'] = 'Esto crea una presentación de diapositivas de hasta doce diapositivas para que usted pueda promover elementos importantes de su sitio. La presentación es adaptable cuando la altura de la imagen se establece de acuerdo con el tamaño de la pantalla. Si no se selecciona ninguna imagen para una diapositiva, se usan las imágenes de default_slide en la carpeta pix.';
 $string['slideshowheading'] = 'Carrusel de la página principal';
 $string['slideshowheadingsub'] = 'Presentación de diapositivas para la página principal';
-$string['slideurl'] = 'Enlace de la diapositiva';
-$string['slideurldesc'] = 'Introduzca el destino del enlace de imagen de la diapositiva';
-$string['slideurltext'] = 'Enlace del texto de la diapositiva';
-$string['slideurltextdesc'] = 'Introduzca el destino del enlace del texto de la diapositiva, agreguela clave o el texto del idioma. Por ej: lang:display o Display';
 $string['support'] = 'Soporte';
 $string['termsofuse'] = 'Términos de uso';
 $string['text'] = 'Texto';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,20 +12,21 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapfill', language 'es', branch 'MOODLE_35_STABLE'
+ * Strings for component 'qtype_gapfill', language 'es', version '3.5'.
  *
- * @package   qtype_gapfill
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     qtype_gapfill
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $string['addhinttext'] = 'Añadir pista al formulario para editar';
-$string['addhinttext_text'] = 'Añadir automáticamente texto de pistas al primer campo de pistas';
+$string['addhinttext_text'] = 'Añadir las primeras dos pistas a la sección de Intentos múltiples del formato.';
 $string['additemsettings'] = 'Añadir ajustes del hueco';
 $string['answerdisplay'] = 'Muestra las respuestas';
 $string['answerdisplay_help'] = 'Dragdrop (Arrastrar y soltar) muestra una lista de palabras que pueden ser arrastradas hacia los huecos, gapfill (llenar huecos) muestra los huecos sin opciones de palabras, dropdown (desplegable) muestra la misma lista de respuestas correctas (y posiblemente incorrectas) para cada campo';
@@ -59,6 +59,8 @@ $string['example3'] = '¿De donde viene el canguro? [Australia]. El siguiente hu
 $string['fixedgapsize'] = 'Tamaño fijo de los huecos';
 $string['fixedgapsize_help'] = 'Al intentar contestar las preguntas, todos los huecos se ajustarán al mismo tamaño que el hueco mayor. Esto elimina el tamaño del hueco como una posible pista para adivinar la respuesta correcta. Por ejemplo, si los huecos fueran [rojo] y [amarillo], sería muy evidente que la palabra \'amarillo\' iría en el hueco más grande';
 $string['fixedgapsizeset_text'] = 'Ajusta el tamaño de todos los huecos al tamaño del hueco mayor';
+$string['gap_plural'] = 'huecos';
+$string['gap_singular'] = 'hueco';
 $string['gapfill'] = 'Relleno espacio tipo Cloze';
 $string['importexamples'] = 'Importar';
 $string['incorrect'] = 'Retroalimentación para incorrecta.';
@@ -90,6 +92,9 @@ $string['questioncatnotfound'] = 'Categoría de pregunta no encontrada, haga cli
 $string['questionsmissing'] = 'No se ha incluido ningún campo en el texto de la pregunta';
 $string['questiontext'] = 'Texto de la pregunta';
 $string['questiontext_help'] = 'Ponga delimitadores alrededor de las palabras que se convertirán en el texto';
+$string['singleuse'] = 'Arrastrables de uso único';
+$string['singleuse_help'] = 'Quitar arrastrables de la lista cuando sean soltados en un hueco';
+$string['singleuse_text'] = 'Quitar arrastrables de la lista cuando sean soltados en un hueco';
 $string['visitquestions'] = 'Haga clic <a href={$a}>aquí</a> para visitar las preguntas';
 $string['wronganswers'] = 'Respuestas incorrectas.';
 $string['wronganswers_help'] = 'Lista de palabras incorrectas para despistar de las respuestas correctas. Cada palabra está separada por comas, solo es aplicable en los modos de arrastrar/soltar y desplegables';

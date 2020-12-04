@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'es', branch 'MOODLE_35_STABLE'
+ * Strings for component 'questionnaire', language 'es', version '3.5'.
  *
- * @package   questionnaire
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     questionnaire
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -30,7 +30,10 @@ $string['activityoverview'] = 'Tiene cuestionarios disponibles';
 $string['additionalinfo'] = 'Información adicional';
 $string['additionalinfo_help'] = 'Texto a mostrar en la parte superior de la primera página de esta encuesta. (por ejemplo, instrucciones, información general, etc)';
 $string['addnewquestion'] = 'Añadir una pregunta del tipo {$a}';
+$string['addnewsection'] = 'Añadir nueva sección';
+$string['addquestion'] = 'Añadir pregunta ...';
 $string['addquestions'] = 'Añadir preguntas';
+$string['addquestiontosection'] = 'Añadir pregunta a sección';
 $string['addselqtype'] = 'Añadir una pregunta de este tipo';
 $string['alignment'] = 'Alineación de los botones de radio';
 $string['alignment_help'] = 'Selección de botones de alineación: vertical (por defecto) u horizontal.';
@@ -90,10 +93,12 @@ $string['configusergraph'] = 'Muestre las gráficas para la retroalimentación d
 $string['configusergraphlong'] = 'Use la librería <a href="http://www.rgraph.net/">Rgraph</a> para mostrar las gráficas de retroalimentación de la "Encuesta de Personalidad"';
 $string['confirmdelallresp'] = '¿Está seguro que quiere eliminar TODAS las respuestas de la encuesta?';
 $string['confirmdelchildren'] = 'Si borra esta pregunta, la/s subpregunta/s relacionada/s también serán borradas:';
+$string['confirmdeletesection'] = '¿Está seguro de querer eliminar la sección de retroalimentación "{$a}"?';
 $string['confirmdelgroupresp'] = '¿Está seguro que quiere eliminar TODAS las respuestas de{$a}?';
 $string['confirmdelquestion'] = 'Está seguro que quiere borrar la pregunta de la posición {$a}?';
 $string['confirmdelquestionresps'] = 'Esto también borrará la/s {$a} respuesta/s ya dadas a la pregunta.';
 $string['confirmdelresp'] = '¿Está seguro que desea eliminar la respuesta de {$a}?';
+$string['confirmremovequestion'] = '¿Está seguro de querer eliminar la pregunta"{$a->qname}" de la sección "{$a->sname}"?';
 $string['confpage'] = 'Texto de título';
 $string['confpage_help'] = 'Título (en negrita) y cuerpo del texto para la página de "confirmación" mostrada después de que el usuario haya finalizado la encuesta. (La URL, si existe, tiene prioridad sobre el texto de confirmación.). Si deja este campo vacío, se mostrará un mensaje sobre la finalización de la encuesta (Gracias por realizar esta encuesta)';
 $string['confpagedesc'] = 'Título (en negrita) y cuerpo del texto para la página de "confirmación" mostrada después de que el usuario haya finalizado la encuesta. (La URL, si existe, tiene prioridad sobre el texto de confirmación.)';
@@ -104,9 +109,6 @@ $string['createcontent'] = 'Definir nuevo contenido';
 $string['createcontent_help'] = 'Seleccione una de las opciones del botón de radio. \'Crear nuevo\' es el valor predeterminado.';
 $string['createnew'] = 'Crear un nuevo cuestionario';
 $string['crontask'] = 'Limpieza de cuestionario';
-$string['crossanalyze'] = 'Análisis cruzado';
-$string['crosstabulate'] = 'Obtener una tabulación cruzada';
-$string['crosstabulation'] = 'Tabulación cruzada';
 $string['date'] = 'Fecha';
 $string['date_help'] = 'Utilice este tipo de pregunta si espera que la respuesta sea una fecha con el formato correcto.';
 $string['dateformatting'] = 'dateformatting';
@@ -117,10 +119,12 @@ $string['deletedallresp'] = 'Respuestas eliminadas';
 $string['deletedisabled'] = 'Esta pregunta no se puede eliminar';
 $string['deletedresp'] = 'Respuestas borradas';
 $string['deleteresp'] = 'Borrar esta respuesta';
+$string['deletesection'] = 'Eliminar esta sección';
 $string['deletingresp'] = 'Supresión de respuestas';
 $string['dependencies'] = 'Dependencias';
 $string['dependquestion'] = 'Pregunta Padre';
 $string['dependquestion_help'] = 'Usted puede seleccionar una pregunta padre y una opción elegible para esta pregunta. Una pregunta hija solamente se le mostrará al estudiante si su pregunta padre y opción padre han sido previamente seleccionadas.';
+$string['didnotrespondtoquestion'] = 'No respondió a la pregunta';
 $string['directwarnings'] = 'Las dependencias directas a esta pregunta serán removidas. Esto afectará:';
 $string['displaymethod'] = 'El método de visualización no se ha definido para este tipo de pregunta.';
 $string['download'] = 'Descargar';
@@ -129,11 +133,11 @@ $string['downloadtextformat_help'] = 'Esta opción permite guardar todas las res
 $string['dropdown'] = 'Lista desplegable';
 $string['dropdown_help'] = 'No hay ninguna ventaja real de utilizar el cuadro desplegable sobre el uso de los botones de radio, excepto tal vez para las listas bastante largas de opciones, para ahorrar espacio en la pantalla.';
 $string['edit'] = 'Editar';
+$string['editingfeedback'] = 'Editando configuraciones de retroalimentación';
 $string['editingquestionnaire'] = 'Modificación de cuestionario - página General';
 $string['editquestion'] = 'Edición de la pregunta {$a}';
 $string['email'] = 'Correo';
 $string['errnewname'] = 'Lo sentimos, ese nombre ya está en uso. Seleccione un nuevo nombre.';
-$string['errorcross'] = 'Error de análisis cruzado. La pregunta no pertenece a un tipo válido.';
 $string['erroropening'] = 'Error al abrir el cuestionario.';
 $string['errortable'] = 'Error de sistema (tabla corrupta).';
 $string['essaybox'] = 'Texto amplio';
@@ -156,6 +160,7 @@ $string['feedback'] = 'Retroalimentación';
 $string['feedback_help'] = 'Ayuda de retroalimentación';
 $string['feedbackaddmorefeedbacks'] = 'Agregar {no} campos más de retroalimentación';
 $string['feedbackbysection'] = 'Sección de retroalimentación';
+$string['feedbackdefaultlabel'] = '[Nueva sección]';
 $string['feedbackeditingglobal'] = 'Editar Retroalimentación Global de la encuesta';
 $string['feedbackeditingmessages'] = 'Editando Mensajes de Retroalimentación del Questionnaire';
 $string['feedbackeditingsections'] = 'Editando Secciones de Retroalimentación del Questionnaire';
@@ -193,6 +198,7 @@ $string['feedbacksectionheadingmissing'] = '¡ Usted debe escribir un Encabezado
 $string['feedbacksectionheadingtext'] = 'Encabezado';
 $string['feedbacksectionlabel'] = 'Etiqueta';
 $string['feedbacksectionlabel_help'] = 'Esta etiqueta será usada en las gráficas/diagramas. ¡ Por favor hágala tan corta como sea posible !';
+$string['feedbacksectionquestions'] = '{$a} preguntas de sección';
 $string['feedbacksections'] = 'Secciones de Retroalimentación';
 $string['feedbacksectionsselect'] = 'Secciones';
 $string['feedbacksectionsselect_help'] = 'Poner sus preguntas dentro de esas Secciones';
@@ -238,11 +244,7 @@ $string['missingquestions'] = 'Por favor, conteste las preguntas Obligatorias:';
 $string['modulename'] = 'Encuesta';
 $string['modulename_help'] = 'El módulo Encuesta le permite construir encuestas empleando diversos tipos de preguntas, con el propósito de recopilar información de sus usuarios.';
 $string['modulenameplural'] = 'Encuestas';
-$string['move'] = 'Mover esta pregunta';
 $string['movedisabled'] = 'Este elemento no puede ser movido';
-$string['movedn'] = 'Desplazar hacia abajo esta pregunta';
-$string['movehere'] = 'Mover la pregunta aquí';
-$string['moveup'] = 'Desplazar hacia arriba esta pregunta';
 $string['myresponses'] = 'Todas sus respuestas';
 $string['myresponsetitle'] = 'Sus resultados para {$a} respuestas';
 $string['myresults'] = 'Mis resultados';
@@ -387,10 +389,6 @@ $string['requiredparameter'] = 'Falta un parámetro obligatorio.';
 $string['reset'] = 'Reinicializar';
 $string['respeligiblerepl'] = '(reemplazado por la gestión de roles)';
 $string['respondent'] = 'Encuestado';
-$string['respondenteligible'] = 'Quién puede responder';
-$string['respondenteligible_help'] = 'Decida si todo el mundo puede responder o si quiere limitar la respuesta sólo a tutores o a estudiantes.
-Para las opciones de acceso restringido recuerde asignar los roles adecuados, bien a nivel de curso o a nivel de actividad.
-Por ejemplo, si pone una encuesta en la página principal, destinada sólo a los docentes, entonces usted tendrá que informar a Moodle sobre qué usuarios son profesores.';
 $string['respondenteligibleall'] = 'Todo el mundo';
 $string['respondenteligiblestudents'] = 'Sólamente los estudiantes';
 $string['respondenteligibleteachers'] = 'Sólamente los profesores';

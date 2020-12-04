@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcert', language 'es', branch 'MOODLE_35_STABLE'
+ * Strings for component 'customcert', language 'es', version '3.5'.
  *
- * @package   customcert
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     customcert
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -90,7 +90,6 @@ $string['emailstudents_help'] = 'Si se activa, esto enviará Email a los estudia
 $string['emailstudentsubject'] = '{$a->coursefullname}: {$a->certificatename}';
 $string['emailteachers'] = 'Email a los profesores';
 $string['emailteachers_help'] = 'Si se activa, esto enviará Email a los profesores con una copia del certificado cuando se vuelva disponible.';
-$string['exampledata'] = 'Ejemplo {$a}:';
 $string['exampledatawarning'] = 'Algunos de estos valores podrían solamente ser un ejemplo para asegurar que el correcto posicionamiento de los elementos sea posible.';
 $string['font'] = 'Fuente';
 $string['font_help'] = 'El tipo de letra usado al generar este elemento.';

@@ -1,6 +1,5 @@
 <?php
-
-// This file is part of Moodle - http://moodle.org/
+// This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -13,14 +12,15 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'treasurehunt', language 'es', branch 'MOODLE_35_STABLE'
+ * Strings for component 'treasurehunt', language 'es', version '3.5'.
  *
- * @package   treasurehunt
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     treasurehunt
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -297,6 +297,8 @@ borrando la anterior si existiese, indicando el último punto deseado';
 $string['pluginadministration'] = 'Administración de la caza del tesoro';
 $string['pluginname'] = 'Caza del tesoro';
 $string['prevstep'] = 'Ant.';
+$string['privacy:metadata_treasurehunt_attempts'] = 'La caza del tesoro almacena el tipo, tiempo y lugar de los intentos, éxitos y fracasos de los usuarios durante la actividad';
+$string['privacy:metadata_treasurehunt_track_userid'] = 'El ID del usuario que está siendo rastreado.';
 $string['question'] = 'Pregunta';
 $string['remove'] = 'Eliminar';
 $string['remove_tour'] = 'Se pueden borrar los polígonos de las etapas. Símplemente selecciona un polígono en el mapa y pulsa este botón.';
@@ -344,6 +346,7 @@ $string['timeat'] = '{$a->date}';
 $string['timeexceeded'] = 'Se ha superado el tiempo limite para realizar la actividad. Esta pantalla solo sirve para revisar el juego';
 $string['timetocome'] = 'dentro de {$a->shortduration}';
 $string['timetocomelong'] = 'dentro de {$a->shortduration} ({$a->date})';
+$string['totaltime'] = 'Tiempo total';
 $string['trackusers'] = 'Almacenar itinerarios';
 $string['trackusers_help'] = 'Almacena el itinerario que realizan los usuarios mientras usan el modo de juego.';
 $string['trackviewer'] = 'Visor de rastreo';
