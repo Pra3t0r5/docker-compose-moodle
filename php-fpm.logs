@@ -1,0 +1,23 @@
+Attaching to docker-compose-moodle-39_php-fpm_1
+[36mphp-fpm_1   |[0m Cannot load Zend OPcache - it was already loaded
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19 UTC] Xdebug: [Config] The setting 'xdebug.remote_connect_back' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_connect_back (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19 UTC] Xdebug: [Config] The setting 'xdebug.remote_host' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19 UTC] Xdebug: [Config] The setting 'xdebug.remote_log' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_log (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19 UTC] Xdebug: [Config] The setting 'xdebug.remote_mode' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_mode (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19 UTC] Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19] NOTICE: fpm is running, pid 13
+[36mphp-fpm_1   |[0m [08-Dec-2020 14:40:19] NOTICE: ready to handle connections
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:32 +0000 "GET /index.php" 303
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:33 +0000 "GET /admin/index.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:33 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:33 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:33 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:33 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:40:33 +0000 "GET /theme/styles.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:46:33 +0000 "GET /index.php" 303
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:46:33 +0000 "GET /admin/index.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:46:35 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:46:36 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:46:36 +0000 "GET /lib/javascript.php" 200
+[36mphp-fpm_1   |[0m 172.19.0.5 -  08/Dec/2020:14:46:34 +0000 "GET /lib/javascript.php" 200
