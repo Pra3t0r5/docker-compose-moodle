@@ -1,6 +1,6 @@
 <?php defined('MOODLE_INTERNAL') || die();
  $configuration = array (
-  'siteidentifier' => '032378a76636c4b5195a1a7adf7aaaa9',
+  'siteidentifier' => '436f2bff82d6ab08a1e09ab75b37c0ce',
   'stores' => 
   array (
     'default_application' => 
@@ -519,6 +519,137 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'core/modelfirstanalyses' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'component' => 'core',
+      'area' => 'modelfirstanalyses',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/portfolio_add_button_portfolio_instances' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'staticacceleration' => true,
+      'component' => 'core',
+      'area' => 'portfolio_add_button_portfolio_instances',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/course_user_dates' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'core',
+      'area' => 'course_user_dates',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/calculablesinfo' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => false,
+      'simpledata' => false,
+      'component' => 'core',
+      'area' => 'calculablesinfo',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/user_course_content_items' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'component' => 'core',
+      'area' => 'user_course_content_items',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/user_favourite_course_content_items' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'component' => 'core',
+      'area' => 'user_favourite_course_content_items',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/recommendation_favourite_course_content_items' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'component' => 'core',
+      'area' => 'recommendation_favourite_course_content_items',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/contentbank_enabled_extensions' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'core',
+      'area' => 'contentbank_enabled_extensions',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/contentbank_context_extensions' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'core',
+      'area' => 'contentbank_context_extensions',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/h5p_content_type_translations' => 
+    array (
+      'mode' => 1,
+      'simpledata' => true,
+      'component' => 'core',
+      'area' => 'h5p_content_type_translations',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/grade_letters' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 100,
+      'component' => 'core',
+      'area' => 'grade_letters',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'core/license' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => false,
+      'component' => 'core',
+      'area' => 'license',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'availability_completion/previous_cache' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'availability_completion',
+      'area' => 'previous_cache',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'availability_grade/scores' => 
     array (
       'mode' => 1,
@@ -541,6 +672,17 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'mod_forum/forum_is_tracked' => 
+    array (
+      'mode' => 4,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'mod_forum',
+      'area' => 'forum_is_tracked',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'mod_glossary/concepts' => 
     array (
       'mode' => 1,
@@ -550,6 +692,14 @@
       'staticaccelerationsize' => 30,
       'component' => 'mod_glossary',
       'area' => 'concepts',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'mod_lti/keyset' => 
+    array (
+      'mode' => 1,
+      'component' => 'mod_lti',
+      'area' => 'keyset',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
@@ -634,6 +784,16 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'tool_mobile/subscriptiondata' => 
+    array (
+      'mode' => 2,
+      'simplekeys' => true,
+      'simpledata' => false,
+      'component' => 'tool_mobile',
+      'area' => 'subscriptiondata',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
     'tool_monitor/eventsubscriptions' => 
     array (
       'mode' => 1,
@@ -643,6 +803,14 @@
       'staticaccelerationsize' => 10,
       'component' => 'tool_monitor',
       'area' => 'eventsubscriptions',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'tool_policy/policy_optional' => 
+    array (
+      'mode' => 4,
+      'component' => 'tool_policy',
+      'area' => 'policy_optional',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
@@ -675,6 +843,39 @@
       'staticaccelerationsize' => 1,
       'component' => 'tool_usertours',
       'area' => 'stepdata',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'quizaccess_seb/quizsettings' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'quizaccess_seb',
+      'area' => 'quizsettings',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'quizaccess_seb/config' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'quizaccess_seb',
+      'area' => 'config',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'quizaccess_seb/configkey' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'component' => 'quizaccess_seb',
+      'area' => 'configkey',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
