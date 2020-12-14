@@ -555,9 +555,11 @@ $cache = array (
       'boost' => '/var/www/html/theme/boost',
       'classic' => '/var/www/html/theme/classic',
       'eguru' => '/var/www/html/theme/eguru',
+      'moove' => '/var/www/html/theme/moove',
     ),
     'local' => 
     array (
+      'boostnavigation' => '/var/www/html/local/boostnavigation',
     ),
     'h5plib' => 
     array (
@@ -2834,6 +2836,9 @@ $cache = array (
     'gradingform_rubric\\privacy\\provider' => '/var/www/html/grade/grading/form/rubric/classes/privacy/provider.php',
     'h5plib_v124\\local\\library\\handler' => '/var/www/html/h5p/h5plib/v124/classes/local/library/handler.php',
     'h5plib_v124\\privacy\\provider' => '/var/www/html/h5p/h5plib/v124/classes/privacy/provider.php',
+    'local_boostnavigation\\eventobservers' => '/var/www/html/local/boostnavigation/classes/eventobservers.php',
+    'local_boostnavigation\\privacy\\provider' => '/var/www/html/local/boostnavigation/classes/privacy/provider.php',
+    'local_boostnavigation_eventobservers' => '/var/www/html/local/boostnavigation/classes/eventobservers.php',
     'logstore_database\\helper' => '/var/www/html/admin/tool/log/store/database/classes/helper.php',
     'logstore_database\\log\\store' => '/var/www/html/admin/tool/log/store/database/classes/log/store.php',
     'logstore_database\\privacy\\provider' => '/var/www/html/admin/tool/log/store/database/classes/privacy/provider.php',
@@ -3761,6 +3766,21 @@ $cache = array (
     'theme_classic\\output\\icon_system_fontawesome' => '/var/www/html/theme/classic/classes/output/icon_system_fontawesome.php',
     'theme_classic\\privacy\\provider' => '/var/www/html/theme/classic/classes/privacy/provider.php',
     'theme_eguru\\privacy\\provider' => '/var/www/html/theme/eguru/classes/privacy/provider.php',
+    'theme_moove\\api\\accessibility' => '/var/www/html/theme/moove/classes/api/accessibility.php',
+    'theme_moove\\format_topics_renderer' => '/var/www/html/theme/moove/classes/format_topics_renderer.php',
+    'theme_moove\\output\\certificates' => '/var/www/html/theme/moove/classes/output/certificates.php',
+    'theme_moove\\output\\core\\course_renderer' => '/var/www/html/theme/moove/classes/output/core/course_renderer.php',
+    'theme_moove\\output\\core_renderer' => '/var/www/html/theme/moove/classes/output/core_renderer.php',
+    'theme_moove\\output\\mod_forum\\email\\renderer_htmlemail' => '/var/www/html/theme/moove/classes/output/mod_forum/email/renderer_htmlemail.php',
+    'theme_moove\\output\\renderer' => '/var/www/html/theme/moove/classes/output/renderer.php',
+    'theme_moove\\privacy\\provider' => '/var/www/html/theme/moove/classes/privacy/provider.php',
+    'theme_moove\\task\\diskusage' => '/var/www/html/theme/moove/classes/task/diskusage.php',
+    'theme_moove\\util\\admininfos' => '/var/www/html/theme/moove/classes/util/admininfos.php',
+    'theme_moove\\util\\certificates' => '/var/www/html/theme/moove/classes/util/certificates.php',
+    'theme_moove\\util\\extras' => '/var/www/html/theme/moove/classes/util/extras.php',
+    'theme_moove\\util\\icon_system' => '/var/www/html/theme/moove/classes/util/icon_system.php',
+    'theme_moove\\util\\theme_settings' => '/var/www/html/theme/moove/classes/util/theme_settings.php',
+    'theme_moove_format_topics_renderer' => '/var/www/html/theme/moove/classes/format_topics_renderer.php',
     'tinymce_ctrlhelp\\privacy\\provider' => '/var/www/html/lib/editor/tinymce/plugins/ctrlhelp/classes/privacy/provider.php',
     'tinymce_managefiles\\privacy\\provider' => '/var/www/html/lib/editor/tinymce/plugins/managefiles/classes/privacy/provider.php',
     'tinymce_moodleemoticon\\privacy\\provider' => '/var/www/html/lib/editor/tinymce/plugins/moodleemoticon/classes/privacy/provider.php',
@@ -4500,9 +4520,11 @@ $cache = array (
         'boost' => '/var/www/html/theme/boost/lib.php',
         'classic' => '/var/www/html/theme/classic/lib.php',
         'eguru' => '/var/www/html/theme/eguru/lib.php',
+        'moove' => '/var/www/html/theme/moove/lib.php',
       ),
       'local' => 
       array (
+        'boostnavigation' => '/var/www/html/local/boostnavigation/lib.php',
       ),
       'h5plib' => 
       array (
@@ -4854,9 +4876,11 @@ $cache = array (
         'boost' => '/var/www/html/theme/boost/settings.php',
         'classic' => '/var/www/html/theme/classic/settings.php',
         'eguru' => '/var/www/html/theme/eguru/settings.php',
+        'moove' => '/var/www/html/theme/moove/settings.php',
       ),
       'local' => 
       array (
+        'boostnavigation' => '/var/www/html/local/boostnavigation/settings.php',
       ),
       'h5plib' => 
       array (

@@ -1,6 +1,6 @@
 <?php defined('MOODLE_INTERNAL') || die();
  $configuration = array (
-  'siteidentifier' => '086fb82b26a07f100f67bc8427f41397',
+  'siteidentifier' => 'ca729862b4707eab4cdf36259f81f1e5',
   'stores' => 
   array (
     'default_application' => 
@@ -843,6 +843,26 @@
       'staticaccelerationsize' => 1,
       'component' => 'tool_usertours',
       'area' => 'stepdata',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'theme_moove/admininfos' => 
+    array (
+      'mode' => 1,
+      'component' => 'theme_moove',
+      'area' => 'admininfos',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'theme_moove/fontawesomemooveiconmapping' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 1,
+      'component' => 'theme_moove',
+      'area' => 'fontawesomemooveiconmapping',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
